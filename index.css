@@ -11,19 +11,19 @@ html {
 }
 
 nav {
-    color: rgb(98, 87, 93);
+    color: rgb(54, 54, 54);
     height: 56px;
     padding: 0 10px;
     font-size: clamp(1.5rem, 2.0vw, 4rem); 
-    background-color: rgb(48, 25, 52);
+    background-color: rgb(54, 54, 54);
     display: flex;
     justify-content: center;
     flex-direction: column;
-    border: 2px solid rgb(48, 25, 52);
+    border: 2px solid rgb(54, 54, 54);
 }
 
 body {
-    background-color: rgb(241, 248, 247);
+    background-color: rgb(54, 54, 54);
     overflow-y: hidden;
 }
 
@@ -62,13 +62,13 @@ main {
     color: #ffffff;
     background-color: #000000;
     padding: 10px;
-    border-bottom: solid 2px rgb(229, 238, 238);
+    border-bottom: solid 2px rgb(54, 54, 54);
     cursor: pointer;
     font-size: 20px;
     font-weight: bold;
 }
 .active, .category:hover {
-    background-color: rgb(128, 0, 32);
+    background-color: rgb(54, 54, 54);
     border-radius: 10px;
     color: black;
   }
