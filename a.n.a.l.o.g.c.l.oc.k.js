@@ -1,5 +1,5 @@
 		<center>
-		<!--Start of 1st clock Script-->
+		<!--Start of clock Script-->
 <canvas id="canvas" width="90" height="90"></canvas>
 
 
@@ -149,5 +149,5 @@
         }
     }
 </script>
-<!--End of 1st clock Script-->
+<!--End of clock Script-->
 		</center>	
