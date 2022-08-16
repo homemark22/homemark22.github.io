@@ -23,7 +23,7 @@ nav {
 }
 
 body {
-    background-color: rgb(00, 00, 00);
+    background-color: rgb(99, 99, 99);
     overflow-y: hidden;
 }
 
@@ -35,7 +35,7 @@ main {
 
 #channels {
     flex: 38%;
-    background-color: #000;
+    background-color: #000000;
     max-height: calc(100vh - 120px) !important;
     overflow-y: scroll;
     margin-top: 5px;
@@ -60,7 +60,7 @@ main {
 .category {
     width: 94%;
     color: #111;
-    background-color: #888888;
+    background-color: #000000;
     padding: 10px;
     border-bottom: solid 2px rgb(0, 0, 0);
     cursor: pointer;
@@ -103,7 +103,7 @@ main {
 
 .channel {
     background-color: #000000;
-    box-shadow: rgba(22, 22, 22, 0.2) 0px 2px 8px 0px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 8px 0px;
     margin-bottom: 5px;
     margin-right: 5px;
     border-radius: 10px;
@@ -119,7 +119,7 @@ main {
 .channel img {
     width: 106px;
     height: 63px;
-    border: 1px solid #222222;
+    border: 1px solid #000000;
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
