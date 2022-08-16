@@ -166,5 +166,5 @@ main {
 }
 const cursor = new MouseFollower({
     container: '.mf-container',
-    speed: 0.3
+    speed: 0.1
 });
