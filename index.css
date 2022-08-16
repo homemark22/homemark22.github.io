@@ -35,7 +35,7 @@ main {
 
 #channels {
     flex: 38%;
-    background-color: #888;
+    background-color: #000;
     max-height: calc(100vh - 120px) !important;
     overflow-y: scroll;
     margin-top: 5px;
@@ -68,7 +68,7 @@ main {
     font-weight: bold;
 }
 .active, .category:hover {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(88, 88, 88);
     border-radius: 10px;
     color: black;
   }
