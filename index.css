@@ -11,7 +11,7 @@ html {
 }
 
 nav {
-    color: rgb(54, 54, 54);
+    color: rgb(88, 88, 88);
     height: 56px;
     padding: 0 10px;
     font-size: clamp(1.5rem, 2.0vw, 4rem); 
