@@ -68,7 +68,7 @@ main {
     font-weight: bold;
 }
 .active, .category:hover {
-    background-color: rgb(54, 54, 54);
+    background-color: rgb(10, 10, 10);
     border-radius: 10px;
     color: black;
   }
@@ -98,11 +98,11 @@ main {
 {
 	border-radius: 5px;
 	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
-	background-color: #222;
+	background-color: #111;
 }
 
 .channel {
-    background-color: #ffffff;
+    background-color: #0f0f0f;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     margin-bottom: 5px;
     margin-right: 5px;
@@ -119,7 +119,7 @@ main {
 .channel img {
     width: 106px;
     height: 63px;
-    border: 1px solid #999999;
+    border: 1px solid #000000;
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
