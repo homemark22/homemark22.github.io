@@ -164,7 +164,4 @@ main {
         transform: scale(1);
     }
 }
-const cursor = new MouseFollower({
-    container: '.mf-container',
-    speed: 0.1
-});
+
