@@ -35,7 +35,7 @@ main {
 
 #channels {
     flex: 38%;
-    background-color: #000000;
+    background-color: #ffffff;
     max-height: calc(100vh - 120px) !important;
     overflow-y: scroll;
     margin-top: 5px;
