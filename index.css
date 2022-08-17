@@ -62,13 +62,13 @@ main {
     color: #555;
     background-color: #000000;
     padding: 10px;
-    border-bottom: solid 2px rgb(5, 5, 5);
+    border-bottom: solid 2px rgb(11, 11, 11);
     cursor: pointer;
     font-size: 20px;
     font-weight: bold;
 }
 .active, .category:hover {
-    background-color: rgb(10, 10, 10);
+    background-color: rgb(22, 22, 22);
     border-radius: 10px;
     color: black;
   }
