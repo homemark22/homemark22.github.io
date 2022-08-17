@@ -11,19 +11,19 @@ html {
 }
 
 nav {
-    color: rgb(00, 00, 00);
+    color: rgb(22, 22, 22);
     height: 56px;
     padding: 0 10px;
     font-size: clamp(1.5rem, 2.0vw, 4rem); 
-    background-color: rgb(00, 00, 00);
+    background-color: rgb(11, 11, 11);
     display: flex;
     justify-content: center;
     flex-direction: column;
-    border: 2px solid rgb(00, 00, 00);
+    border: 2px solid rgb(33, 33, 33);
 }
 
 body {
-    background-color: rgb(99, 99, 99);
+    background-color: rgb(11, 11, 11);
     overflow-y: hidden;
 }
 
@@ -60,7 +60,7 @@ main {
 .category {
     width: 94%;
     color: #555;
-    background-color: #ffffff;
+    background-color: #111111;
     padding: 10px;
     border-bottom: solid 2px rgb(22, 22, 22);
     cursor: pointer;
