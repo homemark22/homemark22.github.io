@@ -60,15 +60,15 @@ main {
 .category {
     width: 94%;
     color: #555;
-    background-color: #000000;
+    background-color: #ffffff;
     padding: 10px;
-    border-bottom: solid 2px rgb(88, 88, 88);
+    border-bottom: solid 2px rgb(22, 22, 22);
     cursor: pointer;
     font-size: 20px;
     font-weight: bold;
 }
 .active, .category:hover {
-    background-color: rgb(99, 99, 99);
+    background-color: rgb(11, 11, 11);
     border-radius: 10px;
     color: black;
   }
