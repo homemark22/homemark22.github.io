@@ -10,6 +10,11 @@ html {
     scroll-behavior: smooth;
 }
 
+scroll {
+baron('.my-scroller');
+
+}
+
 nav {
     color: rgb(0, 0, 0);
     height: 56px;
