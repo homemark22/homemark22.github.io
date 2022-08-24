@@ -36,7 +36,7 @@ main {
 
 #channels {
     flex: 38%;
-    background-color: #002E63;
+    background-color: #000;
     max-height: calc(100vh - 120px) !important;
     overflow-y: scroll;
     margin-top: 5px;
@@ -61,7 +61,7 @@ main {
 .category {
     width: 94%;
     color: #000;
-    background-color: #000;
+    background-color: #002E63;
     padding: 10px;
     border-bottom: solid 2px rgb(33, 33, 33);
     cursor: pointer;
