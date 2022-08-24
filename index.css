@@ -60,8 +60,8 @@ main {
 }
 .category {
     width: 94%;
-    color: #3D0C02;
-    background-color: #000000;
+    color: #000;
+    background-color: #3D0C02;
     padding: 10px;
     border-bottom: solid 2px rgb(33, 33, 33);
     cursor: pointer;
