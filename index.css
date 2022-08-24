@@ -90,13 +90,13 @@ main {
 ::-webkit-scrollbar-track
 {
 	-webkit-box-shadow: inset 0 0 4px rgba(0,0,0,0.2);
-	background-color: #000;
+	background-color: #242124;
 }
 
 ::-webkit-scrollbar
 {
 	width: 15px;
-	background-color: #000;
+	background-color: #1A1110;
 }
 
 ::-webkit-scrollbar-thumb
