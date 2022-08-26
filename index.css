@@ -66,16 +66,16 @@ main {
     border-bottom: solid 2px rgb(00, 00, 00);
     cursor: pointer;
     font-size: 20px;
-    font-weight: bold;
+    font-weight: italic;
 }
 .active, .category:hover {
     background-color: #1a1110;
     border-radius: 10px;
-    color: black;
+    color: #aa98a9;
   }
 .category:after {
   content: '\002B';
-  font-weight: bold;
+  font-weight: italic;
   float: right;
   margin-left: 5px;
 }
