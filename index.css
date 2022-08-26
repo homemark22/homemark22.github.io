@@ -69,7 +69,7 @@ main {
     font-weight: bold;
 }
 .active, .category:hover {
-    background-color: rgb(44, 44, 44);
+    background-color: #1a1110;
     border-radius: 10px;
     color: black;
   }
