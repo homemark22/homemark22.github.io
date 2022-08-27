@@ -108,7 +108,7 @@
         <div id="channels">
         
      
-			<h2 class="category"> Time </h2>
+			<h2 class="category"> Clock </h2>
 	 
 			<div class="channel_collapse">
         
@@ -266,7 +266,7 @@
 
     
 		</div>    
-     <h2 class="category"> Switch Lights </h2>
+     <h2 class="category"> Switch Light </h2>
 	 
 			<div class="channel_collapse">
 			
@@ -299,7 +299,7 @@
 
 <!-- End TrustBox widget -->
 </div>
-<h2 class="category"> ticker billboard </h2>
+<h2 class="category"> Billboard </h2>
 	 
 			<div class="channel_collapse">
 			
@@ -307,7 +307,57 @@
 			
 			
 			
+	</div>
 			
+			<h2 class="category"> Donate </h2>
+			<div class="channel_collapse">
+				
+				<div id="smart-button-container">
+      <div style="text-align: center;">
+        <div id="paypal-button-container"></div>
+      </div>
+    </div>
+  <script src="https://www.paypal.com/sdk/js?client-id=sb&enable-funding=venmo&currency=USD" data-sdk-integration-source="button-factory"></script>
+  <script>
+    function initPayPalButton() {
+      paypal.Buttons({
+        style: {
+          shape: 'rect',
+          color: 'black',
+          layout: 'horizontal',
+          label: 'donate',
+          
+        },
+
+        createOrder: function(data, actions) {
+          return actions.order.create({
+            purchase_units: [{"amount":{"currency_code":"USD","value":40,"breakdown":{"item_total":{"currency_code":"USD","value":40}}},"items":[{"name":"item name","unit_amount":{"currency_code":"USD","value":40},"quantity":"1","category":"DONATION"}]}]
+          });
+        },
+
+        onApprove: function(data, actions) {
+          return actions.order.capture().then(function(orderData) {
+            
+            // Full available details
+            console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
+
+            // Show a success message within this page, e.g.
+            const element = document.getElementById('paypal-button-container');
+            element.innerHTML = '';
+            element.innerHTML = '<h3>Thank you for your payment!</h3>';
+
+            // Or go to another URL:  actions.redirect('thank_you.html');
+            
+          });
+        },
+
+        onError: function(err) {
+          console.log(err);
+        }
+      }).render('#paypal-button-container');
+    }
+    initPayPalButton();
+  </script>		
 </div>
 <h2 class="category"> Craft-Workshop-Hobby </h2>
 	 
@@ -658,57 +708,7 @@
 				<div class="channel" onclick="play('https://shoutfactory-screamfactorytv-1-us.ono.wurl.tv/playlist.m3u8')"> <img alt="s.c.r.e.a.m.t.v" src="https://media-prod.fangoria.com/images/unnamed_3_u9qCpxT.width-800.jpg" /> </div>
 				<div class="channel" onclick="play('https://content.uplynk.com/channel/29aff31fecb848ab9044369db2d61642.m3u8')"> <img alt="w.a.t.c.h.i.t.s.c.r.e.a.m" src="https://provider-static.plex.tv/epg/cms/production/945765a1-a848-4105-bf4d-5c27192e79ed/WatchitScream_logo_dark.png" /> </div>
 				
-			</div>
 			
-			<h2 class="category"> Support us by giving </h2>
-			<div class="channel_collapse">
-				
-				<div id="smart-button-container">
-      <div style="text-align: center;">
-        <div id="paypal-button-container"></div>
-      </div>
-    </div>
-  <script src="https://www.paypal.com/sdk/js?client-id=sb&enable-funding=venmo&currency=USD" data-sdk-integration-source="button-factory"></script>
-  <script>
-    function initPayPalButton() {
-      paypal.Buttons({
-        style: {
-          shape: 'rect',
-          color: 'black',
-          layout: 'horizontal',
-          label: 'donate',
-          
-        },
-
-        createOrder: function(data, actions) {
-          return actions.order.create({
-            purchase_units: [{"amount":{"currency_code":"USD","value":40,"breakdown":{"item_total":{"currency_code":"USD","value":40}}},"items":[{"name":"item name","unit_amount":{"currency_code":"USD","value":40},"quantity":"1","category":"DONATION"}]}]
-          });
-        },
-
-        onApprove: function(data, actions) {
-          return actions.order.capture().then(function(orderData) {
-            
-            // Full available details
-            console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
-
-            // Show a success message within this page, e.g.
-            const element = document.getElementById('paypal-button-container');
-            element.innerHTML = '';
-            element.innerHTML = '<h3>Thank you for your payment!</h3>';
-
-            // Or go to another URL:  actions.redirect('thank_you.html');
-            
-          });
-        },
-
-        onError: function(err) {
-          console.log(err);
-        }
-      }).render('#paypal-button-container');
-    }
-    initPayPalButton();
-  </script>
 					
 				</div> 
 				<h2 class="category"> English</h2>
