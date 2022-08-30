@@ -24,7 +24,7 @@ nav {
 }
 
 body {
-    background-color: #ffffff;
+    background-color: #ab92b3;
     overflow-y: hidden;
 }
 
@@ -61,7 +61,7 @@ main {
 .category {
     width: 94%;
     color: 	#ffffff;
-    background-color: #a47218;
+    background-color: #ffffff;
     padding: 10px;
     border-bottom: solid 2px rgb(00, 00, 00);
     cursor: pointer;
@@ -69,7 +69,7 @@ main {
     font-weight: italic;
 }
 .active, .category:hover {
-    background-color: #ffcfcb;
+    background-color: #ffffff;
     border-radius: 10px;
     color: #aa98a9;
   }
@@ -86,7 +86,7 @@ main {
 ::-webkit-scrollbar-track
 {
 	-webkit-box-shadow: inset 0 0 4px rgba(0,0,0,0.2);
-	background-color: #cbfbff
+	background-color: #cbfbff;
 }
 
 ::-webkit-scrollbar
@@ -99,11 +99,11 @@ main {
 {
 	border-radius: 5px;
 	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
-	background-color: #aaddee;
+	background-color: #ab92b3;
 }
 
 .channel {
-    background-color: #aaddee;
+    background-color: #ab92b3;
     box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 8px 0px;
     margin-bottom: 5px;
     margin-right: 5px;
