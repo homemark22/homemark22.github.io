@@ -53,15 +53,15 @@ main {
     justify-content: space-evenly;
 }
 #player {
-    flex: 62%;
+    flex: 60%;
     margin: auto 1px;
-    margin-top: 5px;
-    margin-right: 0px;
+    margin-top: 1px;
+    margin-right: 1px;
 }
 .category {
     width: 94%;
     color: 	#ffffff;
-    background-color: #cbfbff;
+    background-color: #a47218;
     padding: 10px;
     border-bottom: solid 2px rgb(00, 00, 00);
     cursor: pointer;
@@ -69,7 +69,7 @@ main {
     font-weight: italic;
 }
 .active, .category:hover {
-    background-color: #1a1110;
+    background-color: #ffcfcb;
     border-radius: 10px;
     color: #aa98a9;
   }
