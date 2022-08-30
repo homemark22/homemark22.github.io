@@ -86,20 +86,20 @@ main {
 ::-webkit-scrollbar-track
 {
 	-webkit-box-shadow: inset 0 0 4px rgba(0,0,0,0.2);
-	background-color: #000;
+	background-color: #cbfbff
 }
 
 ::-webkit-scrollbar
 {
 	width: 15px;
-	background-color: #242124;
+	background-color: #ffffff;
 }
 
 ::-webkit-scrollbar-thumb
 {
 	border-radius: 5px;
 	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
-	background-color: #1A1110;
+	background-color: #555;
 }
 
 .channel {
@@ -120,7 +120,7 @@ main {
 .channel img {
     width: 106px;
     height: 63px;
-    border: 1px solid #1a1110;
+    border: 1px solid #cbfbff;
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
