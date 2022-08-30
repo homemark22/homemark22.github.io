@@ -103,7 +103,7 @@ main {
 }
 
 .channel {
-    background-color: ##516c24;
+    background-color: #516c24;
     box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 8px 0px;
     margin-bottom: 5px;
     margin-right: 5px;
@@ -120,9 +120,9 @@ main {
 .channel img {
     width: 106px;
     height: 63px;
-    border: 1px solid #009489;
+    border: 1px solid #ffffff;
     border-radius: 10px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 9px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1), 0 9px 20px 0 rgba(0, 0, 0, 1);
 }
 
 @media only screen and (max-width: 640px) {
@@ -138,31 +138,31 @@ main {
     #channels {
         height: fit-content;
         overflow-y: unset;
-        margin-left: 1px;
-        margin-right: 1px;
+        margin-left: 0px;
+        margin-right: 0px;
     }
     .channel {
-        margin-right: 1;
+        margin-right: 0;
     }
     #player {
         flex: auto;
         min-width: 192px;
         min-height: 108px;
-        margin-left: 1px;
-        margin-right: 1px;
-        margin-bottom: 1px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
     }
 }
 
 @keyframes press {
     0% {
-        transform: scale(1);
+        transform: scale(0);
     }
     50% {
-        transform: scale(0.99);
+        transform: scale(0);
     }
     to {
-        transform: scale(1);
+        transform: scale(0);
     }
 }
 
