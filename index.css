@@ -16,15 +16,15 @@ nav {
     height: 56px;
     padding: 0 10px;
     font-size: clamp(1.5rem, 2.0vw, 4rem); 
-    background-color: rgb(0, 0, 0);
+    background-color: #ffffff;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    border: 2px solid rgb(22, 22, 22);
+    border: 2px solid #ffffff;
 }
 
 body {
-    background-color: rgb(11, 11,11);
+    background-color: #ffffff;
     overflow-y: hidden;
 }
 
