@@ -12,19 +12,19 @@ html {
 
 
 nav {
-    color: #ffffff;
+    color: #aaddee;
     height: 56px;
     padding: 0 10px;
     font-size: clamp(1.5rem, 2.0vw, 4rem); 
-    background-color: #ffffff;
+    background-color: #aabbee;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    border: 2px solid #ffffff;
+    border: 2px solid #aaddee;
 }
 
 body {
-    background-color: #ab92b3;
+    background-color: #aabbee;
     overflow-y: hidden;
 }
 
@@ -36,7 +36,7 @@ main {
 
 #channels {
     flex: 38%;
-    background-color: #55555;
+    background-color: #aaddee;
     max-height: calc(100vh - 120px) !important;
     overflow-y: scroll;
     margin-top: 5px;
@@ -60,8 +60,8 @@ main {
 }
 .category {
     width: 94%;
-    color: 	#ffffff;
-    background-color: #ffffff;
+    color: 	#aabbee;
+    background-color: #aaddee;
     padding: 10px;
     border-bottom: solid 2px rgb(00, 00, 00);
     cursor: pointer;
@@ -69,7 +69,7 @@ main {
     font-weight: italic;
 }
 .active, .category:hover {
-    background-color: #ffffff;
+    background-color: #aabbee;
     border-radius: 10px;
     color: #aa98a9;
   }
@@ -86,24 +86,24 @@ main {
 ::-webkit-scrollbar-track
 {
 	-webkit-box-shadow: inset 0 0 4px rgba(0,0,0,0.2);
-	background-color: #cbfbff;
+	background-color: #aaddee;
 }
 
 ::-webkit-scrollbar
 {
 	width: 15px;
-	background-color: #ffffff;
+	background-color: #aaddee;
 }
 
 ::-webkit-scrollbar-thumb
 {
 	border-radius: 5px;
 	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
-	background-color: #ab92b3;
+	background-color: #aabbee;
 }
 
 .channel {
-    background-color: #000000;
+    background-color: #aaddee;
     box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 8px 0px;
     margin-bottom: 5px;
     margin-right: 5px;
@@ -120,9 +120,9 @@ main {
 .channel img {
     width: 106px;
     height: 63px;
-    border: 1px solid #ffffff;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1), 0 9px 20px 0 rgba(0, 0, 0, 1);
+    border: 1px solid #aabbee;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0), 0 9px 20px 0 rgba(0, 0, 0, 0);
 }
 
 @media only screen and (max-width: 640px) {
