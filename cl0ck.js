@@ -1,6 +1,4 @@
-<!--Start of clock Script--> 
-						<center><canvas id="canvas" width="65" height="62"></canvas>
-						<script>
+
 				window.onload = function () {
 					setInterval(showClock, 2000);
 
@@ -133,7 +131,4 @@
 						}
 					}
 				}
-							</script>
-							</center>  
-				  
-							<!--End of clock Script--> 
+							
