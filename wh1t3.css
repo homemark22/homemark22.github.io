@@ -12,15 +12,15 @@ html {
 
 
 nav {
-    color: #000000;
+    color: #bd6666;
     height: 56px;
     padding: 0 10px;
     font-size: clamp(1.5rem, 2.0vw, 4rem); 
-    background-color: #ffffff;
+    background-color: #634b49;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    border: 2px solid #000000;
+    border: 2px solid #ffffff;
 }
 
 body {
