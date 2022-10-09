@@ -12,11 +12,11 @@ html {
 
 
 nav {
-    color: rgb(55, 44, 22);
+    color: rgb(, 44, 22);
     height: 56px;
     padding: 0 10px;
     font-size: clamp(1.5rem, 2.0vw, 4rem); 
-    background-color: rgb(22, 11, 33);
+    background-color: rgb(13, 111, 222);
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -24,7 +24,7 @@ nav {
 }
 
 body {
-    background-color: rgb(77,66,55,255);
+    background-color: rgb(5,43,46);
     overflow-y: hidden;
 }
 
