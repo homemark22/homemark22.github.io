@@ -12,19 +12,19 @@ html {
 
 
 nav {
-    color: rgb(11, 44, 22);
+    color: #000000;
     height: 56px;
     padding: 0 10px;
     font-size: clamp(1.5rem, 2.0vw, 4rem); 
-    background-color: rgb(13, 111, 222);
+    background-color: #ffffff;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    border: 2px solid rgb(55, 44, 33);
+    border: 2px solid #000000;
 }
 
 body {
-    background-color: rgb(5,43,46);
+    background-color: #ffffff;
     overflow-y: hidden;
 }
 
