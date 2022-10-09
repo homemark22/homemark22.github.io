@@ -12,7 +12,7 @@ html {
 
 
 nav {
-    color: rgb(, 44, 22);
+    color: rgb(11, 44, 22);
     height: 56px;
     padding: 0 10px;
     font-size: clamp(1.5rem, 2.0vw, 4rem); 
@@ -36,7 +36,7 @@ main {
 
 #channels {
     flex: 38%;
-    background-color: #6b302b;
+    background-color: #ffffff;
     max-height: calc(100vh - 120px) !important;
     overflow-y: scroll;
     margin-top: 5px;
@@ -54,7 +54,7 @@ main {
 }
 #player {
     flex: 62%;
-    margin: auto 1px;
+    margin: auto 2px;
     margin-top: 2px;
     margin-right: 2px;
 }
