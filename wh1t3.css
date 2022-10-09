@@ -24,7 +24,7 @@ nav {
 }
 
 body {
-    background-color: #ffffff;
+    background-color: #bd8782;
     overflow-y: hidden;
 }
 
@@ -54,9 +54,9 @@ main {
 }
 #player {
     flex: 62%;
-    margin: auto 2px;
-    margin-top: 2px;
-    margin-right: 2px;
+    margin: auto 0px;
+    margin-top: 0px;
+    margin-right: 0px;
 }
 .category {
     width: 94%;
@@ -99,7 +99,7 @@ main {
 {
 	border-radius: 5px;
 	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
-	background-color: #bd8782;
+	background-color: #b09b99;
 }
 
 .channel {
