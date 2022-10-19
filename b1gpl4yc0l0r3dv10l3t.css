@@ -27,6 +27,11 @@ body {
     overflow-y: hidden;
 }
 
+body {
+    background-image: url('https://homemark22.github.io/october32.webp');
+    color: #FFFFFF;
+}
+
 main {
     margin-left: 0px;
     margin-right: 0px;
