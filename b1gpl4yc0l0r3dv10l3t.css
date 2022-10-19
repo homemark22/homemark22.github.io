@@ -23,12 +23,8 @@ nav {
 }
 
 body {
-    background-image: url('https://homemark22.github.io/walbird_6_1300x900_1.webp');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100% 100%;
-	color: #0000ffff;
-	overflow-y: hidden;
+    background-color: rgb(241, 248, 247);
+    overflow-y: hidden;
 }
 
 main {
