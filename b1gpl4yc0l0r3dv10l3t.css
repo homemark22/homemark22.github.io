@@ -20,7 +20,9 @@ nav {
     justify-content: center;
     flex-direction: column;
     border: 2px solid #0000ffff;
+	.some-class{
 }
+
 
 body {
     background-color: rgb(241, 248, 247);
@@ -40,7 +42,10 @@ main {
     overflow-y: scroll;
     margin-top: 5px;
     margin-left: 0px;
+	
     overflow-x: hidden;
+	.some-class{
+}
 }
 .channel_collapse {
     margin-top: 0px;
@@ -71,7 +76,9 @@ main {
     background-color: #0000ffff;
     border-radius: 10px;
     color: #0000ffff;
-  }
+	.some-class{
+}
+  
 .category:after {
   content: '\002B';
   font-weight: bold;
