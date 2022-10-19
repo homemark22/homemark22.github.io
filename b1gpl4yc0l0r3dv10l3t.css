@@ -74,7 +74,7 @@ main {
     font-weight: bold;
 }
 .active, .category:hover {
-    background-color: rgb(128, 0, 32);
+    background-color: rgb(201, 22, 211);
     border-radius: 10px;
     color: black;
   }
