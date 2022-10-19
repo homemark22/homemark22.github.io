@@ -65,10 +65,10 @@ main {
 }
 .category {
     width: 94%;
-    color: #3a0450;
-    background-color: #9e8dc9;
+    color: #ffffff;
+    background-color: #000000;
     padding: 10px;
-    border-bottom: solid 2px rgb(229, 238, 238);
+    border-bottom: solid 2px rgb(99, 99, 99);
     cursor: pointer;
     font-size: 20px;
     font-weight: bold;
