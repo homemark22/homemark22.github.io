@@ -27,6 +27,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
+	color: #0000ffff;
 	overflow-y: hidden;
 }
 
