@@ -11,15 +11,15 @@ html {
 }
 
 nav {
-    color: rgb(159, 43, 104);
+    color: #0000ffff;
     height: 56px;
     padding: 0 10px;
     font-size: clamp(1.5rem, 2.0vw, 4rem); 
-    background-color: rgb(48, 25, 52);
+    background-color: #0000ffff;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    border: 2px solid rgb(48, 25, 52);
+    border: 2px solid #0000ffff;
 }
 
 body {
