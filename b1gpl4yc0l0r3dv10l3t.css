@@ -22,10 +22,16 @@ nav {
     border: 2px solid rgb(48, 25, 52);
 }
 
+
 body {
-    background-color: rgb(241, 248, 247);
-    overflow-y: hidden;
+    background-image: url('https://homemark22.github.io/walbird_6_1300x900_1.webp');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+	background-color: rgb(241, 248, 247);
+	overflow-y: hidden;
 }
+
 
 main {
     margin-left: 0px;
