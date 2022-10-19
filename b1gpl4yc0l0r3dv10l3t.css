@@ -22,14 +22,12 @@ nav {
     border: 2px solid rgb(48, 25, 52);
 }
 
-body {
-    background-color: rgb(241, 248, 247);
-    overflow-y: hidden;
-}
+
 
 body {
     background-image: url('https://homemark22.github.io/october32.webp');
     color: #FFFFFF;
+    overflow-y: hidden;
 }
 
 main {
