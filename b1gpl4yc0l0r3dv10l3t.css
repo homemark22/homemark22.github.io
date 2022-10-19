@@ -20,7 +20,7 @@ nav {
     justify-content: center;
     flex-direction: column;
     border: 2px solid #0000;
-	.some-class{
+	
 }
 
 
@@ -44,7 +44,7 @@ main {
     margin-left: 0px;
 	
     overflow-x: hidden;
-	.some-class{
+	
 }
 }
 .channel_collapse {
