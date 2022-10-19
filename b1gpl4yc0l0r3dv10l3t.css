@@ -64,17 +64,17 @@ main {
 .category {
     width: 94%;
     color: #3a0450;
-    background-color: #9e8dc9;
+    background-color: #0000ffff;
     padding: 10px;
-    border-bottom: solid 2px rgb(229, 238, 238);
+    border-bottom: solid 2px #0000ffff;
     cursor: pointer;
     font-size: 20px;
     font-weight: bold;
 }
 .active, .category:hover {
-    background-color: rgb(128, 0, 32);
+    background-color: #0000ffff;
     border-radius: 10px;
-    color: white;
+    color: #0000ffff;
   }
 .category:after {
   content: '\002B';
