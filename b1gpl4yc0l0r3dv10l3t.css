@@ -68,7 +68,7 @@ main {
     color: rgb(204, 204, 204);
     background-color: #000000;
     padding: 10px;
-    border-bottom: solid 2px rgb(0, 0, 0);
+    border-bottom: solid 2px rgb(28, 28, 28);
     cursor: pointer;
     font-size: 20px;
     font-weight: bold;
