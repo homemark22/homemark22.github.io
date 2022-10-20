@@ -65,7 +65,7 @@ main {
 }
 .category {
     width: 94%;
-    color: rgb(39, 62, 59);
+    color: rgb(204, 204, 204);
     background-color: #000000;
     padding: 10px;
     border-bottom: solid 2px rgb(0, 0, 0);
@@ -76,7 +76,7 @@ main {
 .active, .category:hover {
     background-color: rgb(0, 0, 0);
     border-radius: 10px;
-    color: rgb(68, 111, 90);
+    color: rgb(255, 255, 255);
   }
 .category:after {
   content: '\002B';
