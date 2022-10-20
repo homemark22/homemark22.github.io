@@ -74,9 +74,9 @@ main {
     font-weight: bold;
 }
 .active, .category:hover {
-    background-color: rgb(10, 20, 30);
+    background-color: rgb(0, 0, 0);
     border-radius: 10px;
-    color: black;
+    color: yellow;
   }
 .category:after {
   content: '\002B';
