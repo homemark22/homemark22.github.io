@@ -90,7 +90,7 @@ main {
 }
 ::-webkit-scrollbar-track
 {
-	-webkit-box-shadow: inset 0 0 4px rgba(0,0,0,0.2);
+	-webkit-box-shadow: inset 0 0 4px rgba(0,0,0,0.5);
 	
 }
 
@@ -103,8 +103,8 @@ main {
 ::-webkit-scrollbar-thumb
 {
 	border-radius: 3px;
-	-webkit-box-shadow: inset 0 0 3px rgba(0,0,0,.1);
-	
+	-webkit-box-shadow: inset 0 0 3px rgba(0,0,0,.5);
+	color: rgb(204, 204, 204);
 }
 
 .channel {
