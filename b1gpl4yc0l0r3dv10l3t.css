@@ -15,7 +15,7 @@ nav {
     height: 56px;
     padding: 0 10px;
     font-size: clamp(1.5rem, 2.0vw, 4rem); 
-    background-color: rgb(10, 10, 10);
+    
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -41,7 +41,7 @@ main {
 
 #channels {
     flex: 38%;
-    background-color: #000000;
+    
     max-height: calc(100vh - 120px) !important;
     overflow-y: scroll;
     margin-top: 5px;
