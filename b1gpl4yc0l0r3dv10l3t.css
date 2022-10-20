@@ -76,7 +76,7 @@ main {
 .active, .category:hover {
     background-color: rgb(0, 0, 0);
     border-radius: 10px;
-    color: yellow;
+    color: rgb(39, 62, 59);
   }
 .category:after {
   content: '\002B';
