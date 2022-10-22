@@ -171,9 +171,9 @@ main {
     }
 }
 
-.
+
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'PT Sans', sans-serif;
   margin: 0;
 }
 
@@ -200,7 +200,7 @@ html {
 .about-section {
   padding: 50px;
   text-align: center;
-  background-color: #474e5d;
+  
   color: white;
 }
 
@@ -215,7 +215,7 @@ html {
 }
 
 .title {
-  color: grey;
+  color: white;
 }
 
 .button {
@@ -234,7 +234,7 @@ html {
   background-color: #555;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 350px) {
   .column {
     width: 100%;
     display: block;
