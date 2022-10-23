@@ -24,12 +24,41 @@ nav {
 
 
 
-body {
-    background-image: url('https://homemark22.github.io/w4llp4p3rb1rdf1n4l.webp');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100% 100%;
-	overflow-y: hidden;
+
+/* video background */
+#background-video {
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+/* page content */
+h1, h2 {
+  color: white;
+  font-family: Trebuchet MS;
+  font-weight: bold;
+  text-align: center;
+}
+
+h1 {
+  font-size: 6rem;
+  margin-top: 30vh; 
+}
+
+h2 { font-size: 3rem; }
+
+@media (max-width: 750px) {
+    #background-video { display: none; }
+    body {
+      background: url("https://homemark22.github.io/w4llp4p3rb1rdf1n4l.webp") no-repeat;
+      background-size: cover;
+    }
 }
 
 
