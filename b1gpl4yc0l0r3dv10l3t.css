@@ -227,7 +227,7 @@ html {
 }
 
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1.2);
   margin: 8px;
 }
 
@@ -252,7 +252,7 @@ html {
   padding: 8px;
   color: white;
   background-color: #000;
-  text-align: center;
+  
   cursor: pointer;
   width: 100%;
 }
