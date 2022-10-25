@@ -257,4 +257,12 @@ html {
   width: 100%;
 }
 
+.dailyVerses.bibleVerse
+{
+margin-top: .5em;
+}
 
+.dailyVerses.bibleVerse a
+{
+font-weight: bold;
+}
