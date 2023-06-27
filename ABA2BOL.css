@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap');
+@import url('https://homemark22.github.io/n0rs3.otf');
 
 * {
     margin: 0;
@@ -126,7 +126,7 @@ main {
 
 ::-webkit-scrollbar
 {
-	width: 2px;
+	width: 0px;
 	
 }
 
