@@ -41,8 +41,8 @@ nav {
 /* page content */
 h1, h2 {
   color: white;
-  font-family: Trebuchet MS;
-  font-weight: bold;
+  font-family: Segoe UI;
+  font-weight: regular;
   text-align: center;
 }
 
@@ -101,7 +101,7 @@ main {
     
     cursor: pointer;
     font-size: 20px;
-    font-weight: bold;
+    font-weight: regular;
 }
 .active, .category:hover {
     
@@ -110,7 +110,7 @@ main {
   }
 .category:after {
   content: '\002B';
-  font-weight: bold;
+  font-weight: regular;
   float: right;
   margin-left: 5px;
 }
