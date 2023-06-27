@@ -207,7 +207,7 @@ main {
 
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Segoe UI, Helvetica, sans-serif;
   margin: 0;
 }
 
@@ -264,5 +264,5 @@ margin-top: .5em;
 
 .dailyVerses.bibleVerse a
 {
-font-weight: bold;
+font-weight: regular;
 }
