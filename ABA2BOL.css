@@ -42,7 +42,7 @@ nav {
 h1, h2 {
   color: white;
   font-family: Segoe UI;
-  font-weight: regular;
+  font-weight: 100;
   text-align: center;
 }
 
@@ -100,8 +100,8 @@ main {
     padding: 10px;
     
     cursor: pointer;
-    font-size: 20px;
-    font-weight: regular;
+    font-size: 10px;
+    font-weight: 100;
 }
 .active, .category:hover {
     
@@ -110,7 +110,7 @@ main {
   }
 .category:after {
   content: '\002B';
-  font-weight: regular;
+  font-weight: 100;
   float: right;
   margin-left: 5px;
 }
@@ -126,13 +126,13 @@ main {
 
 ::-webkit-scrollbar
 {
-	width: 0px;
+	width: 4px;
 	
 }
 
 ::-webkit-scrollbar-thumb
 {
-	border-radius: 3px;
+	border-radius: 0px;
 	-webkit-box-shadow: inset 0 0 3px rgba(0,0,0,.5);
 	background-color: rgb(204, 204, 204);
 }
