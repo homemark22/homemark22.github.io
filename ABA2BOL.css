@@ -42,7 +42,7 @@ nav {
 h1, h2 {
   color: white;
   font-family: Segoe UI;
-  font-weight: 200;
+  font-weight: regular;
   text-align: center;
 }
 
@@ -101,7 +101,7 @@ main {
     
     cursor: pointer;
     font-size: 10px;
-    font-weight: 200;
+    font-weight: regular;
 }
 .active, .category:hover {
     
