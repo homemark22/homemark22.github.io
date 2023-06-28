@@ -51,7 +51,7 @@ h1 {
   margin-top: 30vh; 
 }
 
-h2 { font-size: 3rem; }
+h2 { font-size: 6rem; }
 
 @media (max-width: 750px) {
     #background-video { display: none; }
