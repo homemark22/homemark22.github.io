@@ -1,0 +1,8 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:CODECS="avc1.4d0029,mp4a.40.2",RESOLUTION=720x404,BANDWIDTH=1000000
+https://lin-gd-001-cf.slivcdn.com/out/v1/79396cc3e885493e950b24dcddceaeda/master_7.m3u8?hdntl=exp=1689631738~acl=*~hmac=42f9bece8d098a398d57388c796cfa288e14242b41837a704f0c2c412186e70c&originpath=/linear/hls/pb/event/Sle_TR8rQIuZHWzshEXYjQ/stream/50c59270-b7db-4670-99de-854059525703:SIN/variant/d36bf8f514f89a676ea85aee2e2f11aa/bandwidth/4704510.m3u8
+#EXT-X-STREAM-INF:CODECS="avc1.4d0029,mp4a.40.2",RESOLUTION=1280x720,BANDWIDTH=2000000
+https://lin-gd-001-cf.slivcdn.com/out/v1/79396cc3e885493e950b24dcddceaeda/master_7.m3u8?hdntl=exp=1689631738~acl=*~hmac=42f9bece8d098a398d57388c796cfa288e14242b41837a704f0c2c412186e70c&originpath=/linear/hls/pb/event/Sle_TR8rQIuZHWzshEXYjQ/stream/50c59270-b7db-4670-99de-854059525703:SIN/variant/d36bf8f514f89a676ea85aee2e2f11aa/bandwidth/4704510.m3u8
+#EXT-X-STREAM-INF:CODECS="avc1.4d0029,mp4a.40.2",RESOLUTION=1920x1080,BANDWIDTH=4000000
+https://lin-gd-001-cf.slivcdn.com/out/v1/79396cc3e885493e950b24dcddceaeda/master_7.m3u8?hdntl=exp=1689631738~acl=*~hmac=42f9bece8d098a398d57388c796cfa288e14242b41837a704f0c2c412186e70c&originpath=/linear/hls/pb/event/Sle_TR8rQIuZHWzshEXYjQ/stream/50c59270-b7db-4670-99de-854059525703:SIN/variant/d36bf8f514f89a676ea85aee2e2f11aa/bandwidth/4704510.m3u8
