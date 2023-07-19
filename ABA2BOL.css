@@ -52,13 +52,14 @@ h1, h2 {
   font-weight: regular;
   text-align: right;
   cursor: -webkit-image-set(url("https://homemark22.github.io/curs0rh4ndz.png") 1x, url("https://homemark22.github.io/curs0rh4ndz.png") 2x, url("https://homemark22.github.io/curs0rh4ndz.png") 4x ) 0 0, auto;
-	font-size: 99.9%;
+	
 	
 }
 
 h1 {
   font-size: 3rem;
   margin-top: 30vh; 
+	
 }
 
 h2 { font-size: 3rem; }
@@ -77,6 +78,7 @@ main {
     margin-left: 0px;
     margin-right: 0px;
     display: flex;
+    cursor: -webkit-image-set(url("https://homemark22.github.io/curs0rh4ndz.png") 1x, url("https://homemark22.github.io/curs0rh4ndz.png") 2x, url("https://homemark22.github.io/curs0rh4ndz.png") 4x ) 0 0, auto;
 }
 
 #channels {
@@ -87,6 +89,7 @@ main {
     margin-top: 5px;
     margin-left: 0px;
     overflow-x: hidden;
+    cursor: -webkit-image-set(url("https://homemark22.github.io/curs0rh4ndz.png") 1x, url("https://homemark22.github.io/curs0rh4ndz.png") 2x, url("https://homemark22.github.io/curs0rh4ndz.png") 4x ) 0 0, auto;
 }
 .channel_collapse {
     margin-top: 0px;
@@ -96,12 +99,14 @@ main {
     display: flex;  
     flex-wrap: wrap;
     justify-content: space-evenly;
+    cursor: -webkit-image-set(url("https://homemark22.github.io/curs0rh4ndz.png") 1x, url("https://homemark22.github.io/curs0rh4ndz.png") 2x, url("https://homemark22.github.io/curs0rh4ndz.png") 4x ) 0 0, auto;
 }
 #player {
     flex: 62%;
     margin: auto 1px;
     margin-top: 5px;
     margin-right: 0px;
+    cursor: -webkit-image-set(url("https://homemark22.github.io/curs0rh4ndz.png") 1x, url("https://homemark22.github.io/curs0rh4ndz.png") 2x, url("https://homemark22.github.io/curs0rh4ndz.png") 4x ) 0 0, auto;
 }
 .category {
     width: 94%;
@@ -109,7 +114,7 @@ main {
     
     padding: 10px;
     
-    cursor: pointer;
+    cursor: -webkit-image-set(url("https://homemark22.github.io/curs0rh4ndz.png") 1x, url("https://homemark22.github.io/curs0rh4ndz.png") 2x, url("https://homemark22.github.io/curs0rh4ndz.png") 4x ) 0 0, auto;
     font-size: 10px;
     font-weight: regular;
 }
@@ -117,12 +122,14 @@ main {
     
     border-radius: 10px;
     color: rgb(255, 255, 255);
+	cursor: -webkit-image-set(url("https://homemark22.github.io/curs0rh4ndz.png") 1x, url("https://homemark22.github.io/curs0rh4ndz.png") 2x, url("https://homemark22.github.io/curs0rh4ndz.png") 4x ) 0 0, auto;
   }
 .category:after {
   content: '\002B';
   font-weight: 100;
   float: right;
   margin-left: 5px;
+	cursor: -webkit-image-set(url("https://homemark22.github.io/curs0rh4ndz.png") 1x, url("https://homemark22.github.io/curs0rh4ndz.png") 2x, url("https://homemark22.github.io/curs0rh4ndz.png") 4x ) 0 0, auto;
 }
 
 .active:after {
@@ -155,7 +162,7 @@ main {
     border-radius: 10px;
     overflow: hidden;
     padding: 7px;
-    cursor: pointer;
+    cursor: -webkit-image-set(url("https://homemark22.github.io/curs0rh4ndz.png") 1x, url("https://homemark22.github.io/curs0rh4ndz.png") 2x, url("https://homemark22.github.io/curs0rh4ndz.png") 4x ) 0 0, auto;
 }
 
 .channel:active {
@@ -223,6 +230,7 @@ body {
 
 html {
   box-sizing: border-box;
+	cursor: -webkit-image-set(url("https://homemark22.github.io/curs0rh4ndz.png") 1x, url("https://homemark22.github.io/curs0rh4ndz.png") 2x, url("https://homemark22.github.io/curs0rh4ndz.png") 4x ) 0 0, auto;
 }
 
 *, *:before, *:after {
@@ -234,6 +242,7 @@ html {
   width: 33.3%;
   margin-bottom: 16px;
   padding: 0 8px;
+	cursor: -webkit-image-set(url("https://homemark22.github.io/curs0rh4ndz.png") 1x, url("https://homemark22.github.io/curs0rh4ndz.png") 2x, url("https://homemark22.github.io/curs0rh4ndz.png") 4x ) 0 0, auto;
 }
 
 .card {
@@ -251,6 +260,7 @@ html {
   content: "";
   clear: both;
   display: table;
+	cursor: -webkit-image-set(url("https://homemark22.github.io/curs0rh4ndz.png") 1x, url("https://homemark22.github.io/curs0rh4ndz.png") 2x, url("https://homemark22.github.io/curs0rh4ndz.png") 4x ) 0 0, auto;
 }
 
 
