@@ -6,6 +6,11 @@
     font-family: 'Segoe UI', sans-serif;
 
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
 html {
 	cursor: -webkit-image-set(url("https://homemark22.github.io/curs0rh4ndz.png") 1x, url("https://homemark22.github.io/curs0rh4ndz.png") 2x) 0 0, auto;
 	font-size: 99.9%;
@@ -14,9 +19,7 @@ html {
 
 
 
-html {
-    scroll-behavior: smooth;
-}
+
 
 
 
