@@ -262,8 +262,9 @@ html {
   padding: 8px;
   color: white;
   background-color: #000;
+  cursor: -webkit-image-set(url("https://homemark22.github.io/curs0rh4ndz.png") 1x, url("https://homemark22.github.io/curs0rh4ndz.png") 2x, url("https://homemark22.github.io/curs0rh4ndz.png") 4x ) 0 0, pointer;
+	
   
-  cursor: pointer;
   width: 100%;
 }
 
