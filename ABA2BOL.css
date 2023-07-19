@@ -329,3 +329,15 @@ margin-top: .5em;
 {
 font-weight: 100;
 }
+
+
+<script>
+var canvas = document.getElementById("canvas");
+var shader = new Shadertoy.Shader("https://www.shadertoy.com/view/XsjSzR");
+shader.bind(canvas);
+var texture = new Image();
+texture.src = "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/CRT_scanlines.svg/1200px-CRT_scanlines.svg.png";
+texture.onload = function() {
+  shader.setTexture("u_texture", texture);
+};
+</script>   
