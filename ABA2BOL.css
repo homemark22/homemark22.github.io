@@ -336,3 +336,7 @@ font-weight: 100;
 @-ms-filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.5));
 @-o-filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.5));
 filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.5));
+
+a:link {
+  text-decoration: none;
+}
