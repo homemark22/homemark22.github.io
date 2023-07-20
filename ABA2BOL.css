@@ -331,13 +331,8 @@ font-weight: 100;
 }
 
 
-<script>
-var canvas = document.getElementById("canvas");
-var shader = new Shadertoy.Shader("https://www.shadertoy.com/view/XsjSzR");
-shader.bind(canvas);
-var texture = new Image();
-texture.src = "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/CRT_scanlines.svg/1200px-CRT_scanlines.svg.png";
-texture.onload = function() {
-  shader.setTexture("u_texture", texture);
-};
-</script>   
+@-webkit-filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.5));
+@-moz-filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.5));
+@-ms-filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.5));
+@-o-filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.5));
+filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.5));
