@@ -1,0 +1,8 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:CODECS="avc1.4d0029,mp4a.40.2",RESOLUTION=720x404,BANDWIDTH=1000000
+https://lightning-now80s-samsunguk.amagi.tv/hls/amagi_hls_data_samsunguk-lightning-now80s-samsunguk/CDN/playlist.m3u8?device%5Bdid%5D=%7BPSID%7D&device%5Bdnt%5D=%7BTARGETOPT%7D&app_name=%7BAPP_NAME%7D&tc_string=%7BTC_STRING%7D&coppa=0
+#EXT-X-STREAM-INF:CODECS="avc1.4d0029,mp4a.40.2",RESOLUTION=1280x720,BANDWIDTH=2000000
+https://lightning-now80s-samsunguk.amagi.tv/hls/amagi_hls_data_samsunguk-lightning-now80s-samsunguk/CDN/playlist.m3u8?device%5Bdid%5D=%7BPSID%7D&device%5Bdnt%5D=%7BTARGETOPT%7D&app_name=%7BAPP_NAME%7D&tc_string=%7BTC_STRING%7D&coppa=0
+#EXT-X-STREAM-INF:CODECS="avc1.4d0029,mp4a.40.2",RESOLUTION=1920x1080,BANDWIDTH=4000000
+https://lightning-now80s-samsunguk.amagi.tv/hls/amagi_hls_data_samsunguk-lightning-now80s-samsunguk/CDN/playlist.m3u8?device%5Bdid%5D=%7BPSID%7D&device%5Bdnt%5D=%7BTARGETOPT%7D&app_name=%7BAPP_NAME%7D&tc_string=%7BTC_STRING%7D&coppa=0
