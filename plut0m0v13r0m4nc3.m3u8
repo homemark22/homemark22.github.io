@@ -1,0 +1,8 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:CODECS="avc1.4d0029,mp4a.40.2",RESOLUTION=720x404,BANDWIDTH=1000000
+https://service-stitcher-ipv4.clusters.pluto.tv/v1/stitch/embed/hls/channel/5c45f216e909d90674242965/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=%7BUS_PRIVACY%7D&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&embedPartner=samsung-tvplus&gdprConsent=%7BTC_STRING%7D&gdpr=1
+#EXT-X-STREAM-INF:CODECS="avc1.4d0029,mp4a.40.2",RESOLUTION=1280x720,BANDWIDTH=2000000
+https://service-stitcher-ipv4.clusters.pluto.tv/v1/stitch/embed/hls/channel/5c45f216e909d90674242965/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=%7BUS_PRIVACY%7D&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&embedPartner=samsung-tvplus&gdprConsent=%7BTC_STRING%7D&gdpr=1
+#EXT-X-STREAM-INF:CODECS="avc1.4d0029,mp4a.40.2",RESOLUTION=1920x1080,BANDWIDTH=4000000
+https://service-stitcher-ipv4.clusters.pluto.tv/v1/stitch/embed/hls/channel/5c45f216e909d90674242965/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=%7BUS_PRIVACY%7D&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&embedPartner=samsung-tvplus&gdprConsent=%7BTC_STRING%7D&gdpr=1
