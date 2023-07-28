@@ -1,8 +1,8 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:CODECS="avc1.4d0029,mp4a.40.2",RESOLUTION=720x404,BANDWIDTH=1000000
-http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/62da7380478a5b0007e610d9/3063648/playlist.m3u8?terminate=false&sid=SAMSUNG-TVPLUS-2de7c45f-decf-45b5-8045-12f1007310c2&deviceDNT=0&advertisingId=%7BPSID%7D&deviceLat=0&deviceLon=0&deviceModel=samsung&deviceVersion=unknown&embedPartner=samsung-tvplus&samsung_app_domain=https%3A%2F%2Fwww.samsung.com%2Fus%2Fappstore%2Fapp.do%3FappId%3DG15147002586&samsung_app_name=Samsung%20TV%20Plus&serverSideAds=true&us_privacy=1YNY&appName=samsungtvplus&deviceId=%7BPSID%7D&appVersion=unknown&deviceType=samsung-tvplus&deviceMake=samsung&includeDeviceUA=true
+https://i.mjh.nz/PlutoTV/62ac50e92c48f900071444c9-alt.m3u8
 #EXT-X-STREAM-INF:CODECS="avc1.4d0029,mp4a.40.2",RESOLUTION=1280x720,BANDWIDTH=2000000
-http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/62da7380478a5b0007e610d9/3063648/playlist.m3u8?terminate=false&sid=SAMSUNG-TVPLUS-2de7c45f-decf-45b5-8045-12f1007310c2&deviceDNT=0&advertisingId=%7BPSID%7D&deviceLat=0&deviceLon=0&deviceModel=samsung&deviceVersion=unknown&embedPartner=samsung-tvplus&samsung_app_domain=https%3A%2F%2Fwww.samsung.com%2Fus%2Fappstore%2Fapp.do%3FappId%3DG15147002586&samsung_app_name=Samsung%20TV%20Plus&serverSideAds=true&us_privacy=1YNY&appName=samsungtvplus&deviceId=%7BPSID%7D&appVersion=unknown&deviceType=samsung-tvplus&deviceMake=samsung&includeDeviceUA=true
+https://i.mjh.nz/PlutoTV/62ac50e92c48f900071444c9-alt.m3u8
 #EXT-X-STREAM-INF:CODECS="avc1.4d0029,mp4a.40.2",RESOLUTION=1920x1080,BANDWIDTH=4000000
-http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/62da7380478a5b0007e610d9/3063648/playlist.m3u8?terminate=false&sid=SAMSUNG-TVPLUS-2de7c45f-decf-45b5-8045-12f1007310c2&deviceDNT=0&advertisingId=%7BPSID%7D&deviceLat=0&deviceLon=0&deviceModel=samsung&deviceVersion=unknown&embedPartner=samsung-tvplus&samsung_app_domain=https%3A%2F%2Fwww.samsung.com%2Fus%2Fappstore%2Fapp.do%3FappId%3DG15147002586&samsung_app_name=Samsung%20TV%20Plus&serverSideAds=true&us_privacy=1YNY&appName=samsungtvplus&deviceId=%7BPSID%7D&appVersion=unknown&deviceType=samsung-tvplus&deviceMake=samsung&includeDeviceUA=true
+https://i.mjh.nz/PlutoTV/62ac50e92c48f900071444c9-alt.m3u8
