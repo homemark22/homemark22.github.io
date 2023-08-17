@@ -1,0 +1,8 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:CODECS="avc1.4d0029,mp4a.40.2",RESOLUTION=720x404,BANDWIDTH=1000000
+https://epg.provider.plex.tv/library/parts/647f8d22a2fc3fadb4721685-62ffc5cfa6cad6f2991745c2.m3u8?X-Plex-Client-Identifier=xgkz9ui5tipdsflhzmh1ar3h&X-Plex-Client-Platform=Chrome&X-Plex-Token=BKKdvzXajdwg2nhkU3zi
+#EXT-X-STREAM-INF:CODECS="avc1.4d0029,mp4a.40.2",RESOLUTION=1280x720,BANDWIDTH=2000000
+https://epg.provider.plex.tv/library/parts/647f8d22a2fc3fadb4721685-62ffc5cfa6cad6f2991745c2.m3u8?X-Plex-Client-Identifier=xgkz9ui5tipdsflhzmh1ar3h&X-Plex-Client-Platform=Chrome&X-Plex-Token=BKKdvzXajdwg2nhkU3zi
+#EXT-X-STREAM-INF:CODECS="avc1.4d0029,mp4a.40.2",RESOLUTION=1920x1080,BANDWIDTH=4000000
+https://epg.provider.plex.tv/library/parts/647f8d22a2fc3fadb4721685-62ffc5cfa6cad6f2991745c2.m3u8?X-Plex-Client-Identifier=xgkz9ui5tipdsflhzmh1ar3h&X-Plex-Client-Platform=Chrome&X-Plex-Token=BKKdvzXajdwg2nhkU3zi
