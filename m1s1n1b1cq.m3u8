@@ -1,8 +1,8 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:CODECS="avc1.4d0029,mp4a.40.2",RESOLUTION=720x404,BANDWIDTH=1000000
-https://ddy1.cdndac.lol/ddy1/premium327/tracks-v1a1/mono.m3u8
+https://d2gjhy8g9ziabr.cloudfront.net/v1/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-samsungtvplus-stitched/e65ee2ff-bd71-4acb-93d9-1fc8146b0981/1.m3u8
 #EXT-X-STREAM-INF:CODECS="avc1.4d0029,mp4a.40.2",RESOLUTION=1280x720,BANDWIDTH=2000000
-https://ddy1.cdndac.lol/ddy1/premium327/tracks-v1a1/mono.m3u8
+https://d2gjhy8g9ziabr.cloudfront.net/v1/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-samsungtvplus-stitched/e65ee2ff-bd71-4acb-93d9-1fc8146b0981/1.m3u8
 #EXT-X-STREAM-INF:CODECS="avc1.4d0029,mp4a.40.2",RESOLUTION=1920x1080,BANDWIDTH=4000000
-https://ddy1.cdndac.lol/ddy1/premium327/tracks-v1a1/mono.m3u8
+https://d2gjhy8g9ziabr.cloudfront.net/v1/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-samsungtvplus-stitched/e65ee2ff-bd71-4acb-93d9-1fc8146b0981/1.m3u8
