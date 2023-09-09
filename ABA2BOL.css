@@ -322,13 +322,15 @@ html {
 
 .dailyVerses.bibleVerse
 {
-margin-top: .5em;
+margin-top: .1em;
 }
 
 .dailyVerses.bibleVerse a
-{
+h1 {
 font-weight: 100;
+	font-size: 20px;
 }
+
 
 
 @-webkit-filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.5));
