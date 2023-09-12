@@ -342,3 +342,18 @@ filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.5));
 a:link {
   text-decoration: none;
 }
+
+function openPopup(url, width, height) {
+// Calculate the position to center the popup window.
+const left = (window.innerWidth - width) / 2;
+const top = (window.innerHeight - height) / 2;
+
+// Open the pop-up window with the specified URL, width, height, and centered position.
+window.open(url, 'popupWindow', `width=${width},height=${height},left=${left},top=${top}`);
+}
+
+
+
+							 
+
+
