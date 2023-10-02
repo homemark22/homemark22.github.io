@@ -149,10 +149,10 @@ main {
 
 
     div::-webkit-scrollbar {
-        width: 10px;
+        width: 4px;
     }
     div::-webkit-scrollbar-track {
-        background-color: #9993 !important;
+        background-color: #9996 !important;
     }
     div::-webkit-scrollbar-thumb {
         background-color: #9999 !important;
