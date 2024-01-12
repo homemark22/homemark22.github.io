@@ -375,3 +375,27 @@ window.open(url, 'popupWindow', `width=${width},height=${height},left=${left},to
 
 
 
+
+
+
+
+
+							 $("#accordion2").bind('shown', function() {
+        var active=$("#accordion_univlist .in").attr('id');
+        scrollhere('#'+active);
+        $('.closebutton-right').hide(); 
+}); 
+
+$('.accordion-heading').click(function () { 
+  // Do something if you want to do on click  else ignore this handler.
+}
+
+function scrollhere(destination){
+    var stop = $(destination).offset().top - 80;
+    var delay = 1000;
+    $('body,html').animate({scrollTop: stop}, delay);
+    return false;
+}
+							 
+
+
