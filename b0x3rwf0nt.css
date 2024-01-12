@@ -1,0 +1,1354 @@
+
+
+
+
+
+/***************************
+	FONTS.COM Styling
+***************************/
+
+/*
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800&display=swap");
+*/
+
+@font-face{
+	font-family:"Applied Sans W01 Light";
+	src:url("/wp-content/uploads/Fonts/bfdeafbf-cc3a-4b8a-9cd2-1ad3a5f0aa68.eot?#iefix");
+	src:url("/wp-content/uploads/Fonts/bfdeafbf-cc3a-4b8a-9cd2-1ad3a5f0aa68.eot?#iefix") format("eot"),
+			url("/wp-content/uploads/Fonts/3e763f43-c1f7-440c-8592-cb253ff58095.woff2") format("woff2"),
+			url("/wp-content/uploads/Fonts/01bf77f8-8fcc-4fd3-bca5-1edd2cf98ca9.woff") format("woff");
+/*
+			url("/wp-content/uploads/Fonts/87a9305b-ead1-40f8-8860-7a2512c29509.ttf") format("truetype"),
+			url("/wp-content/uploads/Fonts/dc7d2b91-b1ea-4d0b-a5fe-496cf3458e0e.svg#dc7d2b91-b1ea-4d0b-a5fe-496cf3458e0e") format("svg");
+*/
+}
+@font-face{
+	font-family:"Applied Sans W01 Light Italic";
+	src:url("/wp-content/uploads/Fonts/62725b80-bd01-4a25-b983-c514c17d9f01.eot?#iefix");
+	src:url("/wp-content/uploads/Fonts/62725b80-bd01-4a25-b983-c514c17d9f01.eot?#iefix") format("eot"),
+			url("/wp-content/uploads/Fonts/a8a47bf9-eb9e-42ed-92f5-081e5812c80d.woff2") format("woff2"),
+			url("/wp-content/uploads/Fonts/3989eba5-9585-4397-a012-e2cdaba43f34.woff") format("woff");
+/*
+			url("/wp-content/uploads/Fonts/d88eb890-e473-4c95-b1bd-e5f8ee3d0c51.ttf") format("truetype"),
+			url("/wp-content/uploads/Fonts/3de5bc04-6fae-47ea-b5bd-ede8ee64912c.svg#3de5bc04-6fae-47ea-b5bd-ede8ee64912c") format("svg");
+*/
+}
+@font-face{
+	font-family:"Applied Sans W01 Regular";
+	src:url("/wp-content/uploads/Fonts/bad1d6b2-60f6-4b01-9fa8-914fcb266a8d.eot?#iefix");
+	src:url("/wp-content/uploads/Fonts/bad1d6b2-60f6-4b01-9fa8-914fcb266a8d.eot?#iefix") format("eot"),
+			url("/wp-content/uploads/Fonts/4063af43-64b6-43d0-a26e-06aa4f85363d.woff2") format("woff2"),
+			url("/wp-content/uploads/Fonts/3dcd51dd-b610-42f0-aac7-c434471cd2fb.woff") format("woff");
+/*
+			url("/wp-content/uploads/Fonts/2f6f208d-79f1-4678-ba5d-f33ade8e3d27.ttf") format("truetype"),
+			url("/wp-content/uploads/Fonts/fdd2b00a-96b6-4aea-9082-c1b89f38f1fb.svg#fdd2b00a-96b6-4aea-9082-c1b89f38f1fb") format("svg");
+*/
+}
+@font-face{
+	font-family:"Applied Sans W01 Italic";
+	src:url("/wp-content/uploads/Fonts/f90f6758-c43b-40c8-8adb-5caa3bc72acd.eot?#iefix");
+	src:url("/wp-content/uploads/Fonts/f90f6758-c43b-40c8-8adb-5caa3bc72acd.eot?#iefix") format("eot"),
+			url("/wp-content/uploads/Fonts/7bfac507-078e-414c-ae8b-34972f44be93.woff2") format("woff2"),
+			url("/wp-content/uploads/Fonts/0f16522a-00c2-4518-b0b8-5bfe3992fd38.woff") format("woff");
+/*
+			url("/wp-content/uploads/Fonts/8ce49a71-aa42-4869-8408-48a8730383fa.ttf") format("truetype"),
+			url("/wp-content/uploads/Fonts/d5c8c8cc-3149-4206-bc3e-cda7c7e8a90e.svg#d5c8c8cc-3149-4206-bc3e-cda7c7e8a90e") format("svg");
+*/
+}
+@font-face{
+	font-family:"Applied Sans W01 Medium";
+	src:url("/wp-content/uploads/Fonts/07bbb623-b9bd-4f6c-9cd5-c8791fd40e98.eot?#iefix");
+	src:url("/wp-content/uploads/Fonts/07bbb623-b9bd-4f6c-9cd5-c8791fd40e98.eot?#iefix") format("eot"),
+			url("/wp-content/uploads/Fonts/ef5acfbd-ac6c-4686-9e7c-ae99c0aeeb06.woff2") format("woff2"),
+			url("/wp-content/uploads/Fonts/d7d3fa00-96bc-4a38-a20a-1566aa9b3f5e.woff") format("woff");
+/*
+			url("/wp-content/uploads/Fonts/c5c802d3-8ccc-4c5e-9388-ea19c816f823.ttf") format("truetype"),
+			url("/wp-content/uploads/Fonts/8a762a1a-4d04-4101-bfcf-0ceda1cbb091.svg#8a762a1a-4d04-4101-bfcf-0ceda1cbb091") format("svg");
+*/
+}
+@font-face{
+	font-family:"Applied Sans W01 Medium Italic";
+	src:url("/wp-content/uploads/Fonts/254044f0-1a42-418f-92dd-aed9e68e5416.eot?#iefix");
+	src:url("/wp-content/uploads/Fonts/254044f0-1a42-418f-92dd-aed9e68e5416.eot?#iefix") format("eot"),
+			url("/wp-content/uploads/Fonts/ddadaabf-65ef-404c-9056-d43da13faaff.woff2") format("woff2"),
+			url("/wp-content/uploads/Fonts/8cce99ab-31b9-401e-9ea9-0af1a9f8102b.woff") format("woff");
+/*
+			url("/wp-content/uploads/Fonts/fa18c5c3-2727-4acf-b523-7a5f1c3ead52.ttf") format("truetype"),
+			url("/wp-content/uploads/Fonts/cd57dd85-f232-4ce7-933a-5c4a5939fb7f.svg#cd57dd85-f232-4ce7-933a-5c4a5939fb7f") format("svg");
+*/
+}
+@font-face{
+	font-family:"Applied Sans W01 Cond Medium";
+	src:url("/wp-content/uploads/Fonts/56371562-750a-4c0b-8cb6-3008aaae48d5.eot?#iefix");
+	src:url("/wp-content/uploads/Fonts/56371562-750a-4c0b-8cb6-3008aaae48d5.eot?#iefix") format("eot"),
+			url("/wp-content/uploads/Fonts/2824797d-8ece-4cb5-9490-e59dc1217b0f.woff2") format("woff2"),
+			url("/wp-content/uploads/Fonts/d85f00a2-2cf9-45e6-9117-a532b6dd378c.woff") format("woff");
+/*
+			url("/wp-content/uploads/Fonts/5f6937be-2aac-4d7c-81ac-88e4158d9818.ttf") format("truetype"),
+			url("/wp-content/uploads/Fonts/f01bbbf3-360d-4fdc-8e86-0b3e7c39a76b.svg#f01bbbf3-360d-4fdc-8e86-0b3e7c39a76b") format("svg");
+*/
+}
+@font-face{
+	font-family:"Applied Sans W01 Cn Medium It";
+	src:url("/wp-content/uploads/Fonts/6295c226-0226-40c1-992a-53b6bb5aec21.eot?#iefix");
+	src:url("/wp-content/uploads/Fonts/6295c226-0226-40c1-992a-53b6bb5aec21.eot?#iefix") format("eot"),
+			url("/wp-content/uploads/Fonts/ff3fca12-8ad1-40cd-b86e-9aa51e2e052e.woff2") format("woff2"),
+			url("/wp-content/uploads/Fonts/61958a1b-bd66-41fd-8ab9-0e2b0f233fc3.woff") format("woff");
+/*
+			url("/wp-content/uploads/Fonts/2ef6877e-eca3-41bf-9b25-3e73a18edeb5.ttf") format("truetype"),
+			url("/wp-content/uploads/Fonts/befbb8a8-a02a-4980-a90f-dbe437acba92.svg#befbb8a8-a02a-4980-a90f-dbe437acba92") format("svg");
+*/
+}
+
+
+/***************************
+	FONTS and SIZES Styling
+***************************/
+
+/*  Body Font styling  */
+body {
+	font-family:"Applied Sans W01 Regular", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-rendering: optimizeLegibility;
+	font-size: 18px;
+	color: #333;
+}
+
+/*  Header Font styling  */
+h1, h2, h3, h4, .h1, .h2, .h3, .h4 {
+	font-family:"Applied Sans W01 Cond Medium", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-rendering: optimizeLegibility;
+	line-height: 1.05 !important;
+	text-transform: uppercase;
+	color: #444;
+}
+h1, .h1 {
+	font-size: 36px;
+}
+h2, .h2 {
+	font-size: 30px;
+}
+h3, .h3 {
+	font-size: 24px;
+}
+h4, .h4 {
+	font-size: 18px;
+}
+
+/*  Italic Font styling  */
+em {
+	font-family:"Applied Sans W01 Italic", sans-serif;
+	font-style: normal;
+}
+
+/*  Bold Font styling  */
+p.strong, b, strong {
+	font-family:"Applied Sans W01 Medium", sans-serif;
+	font-weight: 400;
+}
+
+/*  Paragraph styling  */
+p {
+	margin: 0 0 15px;
+}
+
+/*  Text Link styling  */
+a {
+	color: #6b1771;
+}
+a:hover, a:focus {
+	color: #77317c;
+}
+
+blockquote {
+	font-family:"Applied Sans W01 Light Italic", sans-serif;
+	font-style: normal;
+	border-left: 6px solid #d8d8d8;
+	margin: 10px 0 25px;
+	padding: 15px 20px 10px;
+	border-top-left-radius: 6px;
+	border-bottom-left-radius: 6px;
+	font-size: 1.15em;
+	line-height: 1.3;
+}
+
+
+/********************************
+	HEADER, FOOTER, and MENU Styling
+********************************/
+
+/*  Full Width Header and Top Bar */
+.fl-page-header .container {
+	width: 100%;
+	max-width: 100%;
+	background-color: #99cc00;
+	border-bottom: 1px solid #86b300;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+.fl-page-header .fl-page-header-row {
+	width: 100%;
+	margin-left: 0;
+}
+
+.fl-page-bar .container {
+	background-color: #1d2600;
+	width: 100%;
+	max-width: 100%;
+	padding: 5px;
+}
+.fl-page-bar .fl-page-bar-row {
+	width: 100%;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+/*  Header Padding styling  */
+.fl-page-nav-right .fl-page-header-wrap {
+	border-bottom: none;
+}
+
+/*  Nav Right styling  */
+.fl-page-nav .navbar-nav > li > a {
+	padding: 8px;
+	margin: 0 3px;
+}
+.fl-page-nav .navbar-nav > li > a:hover,
+.fl-page-nav .navbar-nav > li > a:focus {
+	background-color: #6b1771;
+	border-radius: 4px;
+	color: #fff !important;
+}
+.fl-page-nav .navbar-nav > li.current-menu-item > a {
+	background-color: #77317c;
+	border-radius: 4px;
+	color: #fff !important;
+}
+
+/*  Don't show Search Icon to Logged Out users  */
+body:not(.logged-in) .fl-page-nav-search {
+	display: none;
+}
+
+/*  Fix for last menu item at full width  */
+.fl-page-nav-right .fl-page-header-row .navbar-right > li:last-child > a,
+.fl-page-header-fixed .navbar-right > li:last-child > a {
+	padding-right: 10px !important;
+}
+
+/*  Fix padding and lines on Mobile  */
+.fl-page-nav-toggle-icon.fl-page-nav-toggle-visible-mobile.fl-page-nav-right .fl-page-header-row .fl-page-header-logo {
+	padding-bottom: 0;
+}
+.fl-page-nav-toggle-icon.fl-page-nav-toggle-visible-mobile .fl-page-nav-collapse ul.navbar-nav > li {
+	border-color: #86b300;
+}
+.fl-page-nav-toggle-icon.fl-page-nav-toggle-visible-mobile .fl-page-nav-collapse {
+	border-top: none;
+}
+
+/*  Styling for Sub Menu  */
+.fl-page-nav ul.sub-menu {
+	background-color: rgba(153,204,0,0.8);
+	border-top: 3px solid #1d2600;
+	font-size: 14px !important;
+	padding: 8px 0;
+	margin-top: 10px;
+}
+
+/*  Navigation Font styling  */
+.fl-page-nav .navbar-nav, .fl-page-nav .navbar-nav a {
+	font-family:"Applied Sans W01 Cond Medium", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-rendering: optimizeLegibility;
+	font-size: 18px;
+	line-height: 1.4;	text-transform: uppercase;
+	color: #77317c !important;
+}
+
+/*  Mobile Menu dropdown  */
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+	border-color: #77317c;
+}
+
+/*  Navigation Bottom styling  */
+.fl-page-nav-wrap {
+	margin-top: 0;
+	border-top: none;
+	border-bottom: none;
+}
+
+/*  Top Bar styling  */
+.fl-page-bar {
+	font-size: 0.9em;
+	border-bottom: 1px solid #000;
+}
+.fl-page-bar *, .fl-page-bar h1, .fl-page-bar h2, .fl-page-bar h3,
+.fl-page-bar h4, .fl-page-bar h5, .fl-page-bar h6 {
+	color: #fff;
+}
+.fl-page-bar a {
+	color: #eee;
+}
+.fl-page-bar a:hover, .fl-page-bar a:focus, .fl-page-bar a:hover *,
+.fl-page-bar a:focus *, .fl-page-bar a.fa:hover, .fl-page-bar a.fa:focus * {
+	color: #fff;
+}
+.fl-page-bar-text {
+	padding: 5px 0;
+}
+
+/*  Footer Bar styling  */
+.fl-page-footer .container {
+	padding-bottom: 12px;
+}
+.fl-page-footer-text {
+	padding-bottom: 6px;
+}
+.fl-page-footer {
+	background-color: #1d2600;
+	border-top: 1px solid #000;
+	border-bottom: none;
+	font-size: 0.9em;
+	line-height: 1.15;
+}
+.fl-page-footer a {
+	color: #fff;
+}
+.fl-page-footer a:hover, .fl-page-footer a:focus, .fl-page-footer a:hover *,
+.fl-page-footer a:focus *,.fl-page-footer a fa:hover, .fl-page-footer a.fa:focus * {
+	color: #eee;
+}
+.fl-page-footer-text {
+	color: #fff;
+}
+/*  Footer Menu styling  */
+.fl-page-footer .navbar-nav > li > a,
+.fl-page-footer .navbar-nav > li.current-menu-item > a {
+	color: #fff;
+}
+.fl-page-footer .navbar-nav > li > a:hover,
+.fl-page-footer .navbar-nav > li > a:focus {
+	color: #eee;
+}
+.fl-page-footer .fl-page-footer-nav {
+	margin: 0 -15px;
+}
+.fl-page-footer-nav > li > a {
+	padding-bottom: 10px;
+}
+
+/*  Brochure background color  */
+.fl-row.brochure-bg-color {
+	background-color: #99cc00;
+}
+
+
+/***************************
+	Button CSS
+***************************/
+
+/*  Used on Films page - Text styling and Genre reset  */
+.csp-button,
+.csp-button:visited {
+	background: rgba(119, 49, 124, 0) none repeat scroll 0 0;
+	border: 1px solid #fff;
+	border-radius: 4px;
+	font-size: 16px;
+	padding: 6px 20px !important;
+	font-weight: 400;
+	color: #fff;
+	transition: all 0.2s linear 0s;
+	display: inline;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.csp-button:hover,
+.csp-button:focus {
+	background: rgb(107, 23, 113) none repeat scroll 0 0;
+	border: 1px solid #6b1771;
+	color: #fff;
+}
+.csp-button * {
+	transition: all 0.3s linear 0s;
+}
+
+/*  Font for All Buttons   */
+.fl-builder-content a.fl-button {
+	font-family:"Applied Sans W01 Medium", sans-serif !important;
+}
+
+
+/***************************
+	CUSTOM CSS
+***************************/
+
+/*  Styling for Company Name - ACF Options */
+.csp-company-name {
+	font-family:"Applied Sans W01 Medium", sans-serif !important;
+}
+
+/*  Styling for Top of Home Page  */
+.homepage-text {
+	font-size: 15px;
+	padding-top: 0;
+	text-align: center;
+	line-height: 1.15;
+}
+
+/*  Home Page Carousel dots styling  */
+.dots-styling .bx-pager-link {
+	background: #ccc !important;
+}
+.dots-styling .bx-pager-link:hover,
+.dots-styling .bx-pager-link.active{
+	background: #fff !important;
+}
+.fl-post-carousel-post {
+	border: 1px solid rgba(0,0,0,0.35);
+}
+
+/*  Styling Film page and Archive  */
+.fl-post-grid-post {
+	box-shadow: 2px 4px 20px rgba(0, 0, 0, 0.2);
+	border: none;
+	border-radius: 4px;
+}
+.fl-post-grid-post .csp-image-top img {
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+}
+.fl-post-grid-post .csp-image-top {
+	transition: all 0.3s ease-out 0s;
+}
+.fl-post-grid-post .csp-image-top:hover {
+	transform: scale(1.02);
+	opacity: 0.9;
+	transition: all 0.3s ease-in 0s;
+}
+.fl-post-grid-post .csp-post-box {
+	background-color: #f8f8f8;
+	text-align: center;
+	padding: 15px 10px;
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+}
+
+/*  Image Styling on Film page  */
+.image-styling .fl-photo-content img {
+	border-radius: 6px;
+	box-shadow: 1px 6px 20px 3px rgba(0, 0, 0, 0.3);
+}
+
+/*  Pagination on Films page and Archive  */
+.fl-builder-pagination li a.page-numbers,
+.fl-builder-pagination li span.page-numbers {
+	border: 1px solid #77317c;
+	border-radius: 4px;
+}
+.fl-builder-pagination li a.page-numbers:hover,
+.fl-builder-pagination li span.page-numbers:hover {
+	color: #fff;
+	background-color: #6b1771;
+}
+.fl-builder-pagination li a.page-numbers.current,
+.fl-builder-pagination li span.page-numbers.current {
+	color: #fff;
+	background-color: #77317c;
+}
+/*  Metadata styling Films page and Archive  */
+.csp-release-date {
+	font-family:"Applied Sans W01 Medium", sans-serif;
+	font-size: 0.85em;
+	text-transform: uppercase;
+	font-weight: 400;
+	margin-top: 8px;
+}
+.csp-post-title {
+	font-size: 1.3em;
+	margin-top: 0;
+}
+.csp-genre {
+	font-size: 0.85em;
+	line-height: 1.3;
+	text-transform: uppercase;
+}
+
+/*  Styling for Trailer Lightbox  */
+.fl-node-59081677bd58f.fl-button-lightbox-content,
+.fl-node-5b0f1b4b9cd6f.fl-button-lightbox-content,
+.fl-node-5b36968f74628.fl-button-lightbox-content {
+	background-color: rgba(0,0,0,0.75);
+	text-align: center;
+	width: auto !important;
+	height: auto !important;
+}
+.mfp-close-btn-in .mfp-close {
+	color: #fff;
+}
+
+/*  add Shadow to Heading text on various pages  */
+.shadow-text {
+	text-shadow: 1px 1px 1px #292929;
+}
+.shadow-text-white {
+	text-shadow: 1px 1px 1px #fff;
+}
+
+/*  Film Titles on Home page  */
+.fl-post-carousel-text {
+	text-align: center;
+	padding-bottom: 10px !important;
+}
+
+/*  Film page slider styling  */
+.fl-slide-content {
+	padding: 20px 24px 1px 21px !important;
+	border-left: 8px solid #dbfb7d;
+	border-radius: 0 8px 8px 0;
+	display: inline-block !important;
+}
+
+/*  Styling for All Headers except on Home Page and Films  */
+.title-heading {
+	padding-top: 5px;
+	padding-bottom: 20px;
+	background-color: rgba(119,49,124,0.8);
+	border-left: 8px solid #dbfb7d;
+	display: block;
+	max-width: 100%;
+	border-radius: 0 8px 8px 0;
+}
+.title-heading-text {
+	text-align: center;
+	color: #fff;
+}
+
+/*  Styling for Headings on Film Single posts  */
+.film-heading-main {
+/* 	background-color: rgba(119,49,124,0.8); */
+	background-color: rgba(0,0,0,0.75);
+	padding: 15px 30px 18px;
+	border-left: 8px solid #dbfb7d;
+	display:inline;
+	border-radius: 0 8px 8px 0;
+}
+.film-heading  {
+	background-color: #77317c;
+	padding: 10px 20px 12px;
+	border-left: 8px solid #dbfb7d;
+	display:inline;
+	border-radius: 0 4px 4px 0;
+	font-size: 24px;
+}
+.film-heading-border {
+	border-left: 8px solid #dbfb7d;
+}
+
+/*  Styling for field Labels on Film Single posts  */
+.film-padding {
+	padding-top: 7px;
+	text-indent: -20px;
+}
+.film-labels {
+	font-family:"Applied Sans W01 Medium", sans-serif;
+	padding: 1px 5px ;
+	border-bottom: 1px solid #bbe53d;
+	background-color: #dbfb7d;
+}
+.film-text {
+	margin-left: 2px;
+	margin-right: 6px;
+}
+
+/*  Styling for Featured image on News Singular  ?????????????  */
+.fl-module-content .fl-photo-content .rounded-top img {
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+}
+/*  Styling for News Singular template  */
+.fl-module-content .post-excerpt-styling {
+	font-family:"Applied Sans W01 Medium Italic", sans-serif;
+	font-size: 1.3em;
+	line-height: 1.35;
+	color: #444;
+	margin-bottom: 10px;
+}
+.fl-module-content .news-video {
+	padding-top: 10px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+.fl-module-content .news-gallery {
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+.fl-module-content .news-gallery-large {
+	padding-top: 0;
+	padding-bottom: 0;
+	margin-top: 20px !important;
+	margin-bottom: 10px !important;
+	background: #fff;
+}
+/*  Styling for News Archive page  */
+.fl-post-grid-post .csp-news-image-top {
+	border: 1px solid #e4e4e4;
+	transition: all 0.3s ease-out 0s;
+}
+.fl-post-grid-post .csp-news-image-top:hover {
+	transform: scale(1.02);
+	opacity: 0.9;
+	transition: all 0.3s ease-in 0s;
+}
+.fl-post-grid-post .csp-news-box {
+	background-color: #f8f8f8;
+	padding: 20px 20px 15px;
+}
+.fl-post-grid-post .csp-news-title {
+	font-size: 1.3em;
+	margin-top: 0;
+}
+.fl-post-grid-post .csp-news-date-category {
+	font-size: 0.9em;
+}
+.fl-post-grid-post .csp-news-excerpt {
+	padding-top: 10px;
+	font-size: 0.95em;
+	line-height: 1.35;
+}
+
+/*  Styling for Team members on About page  */
+.team-title {
+	font-family:"Applied Sans W01 Medium", serif;
+	text-transform: uppercase;
+	padding-top: 10px;
+	padding-bottom: 15px;
+}
+.team-content {
+/* 	padding-top: 15px; */
+	font-size: 0.95em;
+}
+.team-padding {
+	padding-top: 7px;
+}
+.team-labels {
+	font-family:"Applied Sans W01 Medium", sans-serif;
+	color: #505050 !important;
+	padding: 1px 5px;
+	border-bottom: 1px solid #bbe53d;
+	background-color: #dbfb7d;
+}
+
+.dark-background {
+	background-color: rgba(0, 0, 0, 0.75);
+	padding: 0 0 15px;
+	margin: 20px 0 20px 60px !important;
+	border-radius: 8px;
+}
+
+/*  Remove any Padding on Template Modules  */
+.fl-builder-module-template {
+	padding: 0;
+}
+
+/*  Margins on ALL Modules  */
+.fl-module-content {
+	margin: 20px 20px 0;
+}
+
+/*  Phone and Email styling in Top Bar  */
+.phone-email-styling {
+	font-size: 1.0em;
+	color: #fff;
+}
+.phone-email-styling:hover {
+	color: #eee;
+}
+
+/*  ANIMATION HAMBURGER ICON  */
+.bar1, .bar2, .bar3 {
+	width: 32px;
+	height: 4px;
+	background-color: #77317c;
+	transition: 0.3s;
+}
+.bar1 {
+	margin: 6px 0 6px 0; /*  Adjust top margin for placement  */
+}
+.bar3 {
+	margin: 6px 0 0;
+}
+.change .bar1 {
+	-webkit-transform: rotate(-45deg) translate(-9px, 6px);
+	transform: rotate(-45deg) translate(-6px, 8px);
+}
+.change .bar2 {
+	opacity: 0;
+}
+.change .bar3 {
+	-webkit-transform: rotate(45deg) translate(-8px, -8px);
+	transform: rotate(45deg) translate(-6px, -8px);
+}
+.fl-page-nav-toggle-icon .fl-page-nav .navbar-toggle {
+	margin: 0;
+	padding: 0;
+}
+.fl-page-nav-toggle-icon.fl-page-nav-toggle-visible-mobile .fl-page-nav .navbar-toggle {
+	right: 10px;
+	top: 0;
+}
+
+/*  Widgets - Login  */
+.fl-widget .widget-login {
+	margin-bottom: 0 !important;
+}
+
+
+/***********************************
+	Facet WP Styling
+***********************************/
+
+/*  Styling for Facet box  */
+.fl-builder-content .fl-node-5944af0173996 .facetwp-checkbox {
+	float: left;
+	margin: 0;
+	color: #fff !important;
+	padding-right: 10px !important;
+	font-size: 16px !important;
+}
+
+/*  Setup Checkbox image for better highlighting  */
+.facetwp-checkbox.checked {
+	background-image: url(images/checkbox-on.png) !important;
+}
+
+/*  Syling for Genre text  */
+.genre-text {
+	font-family:"Applied Sans W01 Medium", serif;
+	margin-right: 20px;
+	color: #fff;
+	font-size: 18px;
+}
+
+/*  Set Film Page Facet Pagination styling  */
+.facetwp-pager {
+	text-align: center !important;
+}
+.facetwp-page {
+	background: #77317c;
+	border: 1px solid #6b1771;
+	color: #fff;
+	padding: 5px 10px !important;
+	border-radius: 4px;
+}
+.facetwp-page:hover {
+	background: #6b1771;
+	color: #fff;
+	text-decoration: none;
+}
+.facetwp-page.active {
+	background: transparent;
+	border: 1px solid #6b1771;
+	color: #6b1771;
+	text-decoration: none;
+}
+
+
+/***********************************
+	Power Pack Custom Styling
+***********************************/
+
+/*  Accordion on Film page text padding  */
+.fl-node-58fe31fb08038 .pp-accordion-item .pp-accordion-button {
+	padding: 0 20px;
+}
+
+/*  Styling for pop up forms on Films using Power Addons  */
+.fl-node-5924e04e1b856.fl-button-lightbox-content,
+.fl-node-58f8d33b6c482.fl-button-lightbox-content {
+	background-color: rgba(0,0,0,0.75);
+	border-radius: 20px;
+}
+.mfp-close-btn-in .mfp-close {
+	color: #fff;
+}
+
+
+/***********************************
+	Gravity Forms Styling
+***********************************/
+
+/*  Add Style to HTML CONTENT  */
+.gf-top-title {
+	text-align: center;
+	font-size: 28px;
+}
+
+/*  Max width of GF on Contact page  */
+.fl-node-591a9ce32e9c2 > .fl-module-content {
+	max-width: 722px;
+}
+
+.ginput_container #input_3_3 .textarea .small {
+	max-height: 120px !important;
+}
+
+.gfield_label {
+	font-family:"Applied Sans W01 Medium", sans-serif !important;
+	font-weight: 400 !important;
+}
+/*  Add padding to on page Confirmation  */
+.confirmation-display {
+	padding: 60px 20px !important;
+}
+
+/*  Styling for Login form */
+input[type=text], input[type=password], input[type=email], input[type=tel], input[type=date], input[type=month], input[type=week], input[type=time], input[type=number], input[type=search], input[type=url], textarea {
+	color: #333;
+	font-size: 18px;
+}
+
+/*  Styling for Request an account form */
+.gform_wrapper li.gfield.gf_list_3col ul.gfield_radio,
+.gform_wrapper ul.gfield_checkbox {
+	font-size: 22px;
+}
+
+/*  Remove requqired asterick on Account request page */
+.gform_wrapper .gfield_required {
+	display: none;
+}
+
+
+/***********************************
+	Search Styling
+***********************************/
+
+/*  Search styling  */
+.fl-page-nav-right .fl-page-nav-search a.fa-search {
+	padding: 8px 8px;
+	margin: 0 0 0 8px;
+	/* margin: 0 16px 0 0; */
+}
+.fl-page-nav-search {
+	top: 0;
+}
+
+/*  Search styling - FORM  */
+.fl-page-nav-search form input.fl-search-input {
+	font-size: 15px;
+	border-color: #c4c4c4;
+}
+.fl-page-nav-search form input.fl-search-input:focus {
+	color: #333;
+}
+
+/*  Search Icon styling in Menu  */
+.fl-page-nav-right .fl-page-nav-collapse {
+	flex-direction: row-reverse;
+}
+
+.fl-page-nav-search a.fa-search {
+	color: #6b1771 !important;
+	font-size: 16px;
+	border: 2px solid #6b1771;
+	border-radius: 32px;
+}
+.fl-page-nav-search a.fa-search:hover {
+	background-color: #6b1771;
+	color: #fff !important;
+}
+
+/*  Search Form Styling  */
+.fl-page-nav-search form {
+	background-color: #e4e4e4;
+	border-top: 4px solid #77317c;
+	box-shadow: 0 1px 20px rgba(0, 0, 0, 0.75);
+	padding: 20px;
+	right: 20px;
+	top: 48px;  /*  Adjust as needed for header  */
+}
+
+/*  Search Template Label Style  */
+.search-label {
+	font-family:"Applied Sans W01 Medium", sans-serif !important;
+	padding-bottom: 25px;
+}
+
+/* Search results highlight */
+mark {
+	padding: .1em .2em;
+	background-color: rgba(210, 173, 213, 0.5);
+}
+
+/***********************************
+	Envira Gallery
+***********************************/
+
+/*  Download All Images link  */
+.envira-downloads {
+	font-family:"Applied Sans W01 Medium", serif;
+	color: #fff;
+	margin-bottom: 15px !important;
+}
+
+/*  Caption Styling on Gallery  */
+.envira-justified-gallery > div > div > a > .caption,
+.envira-justified-gallery > div > div > .caption,
+.envira-justified-gallery > div > div .caption {
+	font-family:"Applied Sans W01 Regular", sans-serif !important;
+	font-size: 15px !important;
+	line-height: 1.45 !important;
+	text-align: center !important;
+	padding: 5px 10px 8px !important;
+}
+
+/*  Caption Styling on Lightbox  */
+.envirabox-title {
+	font-family:"Applied Sans W01 Regular", sans-serif !important;
+	font-size: 17px !important;
+	line-height: 1.45 !important;
+	text-align: center !important;
+}
+.envirabox-skin.envirabox-theme-captioned .envirabox-title-float-wrap span.child {
+	background: rgba(0, 0, 0, 0.6) none repeat scroll 0 0 !important;
+	color: #fff !important;
+	padding: 5px 20px 8px !important;
+}
+
+/*  Image Hover Effect  */
+.envira-gallery-wrap .envira-gallery-public.envira-gallery-css-animations .envira-gallery-item img:hover {
+	-webkit-transition: all 0.3s ease-in;
+	-moz-transition: all 0.3s ease-in;
+	-o-transition: all 0.3s ease-in;
+	-ms-transition: all 0.3s ease-in;
+	transition: all 0.3s ease-in;
+	transform: scale(1.03);
+}
+.envira-gallery-wrap .envira-gallery-public.envira-gallery-css-animations .envira-gallery-item img {
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+
+
+/***********************************
+	Scriptless Social
+***********************************/
+
+.scriptlesssocialsharing {
+	margin-top: 30px;
+	padding-top: 0;
+	margin-bottom: 0;
+}
+
+
+/***********************************
+	Smooth Scroll Up
+***********************************/
+
+#fl-to-top {
+	background-color: rgba(153,204,0,0.9);
+	border-radius: 6px;
+}
+#fl-to-top:hover {
+	background-color: rgba(153,204,0,1.0);
+}
+
+
+/***********************************
+	Media Queries
+***********************************/
+
+@media only screen and (max-width: 767px) {
+
+	/*  Fix Header Padding for mobile  */
+	.fl-page-nav-right .fl-page-header-logo {
+		padding-bottom: 0;
+	}
+	/*  Header Styling  */
+	.fl-page-header .container {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	/*  Mobile Navigation Styling  */
+	.fl-page-nav-toggle-icon .fl-page-nav-collapse {
+		border-top: 1px solid #e6e6e6;
+		padding-bottom: 0;
+		margin-top: 10px;
+	}
+	/*  Form Styling Styling  */
+	input[type=text], input[type="password"] {
+		height: 48px !important;
+	}
+}
+
+@media only screen and (min-width: 375px) {
+
+	/*  ANIMATED HAMBURGER ICON  */
+	.bar1 {
+		margin-top: 11px; /*  Adjust top margin for placement  */
+	}
+
+	/*  Styling for Top of Home Page  */
+	.homepage-text {
+		font-size: 18px;
+	}
+}
+
+
+@media only screen and (min-width: 768px) {
+
+	/*  Smaller fonts  */
+	/*  Only used for BB elements  */
+	body {
+		font-size: 1.65em;
+	}
+	.fl-page-bar {
+		font-size: 0.9em;
+	}
+	.fl-page-footer {
+		font-size: 0.9em;
+	}
+	h1, .h1 {
+		font-size: 2.8em;
+	}
+	h2, .h2 {
+		font-size: 2.15em;
+	}
+	h3, .h3 {
+		font-size: 1.75em;
+	}
+	h4, .h4 {
+		font-size: 1.45em;
+	}
+
+	/*  Menu Nav background color  */
+	.fl-page-nav-wrap {
+		background-color: transparent;
+	}
+
+	.column-narrow .fl-col-content {
+		margin-left: 60px;
+		margin-right: 60px;
+	}
+
+	/*  Margins on ALL Modules  */
+	.fl-module-content {
+		margin: 25px 25px 0;
+	}
+
+	/*  Full Width Header and Top Bar */
+	.fl-page-header .container {
+		padding: 0 25px;
+	}
+
+	/*  Fix padding and lines on Mobile  */
+	.fl-page-nav-toggle-icon.fl-page-nav-toggle-visible-mobile.fl-page-nav-right .fl-page-header-row .fl-page-header-logo {
+		padding-bottom: 10px;
+	}
+
+	/*  Video Lightbox on Film Pages  */
+	.fl-node-59081677bd58f.fl-button-lightbox-content,
+	.fl-node-5b0f1b4b9cd6f.fl-button-lightbox-content,
+	.fl-node-5b36968f74628.fl-button-lightbox-content {
+		max-width: 640px !important;
+		height: 400px !important;
+	}
+		.fl-button-lightbox-content iframe {
+		width: 600px !important;
+		height: 380px !important;
+	}
+
+	/*  Styling for accordion on Film Template using Power Addons  */
+	.fl-node-58f3ceaff39ad .pp-accordion-item .pp-accordion-content {
+		margin-left: -180px;
+		border-top-left-radius: 4px;
+	}
+
+	/*  Accordion on Film page text padding  */
+	.fl-node-58fe31fb08038 .pp-accordion-item .pp-accordion-button {
+		padding: 30px 40px;
+	}
+
+	/*  Button Styling  */
+	.csp-button,
+	.csp-button:visited {
+		padding: 12px 24px;
+	}
+	/*  Styling for Top of Home Page  */
+	.homepage-text {
+		font-size: 20px;
+		text-align: center;
+		line-height: 1.0;
+	}
+	/*  Larger News Titles  */
+	.fl-post-grid-post .csp-news-title {
+		font-size: 1.4em;
+	}
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+	/*  Search on Tablets  */
+	.fl-page-nav-search {
+		display: inherit;
+		right: 0;
+		top: 4px;
+	}
+	/*  Nav Right styling  */
+/*
+	.fl-page-nav .navbar-nav > li > a {
+		margin: 3px;
+	}
+*/
+}
+
+@media only screen and (max-width: 1212px) and (min-width: 1125px) {
+	/*  Navigation Font size on Tablets  */
+	.fl-page-nav .navbar-nav, .fl-page-nav .navbar-nav a {
+		font-size: 16px;
+	}
+	blockquote {
+		padding: 15px 25px 10px;
+		font-size: 1.2em;
+		line-height: 1.3;
+	}
+}
+@media only screen and (max-width: 1124px) and (min-width: 991px) {
+	/*  Navigation Font size on Tablets  */
+	.fl-page-nav .navbar-nav, .fl-page-nav .navbar-nav a {
+		font-size: 15px;
+	}
+/*
+	.fl-page-nav .navbar-nav > li > a {
+		padding: 8px;
+	}
+*/
+	blockquote {
+		padding: 15px 25px 10px;
+		font-size: 1.2em;
+		line-height: 1.3;
+	}
+}
+@media only screen and (max-width: 990px) and (min-width: 768px) {
+	/*  Navigation Font size on Tablets  */
+	.fl-page-nav .navbar-nav, .fl-page-nav .navbar-nav a {
+		font-size: 15px;
+	}
+/*
+	.fl-page-nav .navbar-nav > li > a {
+		padding: 8px;
+	}
+*/
+	blockquote {
+		padding: 15px 25px 10px;
+		font-size: 1.2em;
+		line-height: 1.3;
+	}
+}
+
+@media only screen and (min-width: 991px) {
+	/*  Narrower Margins on Columns Custom Class  */
+	.column-narrow .fl-col-content {
+		margin-left: 100px;
+		margin-right: 100px;
+	}
+	/*  For Film Heading - push the Filter menus - will need to adjust Row bottom margin */
+	.fl-node-58f39c622f39a > .fl-row-content-wrap {
+		padding-bottom: 210px;
+	}
+	.fl-node-58ebf93295a98 .pp-post-filters {
+		margin-top: -240px;
+		margin-bottom: 90px;
+		padding: 30px 30px 25px 25px;
+	}
+	/*  Fix padding on Mobile  */
+	.fl-page-nav-toggle-icon.fl-page-nav-toggle-visible-mobile.fl-page-nav-right .fl-page-header-row .fl-page-header-logo {
+		padding-bottom: 0;
+	}
+
+	/*  Video Lightbox on Film Pages  */
+	.fl-node-59081677bd58f.fl-button-lightbox-content,
+	.fl-node-5b0f1b4b9cd6f.fl-button-lightbox-content,
+	.fl-node-5b36968f74628.fl-button-lightbox-content {
+		max-width: 960px !important;
+		height: 540px !important;
+	}
+	.fl-button-lightbox-content iframe {
+		width: 900px !important;
+		height: 500px !important;
+	}
+
+	/*  Styling for Top of Home Page  */
+	.homepage-text {
+		font-size: 20px;
+	}
+
+	/*  Metadata styling Films page and Archive  */
+	.csp-release-date {
+		font-size: 0.9em;
+	}
+	.csp-post-title {
+		font-size: 1.35em;
+	}
+}
+
+@media only screen and (min-width: 1025px) {
+	/*  Margins on ALL Modules  */
+	.fl-module-content {
+		margin: 30px 30px 0;
+	}
+	/*  Narrower Margins on Columns Custom Class  */
+	.column-narrow .fl-col-content {
+		margin-left: 210px;
+		margin-right: 210px;
+	}
+	/*  Full Width Header and Top Bar */
+	.fl-page-header .container {
+		padding: 0 30px;
+	}
+
+	/*  For Film Heading - push the Filter menus - will need to adjust Row bottom margin */
+	.fl-node-58f39c622f39a > .fl-row-content-wrap {
+		padding-bottom: 230px;
+	}
+	.fl-node-58ebf93295a98 .pp-post-filters {
+		margin-top: -250px;
+		margin-bottom: 100px;
+		padding: 30px 30px 25px 25px;
+	}
+
+	/*  Accordion on Film page text padding  */
+	.fl-node-58fe31fb08038 .pp-accordion-item .pp-accordion-button {
+		padding: 30px 60px;
+	}
+
+	/*  Styling for Top of Home Page  */
+	.homepage-text {
+		margin-top: 0;
+		font-size: 22px;
+	}
+
+	/*  Styling for News posts  */
+	.fl-module-content .news-gallery-large {
+		margin-left: -190px !important;
+		margin-right: -190px !important;
+	}
+	blockquote {
+		padding: 15px 30px 10px;
+		font-size: 1.2em;
+		line-height: 1.35;
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+	/*  Accordion on Film page text padding  */
+	.fl-node-58fe31fb08038 .pp-accordion-item .pp-accordion-button {
+		padding: 30px 80px;
+	}
+}
+
+@media only screen and (min-width: 1300px) {
+	/*  Accordion on Film page text padding  */
+	.fl-node-58fe31fb08038 .pp-accordion-item .pp-accordion-button {
+		padding: 30px 110px;
+	}
+}
+
+@media only screen and (min-width: 1400px) {
+	/*  Accordion on Film page text padding  */
+	.fl-node-58fe31fb08038 .pp-accordion-item .pp-accordion-button {
+		padding: 30px 160px;
+	}
+}
+
+@media only screen and (min-width: 1500px) {
+	/*  Accordion on Film page text padding  */
+	.fl-node-58fe31fb08038 .pp-accordion-item .pp-accordion-button {
+		padding: 30px 210px;
+	}
+}
+
+@media only screen and (min-width: 1600px) {
+	/*  Accordion on Film page text padding  */
+	.fl-node-58fe31fb08038 .pp-accordion-item .pp-accordion-button {
+		padding: 30px 260px;
+	}
+}
+
+@media only screen and (min-width: 1700px) {
+	/*  Accordion on Film page text padding  */
+	.fl-node-58fe31fb08038 .pp-accordion-item .pp-accordion-button {
+		padding: 30px 310px;
+	}
+}
+
+@media only screen and (min-width: 1800px) {
+	/*  Accordion on Film page text padding  */
+	.fl-node-58fe31fb08038 .pp-accordion-item .pp-accordion-button {
+		padding: 30px 360px;
+	}
+}
+
+@media only screen and (min-width: 1900px) {
+	/*  Accordion on Film page text padding  */
+	.fl-node-58fe31fb08038 .pp-accordion-item .pp-accordion-button {
+		padding: 30px 410px;
+	}
+}
+
+@media only screen and (min-width: 2000px) {
+	/*  Accordion on Film page text padding  */
+	.fl-node-58fe31fb08038 .pp-accordion-item .pp-accordion-button {
+		padding: 30px 460px;
+	}
+}
+
+/** HEIGHT adjusments for Hero Images on Film CPTs  */
+@media only screen and (min-height: 768px) {
+	.fl-node-58f069491896d > .fl-row-content-wrap,
+	.fl-node-58f0680df0364 > .fl-row-content-wrap,
+	.fl-node-58f06867a27db > .fl-row-content-wrap,
+	.fl-node-5984ce4a6d4da > .fl-row-content-wrap {
+		padding-top: 360px !important;
+	}
+}
+@media only screen and (min-height: 900px) {
+	.fl-node-58f069491896d > .fl-row-content-wrap,
+	.fl-node-58f0680df0364 > .fl-row-content-wrap,
+	.fl-node-58f06867a27db > .fl-row-content-wrap,
+	.fl-node-5984ce4a6d4da > .fl-row-content-wrap {
+		padding-top: 420px !important;
+	}
+}
+@media only screen and (min-height: 991px) {
+	.fl-node-58f069491896d > .fl-row-content-wrap,
+	.fl-node-58f0680df0364 > .fl-row-content-wrap,
+	.fl-node-58f06867a27db > .fl-row-content-wrap,
+	.fl-node-5984ce4a6d4da > .fl-row-content-wrap {
+		padding-top: 500px !important;
+	}
+}
+@media only screen and (min-height: 1080px) {
+	.fl-node-58f069491896d > .fl-row-content-wrap,
+	.fl-node-58f0680df0364 > .fl-row-content-wrap,
+	.fl-node-58f06867a27db > .fl-row-content-wrap,
+	.fl-node-5984ce4a6d4da > .fl-row-content-wrap {
+		padding-top: 580px !important;
+	}
+}
+@media only screen and (min-height: 1240px) {
+	.fl-node-58f069491896d > .fl-row-content-wrap,
+	.fl-node-58f0680df0364 > .fl-row-content-wrap,
+	.fl-node-58f06867a27db > .fl-row-content-wrap,
+	.fl-node-5984ce4a6d4da > .fl-row-content-wrap {
+		padding-top: 660px !important;
+	}
+}
