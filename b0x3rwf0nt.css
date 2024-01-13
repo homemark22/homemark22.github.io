@@ -194,12 +194,24 @@ blockquote {
 	margin-left: 0;
 }
 
+
+
 .fl-page-bar .container {
-	background-color: #1d2600;
-	width: 100%;
+  background: #82bc00;   width: 100%;
 	max-width: 100%;
-	padding: 5px;
+	padding: 5px;   /*actual green*/
 }
+.subgreen{
+  background: #82bc0070    /*green with little transparency*/
+}
+.greenparency{
+  background: #82bc0040    /*green with much transparency*/
+}
+.transparency{
+  background: #82bc0000    /*full transparency over green*/
+}
+
+
 .fl-page-bar .fl-page-bar-row {
 	width: 100%;
 	margin-left: 0;
