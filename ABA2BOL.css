@@ -32,22 +32,13 @@ nav {
 }
 
 
-
-
-/* video background */
-#background-video {
-  height: 100vh;
-  width: 100vw;
-  object-fit: cover;
-  position: fixed;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  z-index: -1;
-	cursor: -webkit-image-set(url("https://homemark22.github.io/curs0rh4ndz2.webp") 1x, url("https://homemark22.github.io/curs0rh4ndz2.webp") 2x, url("https://homemark22.github.io/curs0rh4ndz2.webp") 4x ) 0 0, auto;
-
+.green-background {
+    background-color: green;
+    color: white; /* Optional: Set text color to white for better visibility */
+    padding: 20px; /* Optional: Add padding to the element for better appearance */
 }
+
+
 
 /* page content */
 h1, h2 {
@@ -371,28 +362,4 @@ window.open(url, 'popupWindow', `width=${width},height=${height},left=${left},to
 
 
 
-							 $("#accordion2").bind('shown', function() {
-        var active=$("#accordion_univlist .in").attr('id');
-        scrollhere('#'+active);
-        $('.closebutton-right').hide(); 
-}); 
-
-$('.accordion-heading').click(function () { 
-  // Do something if you want to do on click  else ignore this handler.
-}
-
-function scrollhere(destination){
-    var stop = $(destination).offset().top - 80;
-    var delay = 1000;
-    $('body,html').animate({scrollTop: stop}, delay);
-    return false;
-}
-							 
-.green-background {
-    background-color: green;
-    color: white; /* Optional: Set text color to white for better visibility */
-    padding: 20px; /* Optional: Add padding to the element for better appearance */
-}
 	
-div.fortunecookie { font-family:TrebuchetMS; font-size:large; }
-div.acknowledgement { font-family:TrebuchetMS; font-size:small; margin-top:100px;}
