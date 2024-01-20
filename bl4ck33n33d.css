@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+body,
+html {
+	height: 100%;
+	display: grid;
+}
+
+body {
+	font-family: "Montserrat", sans-serif;
+}
+
+form {
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	padding-left: 10rem;
+}
+
+form:before {
+	content: "";
+	display: block;
+	position: absolute;
+	width: 7.5rem;
+	height: 100%;
+	border-radius: 99em;
+	left: 0;
+	top: 50%;
+	border: 0.5rem solid #ccc;
+	transform: translatey(-50%);
+}
+
+input {
+	/* Code to hide the input */
+	clip: rect(0 0 0 0);
+	clip-path: inset(100%);
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+}
+
+label {
+	font-size: 8rem;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	margin-left: -1.125em;
+	line-height: 1;
+	cursor: pointer;
+	position: relative;
+}
+
+label ~ label {
+	margin-top: 1rem;
+}
+
+label::first-letter {
+	color: transparent;
+}
+
+input:checked + label::first-letter {
+	color: #000;
+}
