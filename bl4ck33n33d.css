@@ -3,16 +3,6 @@ body {
 }
 
 /* Your existing styles go here */
-
-/* Dark mode styles */
-body.dark-mode {
-    background-color: #1a1a1a;
-    color: #ffffff;
-}
-
-/* Dark mode specific styles go here */
-/* The switch - the box around the slider */
-/* The switch - the box around the slider */
 .switch {
   font-size: 17px;
   position: relative;
@@ -170,3 +160,13 @@ body.dark-mode {
   transform: rotateX(10deg) rotateY(0deg);
   color: #487bdb;
 }
+
+/* Dark mode styles */
+body.dark-mode {
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+/* Dark mode specific styles go here */
+/* The switch - the box around the slider */
+/* The switch - the box around the slider */
