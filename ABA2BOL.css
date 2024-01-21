@@ -67,7 +67,7 @@ main {
 }
 
 #channels {
-    flex: 20%;
+    flex: 10%;
     
     max-height: calc(100vh - 80px) !important;
     overflow-y: scroll;
@@ -225,11 +225,11 @@ main {
     }
     #player {
         flex: auto;
-        min-width: 192px;
-        min-height: 108px;
-        margin-left: 5px;
-        margin-right: 5px;
-        margin-bottom: 5px;
+        min-width: 25px;
+        min-height: 50px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
 	    cursor: -webkit-image-set(url("https://homemark22.github.io/curs0rh4ndz2.webp") 1x, url("https://homemark22.github.io/curs0rh4ndz2.webp") 2x, url("https://homemark22.github.io/curs0rh4ndz2.webp") 4x ) 0 0, auto;
 
     }
