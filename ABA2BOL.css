@@ -67,9 +67,9 @@ main {
 }
 
 #channels {
-    flex: 38%;
+    flex: 22%;
     
-    max-height: calc(100vh - 120px) !important;
+    max-height: calc(100vh - 90px) !important;
     overflow-y: scroll;
     margin-top: 5px;
     margin-left: 0px;
