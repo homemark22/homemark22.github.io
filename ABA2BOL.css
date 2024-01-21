@@ -19,14 +19,14 @@ html {
 
 nav {
     
-    height: 56px;
+    height: 40px;
     padding: 0 10px;
     font-size: clamp(1.5rem, 2.0vw, 4rem); 
     
     display: flex;
     justify-content: center;
     flex-direction: column;
-    border: 2px solid rgb(15, 15, 15);
+    border: 10px solid rgb(15, 15, 15);
 	cursor: -webkit-image-set(url("https://homemark22.github.io/curs0rh4ndz2.webp") 1x, url("https://homemark22.github.io/curs0rh4ndz2.webp") 2x, url("https://homemark22.github.io/curs0rh4ndz2.webp") 4x ) 0 0, auto;
 
 }
