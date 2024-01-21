@@ -67,9 +67,9 @@ main {
 }
 
 #channels {
-    flex: 22%;
+    flex: 20%;
     
-    max-height: calc(100vh - 90px) !important;
+    max-height: calc(100vh - 80px) !important;
     overflow-y: scroll;
     margin-top: 5px;
     margin-left: 0px;
@@ -87,14 +87,14 @@ main {
     cursor: -webkit-image-set(url("https://homemark22.github.io/curs0rh4ndz2.webp") 1x, url("https://homemark22.github.io/curs0rh4ndz2.webp") 2x, url("https://homemark22.github.io/curs0rh4ndz2.webp") 4x ) 0 0, auto;
 }
 #player {
-    flex: 62%;
+    flex: 50%;
     margin: auto 10px;
     margin-top: 10px;
     margin-right: 10px;
     cursor: -webkit-image-set(url("https://homemark22.github.io/curs0rh4ndz2.webp") 1x, url("https://homemark22.github.io/curs0rh4ndz2.webp") 2x, url("https://homemark22.github.io/curs0rh4ndz2.webp") 4x ) 0 0, auto;
 }
 .category {
-    width: 94%;
+    width: 100%;
     color: rgb(204, 204, 204);
     
     padding: 10px;
