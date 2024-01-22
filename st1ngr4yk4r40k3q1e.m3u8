@@ -1,0 +1,8 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:CODECS="avc1.4d0029,mp4a.40.2",RESOLUTION=720x404,BANDWIDTH=1000000
+https://strapialteox.s3.us-west-002.backblazeb2.com/uploads/5410_SK_lifestyle_TV_Spot_V3_a9a03a67ea.mp4
+#EXT-X-STREAM-INF:CODECS="avc1.4d0029,mp4a.40.2",RESOLUTION=1280x720,BANDWIDTH=2000000
+https://strapialteox.s3.us-west-002.backblazeb2.com/uploads/5410_SK_lifestyle_TV_Spot_V3_a9a03a67ea.mp4
+#EXT-X-STREAM-INF:CODECS="avc1.4d0029,mp4a.40.2",RESOLUTION=1920x1080,BANDWIDTH=4000000
+https://strapialteox.s3.us-west-002.backblazeb2.com/uploads/5410_SK_lifestyle_TV_Spot_V3_a9a03a67ea.mp4
