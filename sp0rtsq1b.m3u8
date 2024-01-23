@@ -1,8 +1,8 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:CODECS="avc1.4d0029,mp4a.40.2",RESOLUTION=720x404,BANDWIDTH=1000000
-https://bq32.short.gy/offline_vaathala?channelId=125591&uid=4944&deviceMac=00:1A:79:94:98:FE
+http://89.187.167.93:80/live.ts?channelId=52&deviceUser=alex1234&devicePass=alex1234&uid=21890
 #EXT-X-STREAM-INF:CODECS="avc1.4d0029,mp4a.40.2",RESOLUTION=1280x720,BANDWIDTH=2000000
-https://bq32.short.gy/offline_vaathala?channelId=125591&uid=4944&deviceMac=00:1A:79:94:98:FE
+http://89.187.167.93:80/live.ts?channelId=52&deviceUser=alex1234&devicePass=alex1234&uid=21890
 #EXT-X-STREAM-INF:CODECS="avc1.4d0029,mp4a.40.2",RESOLUTION=1920x1080,BANDWIDTH=4000000
-https://bq32.short.gy/offline_vaathala?channelId=125591&uid=4944&deviceMac=00:1A:79:94:98:FE
+http://89.187.167.93:80/live.ts?channelId=52&deviceUser=alex1234&devicePass=alex1234&uid=21890
