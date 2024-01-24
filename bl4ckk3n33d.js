@@ -1,6 +1,7 @@
 
-function toggleDarkMode() {
-    const body = document.body;
-    body.classList.toggle("dark-mode");
+function toggleNightMode() {
+  const body = document.body;
+  body.classList.toggle('night-mode');
 }
+
 
