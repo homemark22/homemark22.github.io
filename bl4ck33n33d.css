@@ -3,7 +3,7 @@ body {
 }
 
 button {
-    background-color: #ffffff;
+    background-color: #decce8;
     color: #2c3e50;
     padding: 10px 20px;
     border: #2c3e50;
@@ -11,7 +11,7 @@ button {
 }
 
 button:hover {
-    background-color: #ffffff;
+    background-color: #decce8;
 }
 
 /* Dark Mode Styles */
