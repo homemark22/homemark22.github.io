@@ -3,7 +3,7 @@ body {
 }
 
 button {
-    background-color: #decce8;
+    background-color: #ffff;
     color: #2c3e50;
     padding: 10px 20px;
     border: #2c3e50;
@@ -11,7 +11,7 @@ button {
 }
 
 button:hover {
-    background-color: #decce8;
+    background-color: #ffff;
 }
 
 /* Dark Mode Styles */
@@ -21,7 +21,7 @@ body.dark-mode {
 
 body.dark-mode button {
     background-color: #2c3e50;
-    color: #decce8;
+    color: #ffff;
 }
 
 body.dark-mode button:hover {
