@@ -4,9 +4,9 @@ body {
 
 button {
     background-color: #ffff;
-    color: #2c3e50;
+    color: #FFCCFF;
     padding: 10px 20px;
-    border: #2c3e50;
+    border: #FFCCFF;
     cursor: pointer;
 }
 
@@ -16,14 +16,14 @@ button:hover {
 
 /* Dark Mode Styles */
 body.dark-mode {
-    background-color: #2c3e50;
+    background-color: #FFCCFF;
 }
 
 body.dark-mode button {
-    background-color: #2c3e50;
+    background-color: #FFCCFF;
     color: #ffff;
 }
 
 body.dark-mode button:hover {
-    background-color: #34495e#2c3e50;
+    background-color: #34495e#FFCCFF;
 }
