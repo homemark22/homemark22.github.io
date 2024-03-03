@@ -1,0 +1,8 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:CODECS="avc1.4d0029,mp4a.40.2",RESOLUTION=720x404,BANDWIDTH=1000000
+https://dgecf4oi437o0.cloudfront.net/qt/Channel-QT-TX-AWS-oregon-1/Source-QT-10M-1-srq9ml-BP-07-04-R2rmSomTou6_live.m3u8
+#EXT-X-STREAM-INF:CODECS="avc1.4d0029,mp4a.40.2",RESOLUTION=1280x720,BANDWIDTH=2000000
+https://dgecf4oi437o0.cloudfront.net/qt/Channel-QT-TX-AWS-oregon-1/Source-QT-10M-1-srq9ml-BP-07-04-R2rmSomTou6_live.m3u8
+#EXT-X-STREAM-INF:CODECS="avc1.4d0029,mp4a.40.2",RESOLUTION=1920x1080,BANDWIDTH=4000000
+https://dgecf4oi437o0.cloudfront.net/qt/Channel-QT-TX-AWS-oregon-1/Source-QT-10M-1-srq9ml-BP-07-04-R2rmSomTou6_live.m3u8
