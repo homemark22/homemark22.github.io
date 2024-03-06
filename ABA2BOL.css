@@ -192,11 +192,9 @@ main {
 .channel img {
     width: 106px;
     height: 63px;
-    border: 0px solid 0;
-    border-radius: 0px;
-    box-shadow: inset 0 0 20px rgba(0, 0, 0, 1), 0 0 20px rgba(0, 0, 0, 1);
-                /* Inner and outer shadow to simulate screen and frame */
-    
+    border: 1px solid #555;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	cursor: -webkit-image-set(url("https://homemark22.github.io/curs0rh4ndz2.webp") 1x, url("https://homemark22.github.io/curs0rh4ndz2.webp") 2x, url("https://homemark22.github.io/curs0rh4ndz2.webp") 4x ) 0 0, auto;
 
 }
