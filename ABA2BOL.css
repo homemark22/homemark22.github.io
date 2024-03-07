@@ -196,13 +196,13 @@ main {
     border-radius: 1px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 99), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     cursor: -webkit-image-set(url("https://homemark22.github.io/curs0rh4ndz2.webp") 1x, url("https://homemark22.github.io/curs0rh4ndz2.webp") 2x, url("https://homemark22.github.io/curs0rh4ndz2.webp") 4x ) 0 0, auto;
-z-index: -1;
+		
+		z-index: -1;
                 /* Ensure it stays behind other content */
                 border-radius: 50%;
                 /* Ensure the border is rounded to create a circular shape */
                 
-                animation: rainbow-glow 25s linear infinite;
-                /* Apply the rainbow glow animation */
+               
                 
                 position: relative;
                 /* Positioning to allow for pseudo-elements */
