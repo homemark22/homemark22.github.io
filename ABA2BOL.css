@@ -201,7 +201,7 @@ z-index: -1;
                 border-radius: 50%;
                 /* Ensure the border is rounded to create a circular shape */
                 
-                animation: rainbow-glow 50s linear infinite;
+                animation: rainbow-glow 5s linear infinite;
                 /* Apply the rainbow glow animation */
                 
                 position: relative;
