@@ -208,9 +208,9 @@ z-index: -1;
                 /* Positioning to allow for pseudo-elements */
 
 }
-            @keyframes rainbow-glow {
+            @keyframes rainbow-glow 
 
-90% 
+90% {
 border-color: pink;
 }
 80% {
