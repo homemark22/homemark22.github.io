@@ -210,60 +210,21 @@ z-index: -1;
 }
             @keyframes rainbow-glow {
 
-10% {
-border-color: orange;
-}
-15% {
-border-color: yellow;
-}
-35% {
+90% {
 border-color: pink;
 }
-90% {
-border-color: cyan; /* Insert cyan color at 90% */
-}
-45% {
+80% {
 border-color: violet;
-}
-50% {
-border-color: brown;
-}
-60% {
-border-color: grey;
-}
-20% {
-border-color: purple;
-}
-10% {
+}		    
+70% {
 border-color: magenta;
 }
-75% {
-border-color: lime;
-}
-80% {
-border-color: teal;
-}
-30% {
-border-color: indigo;
-}
-40% {
-border-color: amber;
+60% {
+border-color: purple;
 }
 50% {
-border-color: turquoise;
-}
-60% {
-border-color: chartreuse;
-}
-70% {
-border-color: gold;
-}
-80% {
-border-color: silver;
-}
-90% {
-border-color: rubi;
-
+border-color: indigo;
+		    
 }
 	
 }
