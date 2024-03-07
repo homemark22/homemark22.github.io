@@ -209,29 +209,18 @@ z-index: -1;
 
 }
             @keyframes rainbow-glow {
-5% {
-border-color: red;
-}
+
 10% {
 border-color: orange;
 }
 15% {
 border-color: yellow;
 }
-20% {
-border-color: green;
-}
-25% {
-border-color: white;
-}
-30% {
-border-color: cyan; /* Insert cyan color at 90% */
-}
 35% {
 border-color: pink;
 }
-40% {
-border-color: blue;
+90% {
+border-color: cyan; /* Insert cyan color at 90% */
 }
 45% {
 border-color: violet;
@@ -239,16 +228,13 @@ border-color: violet;
 50% {
 border-color: brown;
 }
-55% {
-border-color: black;
-}
 60% {
 border-color: grey;
 }
-65% {
+20% {
 border-color: purple;
 }
-70% {
+10% {
 border-color: magenta;
 }
 75% {
@@ -257,25 +243,25 @@ border-color: lime;
 80% {
 border-color: teal;
 }
-85% {
+30% {
 border-color: indigo;
 }
-90% {
+40% {
 border-color: amber;
 }
-95% {
+50% {
 border-color: turquoise;
 }
-85% {
+60% {
 border-color: chartreuse;
 }
-80% {
+70% {
 border-color: gold;
 }
-75% {
+80% {
 border-color: silver;
 }
-70% {
+90% {
 border-color: rubi;
 
 }
