@@ -207,30 +207,7 @@ z-index: -1;
                 position: relative;
                 /* Positioning to allow for pseudo-elements */
 
-}
-            @keyframes rainbow-glow 
 
-5% {
-border-color: pink;
-}
-20% {
-border-color: violet;
-}		    
-30% {
-border-color: magenta;
-}
-40% {
-border-color: purple;
-}
-50% {
-border-color: indigo;
-}	
-60% {
-border-color: ruby;	
-}	
-90% {
-border-color: pink;		    
-		    
 }
 	
 
