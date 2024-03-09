@@ -203,8 +203,7 @@ main {
                 /* Ensure the border is rounded to create a circular shape */
                 position: relative;
                 /* Positioning to allow for pseudo-elements */
-		animation: rainbow-glow 50s linear infinite;
-                /* Apply the rainbow glow animation */
+		
 
 
 }
