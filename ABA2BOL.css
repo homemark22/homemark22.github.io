@@ -199,7 +199,7 @@ main {
 		
 		z-index: -1;
                 /* Ensure it stays behind other content */
-                border-radius: 15%;
+                border-radius: 5%;
                 /* Ensure the border is rounded to create a circular shape */
                 position: relative;
                 /* Positioning to allow for pseudo-elements */
