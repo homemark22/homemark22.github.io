@@ -100,7 +100,7 @@ main {
 }
 .category {
     width: 94%;
-	color: linear-gradient(110.6deg, rgb(156, 116, 129) -18.3%, rgb(67, 54, 74) 16.4%, rgb(47, 48, 67) 68.2%, rgb(27, 23, 36) 99.1%);
+    color: rgb(48, 48, 84);
     
     
     padding: 10px;
