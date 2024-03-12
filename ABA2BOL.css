@@ -112,7 +112,7 @@ main {
 .active, .category:hover {
     
     border-radius: 10px;
-    color: rgb(255, 255, 255);
+    color: rgb(127, 128, 148);
 	cursor: -webkit-image-set(url("https://homemark22.github.io/curs0rh4ndz2.webp") 1x, url("https://homemark22.github.io/curs0rh4ndz2.webp") 2x, url("https://homemark22.github.io/curs0rh4ndz2.webp") 4x ) 0 0, auto;
   }
 .category:after {
