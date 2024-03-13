@@ -196,7 +196,7 @@ main {
     border: 0.01px solid transparent;
     border-radius: 10px;
     box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.6), 0 0 20px rgba(0, 0, 0, 0.6);
-    box-shadow: 0 4px 8px 0 rgb(67, 54, 74), 0 6px 20px 0 rgb(67, 54, 74);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 99), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 
 position: relative;
