@@ -195,7 +195,7 @@ main {
     height: 63px;
     border: 0px solid #555;
     border-radius: 10px;
-    box-shadow: 0 4px 8px 0 rgbrgb(67, 54, 74), 0 6px 20px 0 rgb(89, 74, 97);
+    box-shadow: 0 4px 8px 0 rgb(67, 54, 74), 0 6px 20px 0 rgb(89, 74, 97);
     cursor: -webkit-image-set(url("https://homemark22.github.io/curs0rh4ndz2.webp") 1x, url("https://homemark22.github.io/curs0rh4ndz2.webp") 2x, url("https://homemark22.github.io/curs0rh4ndz2.webp") 4x ) 0 0, auto;
 		
 		z-index: -1;
