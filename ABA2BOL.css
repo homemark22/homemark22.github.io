@@ -196,18 +196,7 @@ main {
     border: 0.01px solid transparent;
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 99), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.6), 0 0 20px rgba(0, 0, 0, 0.6);
-    /* Inner and outer shadow to simulate screen and frame */
-
-position: relative;
-/* Positioning to allow for pseudo-elements */
-overflow: hidden;
-/* Hide overflow to ensure the image stays within the border */
-background: linear-gradient(110.6deg, rgb(156, 116, 129) -18.3%, rgb(67, 54, 74) 16.4%, rgb(47, 48, 67) 68.2%, rgb(27,
-23, 36) 99.1%);
-backdrop-filter: blur(100px);
-/* Apply a blur effect */
-}
+    
     cursor: -webkit-image-set(url("https://homemark22.github.io/curs0rh4ndz2.webp") 1x, url("https://homemark22.github.io/curs0rh4ndz2.webp") 2x, url("https://homemark22.github.io/curs0rh4ndz2.webp") 4x ) 0 0, auto;
 		
 		z-index: -1;
