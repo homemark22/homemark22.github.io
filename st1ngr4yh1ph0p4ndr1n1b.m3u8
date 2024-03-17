@@ -1,8 +1,8 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:CODECS="avc1.4d0029,mp4a.40.2",RESOLUTION=720x404,BANDWIDTH=1000000
-https://lotus.stingray.com/manifest/ose-133ads-montreal/live/master.m3u8
+https://deskeld503yt0.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-z4688plhh59fn/ff3c1d78-bb04-40bf-b7ee-0d85cb52143c/1.m3u8
 #EXT-X-STREAM-INF:CODECS="avc1.4d0029,mp4a.40.2",RESOLUTION=1280x720,BANDWIDTH=2000000
-https://lotus.stingray.com/manifest/ose-133ads-montreal/live/master.m3u8
+https://deskeld503yt0.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-z4688plhh59fn/ff3c1d78-bb04-40bf-b7ee-0d85cb52143c/1.m3u8
 #EXT-X-STREAM-INF:CODECS="avc1.4d0029,mp4a.40.2",RESOLUTION=1920x1080,BANDWIDTH=4000000
-https://lotus.stingray.com/manifest/ose-133ads-montreal/live/master.m3u8
+https://deskeld503yt0.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-z4688plhh59fn/ff3c1d78-bb04-40bf-b7ee-0d85cb52143c/1.m3u8
