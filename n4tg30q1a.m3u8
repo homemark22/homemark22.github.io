@@ -1,8 +1,8 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:CODECS="avc1.4d0029,mp4a.40.2",RESOLUTION=720x404,BANDWIDTH=1000000
-http://vp-txpro.com:80/jozo-denisov-daj-da-mu-organe-vadimo-vlasini-ulitanoj-u-zutu-kucu-ga-na-stol-pa-rasporit-pseto/210digger/52132
+http://stream02.vnet.am/NatGeoWild/mono.m3u8
 #EXT-X-STREAM-INF:CODECS="avc1.4d0029,mp4a.40.2",RESOLUTION=1280x720,BANDWIDTH=2000000
-http://vp-txpro.com:80/jozo-denisov-daj-da-mu-organe-vadimo-vlasini-ulitanoj-u-zutu-kucu-ga-na-stol-pa-rasporit-pseto/210digger/52132
+http://stream02.vnet.am/NatGeoWild/mono.m3u8
 #EXT-X-STREAM-INF:CODECS="avc1.4d0029,mp4a.40.2",RESOLUTION=1920x1080,BANDWIDTH=4000000
-http://78.130.250.2:8023/play/a02c/index.m3u8
+http://stream02.vnet.am/NatGeoWild/mono.m3u8
