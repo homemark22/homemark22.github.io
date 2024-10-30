@@ -1,10 +1,10 @@
 // loadContent.js
-function loadContent() {
+function homecha.js() {
     // Create HTML structure dynamically
     const content = `
 
 
-// loadContent.js
+// homecha.js
 function loadContent() {
     // Create HTML structure dynamically
     const content = `
