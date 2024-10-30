@@ -1,15 +1,20 @@
-// channels.js
-const channels = [
+
+
+
+
+
+// container.js
+const categories = [
     {
-        name: "Create and Craft",
-        url: "https://live-hochanda.simplestreamcdn.com/hochanda/live.m3u8",
-        image: "https://homemark22.github.io/cr34t34ndcr4ft.webp"
+        name: "News",
+        channels: [
+            {
+                name: "Fox News",
+                url: "https://homemark22.github.io/f0xn3wsq.m3u8",
+                image: "https://homemark22.github.io/f0xn3wzq1b.webp"
+            },
+            // Add more channels here as needed
+        ]
     },
-    // Add more channels as needed
-       {
-        name: "Create and Craft",
-        url: "https://homemark22.github.io/f0xn3wsq.m3u8",
-        image: "https://homemark22.github.io/f0xn3wzq1b.webp"
-    },
-   
+    // Add more categories here as needed
 ];
