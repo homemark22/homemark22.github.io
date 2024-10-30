@@ -1,4 +1,4 @@
-// loadContent.js
+// homecha.js
 function homecha.js() {
     // Create HTML structure dynamically
     const content = `
