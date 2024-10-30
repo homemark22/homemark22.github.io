@@ -1,3 +1,17 @@
+// loadContent.js
+function loadContent() {
+    // Create HTML structure dynamically
+    const content = `
+
+
+// loadContent.js
+function loadContent() {
+    // Create HTML structure dynamically
+    const content = `
+
+
+
+
 
 
                 <h2 class="category">[<span id="count-up">0:00</span>]</h2>
@@ -4684,3 +4698,21 @@
                                                           
 
                                                                 </div>
+
+
+
+        
+    `;
+
+    // Insert into the desired container on your HTML page
+    document.getElementById('contentContainer').innerHTML = content;
+}
+
+
+
+
+
+
+
+
+ 
