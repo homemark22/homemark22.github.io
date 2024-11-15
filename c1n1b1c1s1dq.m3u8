@@ -1,8 +1,8 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:CODECS="avc1.4d0029,mp4a.40.2",RESOLUTION=720x404,BANDWIDTH=1000000
-http://168.227.22.18:1935/live/mobile-098/playlist.m3u8
+https://fl2.moveonjoy.com/CNBC/index.m3u8
 #EXT-X-STREAM-INF:CODECS="avc1.4d0029,mp4a.40.2",RESOLUTION=1280x720,BANDWIDTH=2000000
-http://168.227.22.18:1935/live/mobile-098/playlist.m3u8
+https://livenewsplayer.com:1936/cnbcsd/cnbcsd//chunklist_w148306751_tkc2VjZW5kdGltZT0xNzMxNjkwNjA4JnNlY2hhc2g9WGR6dVhqQ1pNbFBQVzRKQlJBenZjZzZtNWp1LUhaLWRXQmJkVjVTb2MtMD0mc2Vjc3RhcnR0aW1lPTE3MzE2Nzk4MDg=.m3u8
 #EXT-X-STREAM-INF:CODECS="avc1.4d0029,mp4a.40.2",RESOLUTION=1920x1080,BANDWIDTH=4000000
-http://168.227.22.18:1935/live/mobile-098/playlist.m3u8
+https://homemark22.github.io/m1s1n1b1cq.m3u8
