@@ -1,9 +1,9 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:CODECS="avc1.4d0029,mp4a.40.2",RESOLUTION=720x404,BANDWIDTH=1000000
-https://fl2.moveonjoy.com/CNBC/index.m3u8
+https://livenewsplayer.com:1936/msnbcsd/msnbcsd//media_w1310241969_tkc2VjZW5kdGltZT0xNzMxNjg3MDExJnNlY2hhc2g9OGVaZzBZdTlHcm94cW1HckdvanFoQU5Oa2JFeXJYMWJhX1RQT2w4bE5fND0mc2Vjc3RhcnR0aW1lPTE3MzE2NzYyMTE=_4656.m3u8
 #EXT-X-STREAM-INF:CODECS="avc1.4d0029,mp4a.40.2",RESOLUTION=1280x720,BANDWIDTH=2000000
-https://fl2.moveonjoy.com/CNBC/index.m3u8
+https://livenewsplayer.com:1936/msnbcsd/msnbcsd//media_w1310241969_tkc2VjZW5kdGltZT0xNzMxNjg3MDExJnNlY2hhc2g9OGVaZzBZdTlHcm94cW1HckdvanFoQU5Oa2JFeXJYMWJhX1RQT2w4bE5fND0mc2Vjc3RhcnR0aW1lPTE3MzE2NzYyMTE=_4656.m3u8
 #EXT-X-STREAM-INF:CODECS="avc1.4d0029,mp4a.40.2",RESOLUTION=1920x1080,BANDWIDTH=4000000
-https://fl2.moveonjoy.com/CNBC/index.m3u8
+https://livenewsplayer.com:1936/msnbcsd/msnbcsd//media_w1310241969_tkc2VjZW5kdGltZT0xNzMxNjg3MDExJnNlY2hhc2g9OGVaZzBZdTlHcm94cW1HckdvanFoQU5Oa2JFeXJYMWJhX1RQT2w4bE5fND0mc2Vjc3RhcnR0aW1lPTE3MzE2NzYyMTE=_4656.m3u8
 #EXT-X-ENDLIST
