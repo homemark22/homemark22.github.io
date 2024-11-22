@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+" version="0.9" codebase="http://www.soundhelix.com/applet/">
+    <information>
+        <title>SoundHelix Applet</title>
+        <vendor>com.soundhelix</vendor>
+        <homepage href="http://www.soundhelix.com"/>
+        <description>Check out this cool SoundHelix applet that generates random music! Needs audio and a browser with Java 6 support.</description>
+        <icon href="http://www.soundhelix.com/sites/default/files/SoundHelix-logo.png"/>
+        <icon kind="splash" href="http://www.soundhelix.com/sites/default/files/SoundHelix-splash.png"/>
+    </information>
+    <resources>
+        <j2se version="1.7+" href="http://java.sun.com/products/autodl/j2se" />
+        <jar href="SoundHelix-0.9.jar" main="true" />
+        <jar href="lib/log4j-1.2.16.jar" main="false" />
+    </resources>
+    <applet-desc name="SoundHelix Applet" main-class="com.soundhelix.SoundHelixApplet" width="1024" height="700">
+        <param name="url" value="http://www.soundhelix.com/applet/examples/SoundHelix-Piano.xml"/>
+    </applet-desc>
+</jnlp>
