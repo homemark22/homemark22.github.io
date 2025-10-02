@@ -1,0 +1,10 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-TARGETDURATION:6
+#EXT-X-MEDIA-SEQUENCE:0
+#EXTINF:6.000000,
+https://media-tyo.hls.nhkworld.jp/hls/w/live/1/sig/e52230f79050aa333c4ac6430f40a08f0898e6ec1c43d5cb9bcb82f9573797c4/v2.m3u8
+#EXTINF:6.000000,
+https://media-tyo.hls.nhkworld.jp/hls/w/live/1/sig/b95e9aa9a33513b4d3416b7a201ec82c0d5e59c711f7fb0191d49f299d05b62e/a1.m3u8
+#EXTINF:6.000000,
+https://homemark22.github.io/1n1h1kw0rld.m3u8
