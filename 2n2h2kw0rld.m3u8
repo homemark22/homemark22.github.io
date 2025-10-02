@@ -1,0 +1,9 @@
+#EXTM3U
+#EXT-X-VERSION:4
+
+# --- Audio Track (external .m3u8) ---
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="audio",NAME="Japanese Audio",DEFAULT=YES,AUTOSELECT=YES,LANGUAGE="ja",URI="https://media-tyo.hls.nhkworld.jp/hls/w/live/1/sig/b95e9aa9a33513b4d3416b7a201ec82c0d5e59c711f7fb0191d49f299d05b62e/a1.m3u8"
+
+# --- Video Variant (linked to audio group) ---
+#EXT-X-STREAM-INF:BANDWIDTH=2500000,RESOLUTION=1280x720,CODECS="avc1.64001f",AUDIO="audio"
+https://media-tyo.hls.nhkworld.jp/hls/w/live/1/sig/e52230f79050aa333c4ac6430f40a08f0898e6ec1c43d5cb9bcb82f9573797c4/v2.m3u8
