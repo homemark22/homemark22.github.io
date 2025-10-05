@@ -1,0 +1,9 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-TARGETDURATION:6
+#EXT-X-MEDIA-SEQUENCE:0
+#EXTINF:6.000000,
+https://lightning-now90s-rakuten.amagi.tv/playlist480p.m3u8
+#EXTINF:6.000000,
+https://lightning-now90s-rakuten.amagi.tv/playlist360p.m3u8
+
