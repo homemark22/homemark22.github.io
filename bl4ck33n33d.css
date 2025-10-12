@@ -38,6 +38,8 @@ body {
   background-repeat: no-repeat, no-repeat, repeat;
   background-position: top right, top, top;
   background-attachment: fixed;
-  
+  min-width: 1430px;
+  background-attachment: fixed;
+  margin: 0;
 }
 
