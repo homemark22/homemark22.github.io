@@ -32,16 +32,11 @@ body.dark-mode button:hover {
 }
 
 
-  body {
-  background-image:  url(https://homemark22.github.io/movieroom.png), url(https://homemark22.github.io/rain.gif);
-  background-size: auto, auto, auto;
-  background-repeat: no-repeat, no-repeat, repeat;
-  background-position: top right, top, top;
-  background-attachment: fixed;
-  min-width: auto;
-  background-attachment: fixed;
-  margin: 0;
-}
 
+
+body {
+  background-image: url("https://homemark22.github.io/stars3.gif");
+  background-color: black;
+}
 
 
