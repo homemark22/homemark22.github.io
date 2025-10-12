@@ -38,7 +38,7 @@ body.dark-mode button:hover {
   background-repeat: no-repeat, no-repeat, repeat;
   background-position: top right, top, top;
   background-attachment: fixed;
-  min-width: 1430px;
+  min-width: auto;
   background-attachment: fixed;
   margin: 0;
 }
