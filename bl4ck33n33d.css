@@ -1,20 +1,21 @@
-
-
-
+/* Default (Light Mode) */
 body {
-    transition: background-color 0.5s ease;
+    transition: background-color 0.5s ease, background-image 0.5s ease;
+    background-color: #fff;
+    background-image: none;
+    color: #2c3e50;
 }
 
 button {
-    background-color: #ffff;
+    background-color: #fff;
     color: #2c3e50;
     padding: 10px 20px;
-    border: #121314;
+    border: 1px solid #121314;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #ffff;
+    background-color: #fff;
 }
 
 /* Dark Mode Styles */
@@ -24,19 +25,19 @@ body.dark-mode {
 
 body.dark-mode button {
     background-color: #121314;
-    color: #ffff;
+    color: #fff;
 }
 
 body.dark-mode button:hover {
     background-color: #121314;
 }
 
-
-
-
-body {
-  background-image: url("https://homemark22.github.io/stars3.gif");
-  background-color: black;
+/* Stars Mode (same as your .css look, not zoomed) */
+body.stars-mode {
+    background-image: url("https://homemark22.github.io/stars3.gif");
+    background-color: black;
+    background-repeat: repeat;
+    background-size: auto;       /* Keeps original GIF size — not zoomed */
+    background-attachment: fixed; /* Keeps stars steady while scrolling */
+    color: white;
 }
-
-
