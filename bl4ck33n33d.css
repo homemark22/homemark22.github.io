@@ -32,14 +32,5 @@ body.dark-mode button:hover {
 }
 
 
-body {
-  background-image: url(https://homemark22.github.io/spiderwebflipedit.gif), url(https://homemark22.github.io/movieroom.png), url(https://homemark22.github.io/rain.gif);
-  background-size: auto, cover, auto;
-  background-repeat: no-repeat, no-repeat, repeat;
-  background-position: top right, top, top;
-  background-attachment: fixed;
-  min-width: 1430px;
-  background-attachment: fixed;
-  margin: 0;
-}
+
 
