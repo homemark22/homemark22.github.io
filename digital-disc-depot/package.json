@@ -1,0 +1,24 @@
+{
+  "name": "digital-disc-depot",
+  "version": "1.0.0",
+  "private": true,
+  "homepage": "https://homemark22.github.io/digital-disc-depot",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "framer-motion": "^10.12.16",
+    "react-scripts": "5.0.1"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.2",
+    "postcss": "^8.4.23",
+    "autoprefixer": "^10.4.14",
+    "gh-pages": "^5.0.0"
+  }
+}
