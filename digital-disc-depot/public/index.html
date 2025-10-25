@@ -1,12 +1,318 @@
-
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Digital Disc Depot</title>
-  </head>
-  <body>
-    <div id="root"></div>
-  </body>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Digital Disc Depot — Futuristic CD Store</title>
+<meta name="description" content="Digital Disc Depot — Futuristic CD store. No-install single HTML." />
+<style>
+  :root{
+    --bg1:#05060a; --bg2:#0b1220; --accent:#06d6d6; --muted:#98a0ad;
+    --panel:#0f1720; --glass: rgba(255,255,255,0.02);
+    --neon: rgba(6,214,214,0.12);
+  }
+  *{box-sizing:border-box}
+  html,body{height:100%}
+  body{
+    margin:0;
+    font-family:Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    background: linear-gradient(180deg,var(--bg1) 0%, var(--bg2) 60%);
+    color:#e6eef3;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+    padding-bottom:120px;
+  }
+  .container{max-width:1200px;margin:0 auto;padding:28px;}
+  /* Hero */
+  .hero{
+    display:flex;gap:28px;align-items:center;
+    padding:36px;border-radius:14px;
+    background: linear-gradient(135deg, rgba(10,20,30,0.4), rgba(5,8,12,0.35));
+    box-shadow: 0 10px 30px rgba(2,6,23,0.6), inset 0 1px 0 rgba(255,255,255,0.02);
+    border:1px solid rgba(255,255,255,0.03);
+  }
+  .hero .left{flex:1}
+  .title{font-size:30px;font-weight:800;letter-spacing:-0.02em}
+  .subtitle{color:var(--muted);margin-top:6px}
+  .search{margin-top:16px;display:flex;gap:10px}
+  .input{
+    background:#071123;border:1px solid rgba(255,255,255,0.04);padding:10px 12px;border-radius:8px;color:#dfe8ee;min-width:220px;
+    outline:none;
+  }
+  .btn{background:linear-gradient(90deg,var(--accent),#3bd5d5);color:#021017;border:none;padding:10px 12px;border-radius:9px;font-weight:700;cursor:pointer}
+  /* spinner */
+  .spinner-wrap{width:160px;height:160px;flex:0 0 160px;position:relative}
+  .spinner{
+    width:160px;height:160px;border-radius:50%;background:radial-gradient(circle at 30% 30%, rgba(255,255,255,0.03), transparent 30%), linear-gradient(180deg,#07121b,#021018);
+    display:flex;align-items:center;justify-content:center;border:1px solid rgba(255,255,255,0.04);
+    box-shadow: 0 20px 40px rgba(2,6,23,0.7), inset 0 12px 30px rgba(255,255,255,0.02);
+    transform-style:preserve-3d;
+    animation:spin 18s linear infinite;
+  }
+  .spinner .center{width:38px;height:38px;border-radius:50%;background:var(--accent);box-shadow:0 0 30px var(--neon);}
+  @keyframes spin{100%{transform:rotate(360deg)}}
+  /* grid */
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:18px;margin-top:22px}
+  .card{
+    background:linear-gradient(180deg, rgba(255,255,255,0.01), rgba(255,255,255,0.005));
+    border:1px solid rgba(255,255,255,0.03);padding:12px;border-radius:12px;transition:transform .22s ease, box-shadow .22s ease;
+    transform-style:preserve-3d;position:relative;overflow:hidden;
+  }
+  .card:hover{transform:translateY(-10px) rotateX(6deg);box-shadow:0 24px 48px rgba(2,6,23,0.6)}
+  .cover{width:100%;height:140px;border-radius:10px;background:#111;margin-bottom:10px;display:flex;align-items:center;justify-content:center;font-weight:700;color:#cfe;}
+  .sold{position:absolute;right:10px;top:10px;background:#e85b6f;padding:6px 8px;border-radius:8px;font-size:12px;color:white}
+  .meta{font-weight:700}
+  .tags{color:var(--muted);font-size:12px;margin-top:6px}
+  .actions{display:flex;gap:8px;align-items:center;margin-top:10px}
+  .smallbtn{background:#0b1220;border:1px solid rgba(255,255,255,0.03);padding:8px 10px;border-radius:8px;color:#cfe;cursor:pointer}
+  /* cart drawer */
+  .cart-toggle{position:fixed;right:20px;bottom:90px;background:linear-gradient(90deg,var(--accent),#3bd5d5);padding:12px 14px;border-radius:12px;color:#021017;font-weight:800;z-index:60;cursor:pointer;border:none}
+  .cart{position:fixed;right:20px;top:80px;width:360px;background:linear-gradient(180deg,#071021,#06111a);border-radius:12px;padding:14px;box-shadow:0 40px 80px rgba(2,6,23,0.6);border:1px solid rgba(255,255,255,0.03);z-index:70;display:none}
+  .cart.open{display:block}
+  .cart h4{margin:0 0 10px 0}
+  .cart .line{display:flex;justify-content:space-between;color:var(--muted);font-size:14px;margin-top:8px}
+  .cart .item{display:flex;justify-content:space-between;align-items:center;padding:8px 0;border-top:1px dashed rgba(255,255,255,0.02)}
+  /* audio modal */
+  .modal-back{position:fixed;inset:0;background:rgba(0,0,0,0.65);display:none;align-items:center;justify-content:center;z-index:100}
+  .modal-back.open{display:flex}
+  .modal{background:#071122;border-radius:12px;padding:18px;max-width:700px;width:92%}
+  /* buy me coffee */
+  .coffee{position:fixed;left:20px;bottom:20px;z-index:80}
+  .coffee .bubble{background:linear-gradient(90deg,#ffd680,#ffb84d);padding:12px 14px;border-radius:999px;display:flex;gap:10px;align-items:center;box-shadow:0 10px 30px rgba(0,0,0,0.5);cursor:pointer}
+  .coffee .mini{width:48px;height:48px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:800}
+  /* footer */
+  footer{margin-top:44px;color:var(--muted);text-align:center;padding:24px}
+  /* Responsive tweaks */
+  @media (max-width:720px){
+    .hero{flex-direction:column;align-items:flex-start}
+    .spinner-wrap{width:120px;height:120px}
+    .spinner{width:120px;height:120px}
+    .cart{right:10px;left:10px;width:auto}
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="hero" role="banner" aria-label="Digital Disc Depot hero">
+    <div class="left">
+      <div class="title">Digital Disc Depot — Future Editions</div>
+      <div class="subtitle">Collector-quality CDs, limited pressings, and modern reissues — neon future shopping experience.</div>
+      <div class="search">
+        <input id="q" class="input" placeholder="Search artist, title or year..." aria-label="Search CDs">
+        <button id="searchBtn" class="btn">Search</button>
+      </div>
+      <div style="margin-top:12px;color:var(--muted);font-size:13px">Brand: <strong>Digital Disc Depot</strong></div>
+    </div>
+
+    <div class="spinner-wrap" aria-hidden>
+      <div class="spinner" title="Now spinning">
+        <div class="center"></div>
+      </div>
+      <div style="text-align:center;color:var(--muted);font-size:12px;margin-top:8px">Now spinning: Neon Nights</div>
+    </div>
+  </div>
+
+  <div id="controls" style="margin-top:18px;display:flex;gap:8px;align-items:center">
+    <button class="smallbtn" onclick="filterTag(null)">All</button>
+    <button class="smallbtn" onclick="filterTag('synth')">Synth</button>
+    <button class="smallbtn" onclick="filterTag('instrumental')">Instrumental</button>
+    <button class="smallbtn" onclick="filterTag('vintage')">Vintage</button>
+  </div>
+
+  <div id="grid" class="grid" aria-live="polite" style="margin-top:16px">
+    <!-- Cards inserted by JS -->
+  </div>
+</div>
+
+<!-- Cart button + drawer -->
+<button id="cartToggle" class="cart-toggle" aria-controls="cartPanel">Cart (0)</button>
+<div id="cartPanel" class="cart" role="region" aria-label="Shopping cart">
+  <h4>Your Cart</h4>
+  <div id="cartItems"></div>
+  <div class="line" style="margin-top:12px"><div>Total</div><div id="total">$0.00</div></div>
+  <div style="display:flex;gap:8px;margin-top:12px">
+    <button class="btn" style="flex:1" onclick="checkout()">Checkout</button>
+    <button class="smallbtn" style="flex:0" onclick="toggleCart()">Close</button>
+  </div>
+</div>
+
+<!-- Audio preview modal -->
+<div id="modalBack" class="modal-back" role="dialog" aria-modal="true" aria-hidden="true">
+  <div class="modal" role="document">
+    <div style="display:flex;gap:12px;align-items:center">
+      <div id="modalCover" style="width:88px;height:88px;border-radius:8px;background:#111;display:flex;align-items:center;justify-content:center;color:#cfe;font-weight:700"></div>
+      <div style="flex:1">
+        <div id="modalTitle" style="font-weight:800"></div>
+        <div id="modalArtist" style="color:var(--muted);font-size:13px;margin-top:4px"></div>
+        <div style="margin-top:12px">
+          <audio id="modalAudio" controls style="width:100%"></audio>
+        </div>
+        <div style="margin-top:10px;display:flex;gap:8px">
+          <button class="btn" onclick="modalBuy()">Buy CD</button>
+          <button class="smallbtn" onclick="closeModal()">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Buy Me a Coffee -->
+<div class="coffee" id="coffeeWrap" aria-live="polite">
+  <div id="coffeeBubble" class="bubble" title="Support us">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" style="flex-shrink:0"><path d="M3 3h18v10a4 4 0 01-4 4H7a4 4 0 01-4-4V3z" stroke="#2b2b2b" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    <div style="font-weight:800;color:#081219">Buy Me a Coffee</div>
+    <div style="color:#081219;font-size:12px;margin-left:8px">Support a Happy Meal donation</div>
+  </div>
+  <button id="coffeeMini" class="mini" style="display:none;margin-top:8px;background:#ffd680" aria-label="reopen buy me a coffee">☕</button>
+</div>
+
+<footer>
+  © <span id="year"></span> Digital Disc Depot — Built for collectors • <a href="https://paypal.me/homemark22" target="_blank" style="color:var(--accent)">Donate</a>
+</footer>
+
+<script>
+/* ---------- Sample product data ---------- */
+const PRODUCTS = [
+  {id:'cd-001',title:'Neon Nights — Vol. 1',artist:'The Futurists',price:12.99,year:2025,cover:'data-cover-1',tags:['synth','retrowave'],stock:12,audio:''},
+  {id:'cd-002',title:'Orbitals & Oceans',artist:'Cosmic Quartet',price:14.50,year:2024,cover:'data-cover-2',tags:['instrumental','orchestral'],stock:5,audio:''},
+  {id:'cd-003',title:'Analog Dreams (Remastered)',artist:'Tape Echo',price:9.99,year:1998,cover:'data-cover-3',tags:['vintage','collectors'],stock:0,audio:''},
+  {id:'cd-004',title:'Midnight Transit',artist:'Skyloop',price:11.25,year:2021,cover:'data-cover-4',tags:['synth'],stock:3,audio:''},
+  {id:'cd-005',title:'Silent Strings',artist:'Oceanic Ensemble',price:13.75,year:2019,cover:'data-cover-5',tags:['instrumental'],stock:7,audio:''}
+];
+
+/* ---------- Small helper to create placeholder covers as SVG data URLs ---------- */
+function makeCoverSVG(text, bg='#0b1220', fg='#bfe'){
+  const w=600,h=600;
+  const svg = `<svg xmlns='http://www.w3.org/2000/svg' width='${w}' height='${h}'><rect width='100%' height='100%' fill='${bg}'/><circle cx='300' cy='260' r='170' fill='rgba(255,255,255,0.02)' stroke='rgba(255,255,255,0.06)' stroke-width='6'/><text x='50%' y='80%' text-anchor='middle' font-family='Arial' font-size='34' fill='${fg}'>${escapeHtml(text)}</text></svg>`;
+  return 'data:image/svg+xml;utf8,'+encodeURIComponent(svg);
+}
+function escapeHtml(s){return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
+
+/* ---------- Render grid ---------- */
+const grid = document.getElementById('grid');
+function render(products){
+  grid.innerHTML = '';
+  products.forEach(p =>{
+    const card = document.createElement('div'); card.className='card';
+    const cover = document.createElement('div'); cover.className='cover';
+    cover.style.backgroundImage = `url(${makeCoverSVG(p.title)})`;
+    cover.style.backgroundSize='cover';
+    cover.style.backgroundPosition='center';
+    cover.setAttribute('aria-hidden','true');
+    card.appendChild(cover);
+    if(p.stock===0){
+      const sold = document.createElement('div'); sold.className='sold'; sold.textContent='Sold'; card.appendChild(sold);
+    }
+    const meta = document.createElement('div'); meta.innerHTML = `<div class="meta">${p.title}</div><div style="color:var(--muted)">${p.artist} • ${p.year}</div>`;
+    card.appendChild(meta);
+    const tags = document.createElement('div'); tags.className='tags'; tags.textContent = p.tags.join(' • ');
+    card.appendChild(tags);
+    const actions = document.createElement('div'); actions.className='actions';
+    const previewBtn = document.createElement('button'); previewBtn.className='smallbtn'; previewBtn.textContent='Preview'; previewBtn.onclick = ()=>openPreview(p);
+    const addBtn = document.createElement('button'); addBtn.className='btn'; addBtn.textContent='Add'; addBtn.onclick = ()=>addToCart(p); addBtn.disabled = (p.stock===0);
+    actions.appendChild(previewBtn); actions.appendChild(addBtn);
+    card.appendChild(actions);
+    grid.appendChild(card);
+  });
+}
+
+/* ---------- Filtering and search ---------- */
+const qInput = document.getElementById('q');
+document.getElementById('searchBtn').addEventListener('click', ()=> {
+  const q = qInput.value.trim().toLowerCase();
+  const filtered = PRODUCTS.filter(p=> !q || p.title.toLowerCase().includes(q) || p.artist.toLowerCase().includes(q) || String(p.year).includes(q));
+  render(filtered);
+});
+function filterTag(tag){
+  if(!tag){ render(PRODUCTS); return; }
+  render(PRODUCTS.filter(p=>p.tags.includes(tag)));
+}
+
+/* ---------- Cart logic (simple client-side) ---------- */
+let CART = JSON.parse(localStorage.getItem('dd_cart')||'[]');
+const cartToggle = document.getElementById('cartToggle');
+const cartPanel = document.getElementById('cartPanel');
+function updateCartUI(){
+  const count = CART.reduce((s,i)=>s+i.qty,0);
+  cartToggle.textContent = `Cart (${count})`;
+  const cartItems = document.getElementById('cartItems');
+  cartItems.innerHTML = '';
+  let total = 0;
+  CART.forEach(i=>{
+    const row = document.createElement('div'); row.className='item';
+    row.innerHTML = `<div><div style="font-weight:800">${i.title}</div><div style="color:var(--muted);font-size:13px">${i.artist} • Qty: ${i.qty}</div></div><div style="text-align:right"><div style="font-weight:800">$${(i.price*i.qty).toFixed(2)}</div><div style="font-size:12px;color:var(--muted);cursor:pointer;margin-top:6px" onclick="removeFromCart('${i.id}')">Remove</div></div>`;
+    cartItems.appendChild(row);
+    total += i.price*i.qty;
+  });
+  document.getElementById('total').textContent = '$'+total.toFixed(2);
+  localStorage.setItem('dd_cart', JSON.stringify(CART));
+}
+function addToCart(p){
+  const found = CART.find(x=>x.id===p.id);
+  if(found){ found.qty++; } else { CART.push({...p,qty:1}); }
+  updateCartUI();
+  // quick visual feedback
+  cartToggle.animate([{transform:'translateY(0)'},{transform:'translateY(-6px)'},{transform:'translateY(0)'}],{duration:320});
+}
+function removeFromCart(id){ CART = CART.filter(x=>x.id!==id); updateCartUI(); }
+function toggleCart(){ cartPanel.classList.toggle('open'); }
+cartToggle.addEventListener('click', ()=>{ toggleCart(); });
+function checkout(){
+  if(CART.length===0){ alert('Cart is empty'); return; }
+  // placeholder: open paypal.me link for donations / payment (customize for real checkout)
+  window.open('https://paypal.me/homemark22','_blank');
+}
+
+/* ---------- Audio preview modal ---------- */
+function openPreview(p){
+  document.getElementById('modalCover').style.backgroundImage = `url(${makeCoverSVG(p.title)})`;
+  document.getElementById('modalTitle').textContent = p.title;
+  document.getElementById('modalArtist').textContent = p.artist;
+  const audio = document.getElementById('modalAudio');
+  if(p.audio){ audio.src = p.audio; audio.style.display='block'; } else { audio.src=''; audio.style.display='none'; }
+  document.getElementById('modalBack').classList.add('open');
+  document.getElementById('modalBack').setAttribute('aria-hidden','false');
+  window.currentPreview = p;
+}
+function closeModal(){ document.getElementById('modalBack').classList.remove('open'); document.getElementById('modalBack').setAttribute('aria-hidden','true'); window.currentPreview=null; }
+function modalBuy(){ if(window.currentPreview){ addToCart(window.currentPreview); closeModal(); toggleCart(); } }
+
+/* ---------- Buy Me a Coffee widget behavior ---------- */
+const coffeeWrap = document.getElementById('coffeeWrap');
+const coffeeBubble = document.getElementById('coffeeBubble');
+const coffeeMini = document.getElementById('coffeeMini');
+let coffeeShownCount = parseInt(localStorage.getItem('dd_coffee_count')||'0',10);
+function initCoffee(){
+  // play bounce animation for 5s using JS keyframes
+  coffeeBubble.animate(
+    [{transform:'translateY(0)'},{transform:'translateY(-18px)'},{transform:'translateY(0)'},{transform:'translateY(-8px)'},{transform:'translateY(0)'}],
+    {duration:5000,easing:'ease-in-out'}
+  );
+  // after 5s hide and show mini if reopen allowed
+  setTimeout(()=> {
+    coffeeBubble.style.display='none';
+    coffeeShownCount = Math.min(99, coffeeShownCount+1);
+    localStorage.setItem('dd_coffee_count', String(coffeeShownCount));
+    if(coffeeShownCount < 2){ coffeeMini.style.display='flex'; }
+  },5000);
+}
+coffeeBubble.addEventListener('click', ()=> { window.open('https://paypal.me/homemark22','_blank'); });
+coffeeMini.addEventListener('click', ()=> {
+  if(coffeeShownCount>=2){ coffeeMini.style.display='none'; return; }
+  // reopen the full bubble once
+  coffeeBubble.style.display='flex';
+  coffeeMini.style.display='none';
+  initCoffee();
+});
+
+/* ---------- Init ---------- */
+document.getElementById('year').textContent = new Date().getFullYear();
+render(PRODUCTS);
+updateCartUI();
+initCoffee();
+
+/* ---------- small UX niceties ---------- */
+document.addEventListener('keydown', e=>{ if(e.key==='Escape'){ closeModal(); cartPanel.classList.remove('open'); }});
+</script>
+</body>
 </html>
