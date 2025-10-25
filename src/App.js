@@ -1,1 +1,0 @@
-export default function App(){return <div style={{color:'white',background:'#000',height:'100vh',display:'flex',alignItems:'center',justifyContent:'center'}}>Digital Disc Depot — Futuristic CD Store Ready for GitHub Pages</div>;}
