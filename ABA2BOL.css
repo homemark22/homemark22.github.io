@@ -451,8 +451,8 @@ window.open(url, 'popupWindow', `width=${width},height=${height},left=${left},to
 
 /* Overlay container */
 #adContainer {
-  width: 800%;
-  max-width: 1100px;   /* ⬅ bigger overall area */
+  width: 1000%;
+  max-width: 1000px;   /* ⬅ bigger overall area */
   background: #111;
   border-radius: 12px;
   padding: 16px;
@@ -472,8 +472,8 @@ window.open(url, 'popupWindow', `width=${width},height=${height},left=${left},to
 
 /* Iframe ad */
 #adIframe {
-  width: 800%;
-  height: 1100x;        /* ⬅ BIG iframe */
+  width: 1000%;
+  height: 500x;        /* ⬅ BIG iframe */
   border: none;
   border-radius: 10px;
   background: #000;
@@ -481,8 +481,8 @@ window.open(url, 'popupWindow', `width=${width},height=${height},left=${left},to
 
 /* Banner ad */
 .ad-click {
-  width: 800%;
-  height: 1100px;        /* ⬅ SAME HEIGHT */
+  width: 1000%;
+  height: 500px;        /* ⬅ SAME HEIGHT */
   display: block;
 }
 
