@@ -448,10 +448,7 @@ window.open(url, 'popupWindow', `width=${width},height=${height},left=${left},to
 						<!--end of of button style for black and white mode--> 
 
 
-/* Default: zapNotice blocks interaction */
-#zapNotice {
-  pointer-events: auto;
-}
+
 
 /* Allow clicks ONLY inside adContainer */
 #adContainer,
