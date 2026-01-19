@@ -450,7 +450,7 @@ window.open(url, 'popupWindow', `width=${width},height=${height},left=${left},to
 
 /* Default: zapNotice blocks interaction */
 #zapNotice {
-  pointer-events: none;
+  pointer-events: auto;
 }
 
 /* Allow clicks ONLY inside adContainer */
