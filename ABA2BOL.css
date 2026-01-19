@@ -449,6 +449,79 @@ window.open(url, 'popupWindow', `width=${width},height=${height},left=${left},to
 
 
 
+/* Overlay container */
+#adContainer {
+  width: 90%;
+  max-width: 900px;
+  background: #111;
+  border-radius: 12px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Ads row */
+.adRow {
+  display: flex;
+  gap: 12px;                /* clearance between iframe & banner */
+  align-items: center;
+  justify-content: center;
+}
+
+/* Iframe ad */
+#adIframe {
+  width: 50%;
+  height: 90px;             /* MATCH banner height */
+  border: none;
+  border-radius: 8px;
+  background: #000;
+}
+
+/* Banner ad */
+.ad-click {
+  width: 50%;
+  height: 90px;
+  display: block;
+}
+
+.ad-click img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Countdown */
+#adCountdown {
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+  opacity: 0.85;
+}
+
+/* Mobile: stack ads vertically */
+@media (max-width: 640px) {
+  .adRow {
+    flex-direction: column;
+  }
+
+  #adIframe,
+  .ad-click {
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
 
 /* Allow clicks ONLY inside adContainer */
 #adContainer,
@@ -470,3 +543,4 @@ window.open(url, 'popupWindow', `width=${width},height=${height},left=${left},to
 .ad-click img:hover {
   filter: brightness(1.1);
 }
+
