@@ -461,3 +461,9 @@ window.open(url, 'popupWindow', `width=${width},height=${height},left=${left},to
   pointer-events: auto !important;
 }
 
+/* Ensure banner link is clickable */
+.ad-click,
+.ad-click img {
+  pointer-events: auto !important;
+  cursor: pointer;
+}
