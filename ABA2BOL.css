@@ -447,4 +447,20 @@ window.open(url, 'popupWindow', `width=${width},height=${height},left=${left},to
  <! -- ///////////////////////////////////////////////////////////////////////////////////////////clock-->                		
 						<!--end of of button style for black and white mode--> 
 
-	
+
+/* Default: zapNotice blocks interaction */
+#zapNotice {
+  pointer-events: none;
+}
+
+/* Allow clicks ONLY inside adContainer */
+#adContainer,
+#adContainer * {
+  pointer-events: auto !important;
+}
+
+/* Make sure iframe accepts clicks */
+#adIframe {
+  pointer-events: auto !important;
+}
+
