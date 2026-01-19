@@ -467,3 +467,6 @@ window.open(url, 'popupWindow', `width=${width},height=${height},left=${left},to
   pointer-events: auto !important;
   cursor: pointer;
 }
+.ad-click img:hover {
+  filter: brightness(1.1);
+}
