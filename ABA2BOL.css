@@ -451,8 +451,8 @@ window.open(url, 'popupWindow', `width=${width},height=${height},left=${left},to
 
 /* Overlay container */
 #adContainer {
-  width: 1000%;
-  max-width: 1000px;   /* ⬅ bigger overall area */
+  width: 700%;
+  max-width: 900px;   /* ⬅ bigger overall area */
   background: #111;
   border-radius: 12px;
   padding: 16px;
@@ -473,7 +473,7 @@ window.open(url, 'popupWindow', `width=${width},height=${height},left=${left},to
 /* Iframe ad */
 #adIframe {
   width: 1000%;
-  height: 500x;        /* ⬅ BIG iframe */
+  height: 1000x;        /* ⬅ BIG iframe */
   border: none;
   border-radius: 10px;
   background: #000;
