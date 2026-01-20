@@ -447,11 +447,12 @@ window.open(url, 'popupWindow', `width=${width},height=${height},left=${left},to
  <! -- ///////////////////////////////////////////////////////////////////////////////////////////clock-->                		
 						<!--end of of button style for black and white mode--> 
 
+
 /* Overlay container */
 #adContainer {
-  width: auto%;
-  max-width: auto%;
-  height: 100vh;               /* ⬅ fills screen */
+  width: 100%;
+  max-width: 100%;
+  height: 100vh;               /* fills screen */
   background: #111;
   border-radius: 12px;
   padding: 16px;
@@ -461,15 +462,14 @@ window.open(url, 'popupWindow', `width=${width},height=${height},left=${left},to
 
 /* Push ads to bottom */
 .adRow {
-  margin-top: auto;            /* ⬅ MAGIC LINE */
+  margin-top: auto;            /* pushes to bottom */
+  margin-bottom: 40px;         /* controlled bottom spacing */
   display: flex;
-  margin-bottom: 50px;
   gap: 16px;
   align-items: stretch;
   justify-content: center;
   min-height: 260px;
 }
-
 
 /* Iframe ad */
 #adIframe {
@@ -495,7 +495,7 @@ window.open(url, 'popupWindow', `width=${width},height=${height},left=${left},to
   cursor: pointer;
 }
 
-/* Countdown stays just above ads */
+/* Countdown just above ads */
 #adCountdown {
   margin-bottom: 12px;
   text-align: center;
@@ -509,6 +509,7 @@ window.open(url, 'popupWindow', `width=${width},height=${height},left=${left},to
   .adRow {
     flex-direction: column;
     min-height: 420px;
+    margin-bottom: 24px;
   }
 
   #adIframe,
