@@ -451,8 +451,8 @@ window.open(url, 'popupWindow', `width=${width},height=${height},left=${left},to
 
 /* Overlay container */
 #adContainer {
-  width: 75%;
-  max-width: 75%;   /* ⬅ bigger overall area */
+  width: 100%;
+  max-width: 100%;   /* ⬅ bigger overall area */
   background: #111;
   border-radius: 12px;
   padding: 16px;
@@ -472,8 +472,8 @@ window.open(url, 'popupWindow', `width=${width},height=${height},left=${left},to
 
 /* Iframe ad */
 #adIframe {
-  width: 75%;
-  height: 75%;        /* ⬅ BIG iframe */
+  width: 100%;
+  height: 100%;        /* ⬅ BIG iframe */
   border: none;
   border-radius: 10px;
   background: #000;
@@ -481,14 +481,14 @@ window.open(url, 'popupWindow', `width=${width},height=${height},left=${left},to
 
 /* Banner ad */
 .ad-click {
-  width: 75%;
-  height: 75%;        /* ⬅ SAME HEIGHT */
+  width: 100%;
+  height: 100%;        /* ⬅ SAME HEIGHT */
   display: block;
 }
 
 .ad-click img {
-  width: 75%;
-  height: 75%;
+  width: 100%;
+  height: 100%;
   object-fit: contain;  /* keeps banner clean */
   border-radius: 10px;
   cursor: pointer;
@@ -505,15 +505,15 @@ window.open(url, 'popupWindow', `width=${width},height=${height},left=${left},to
 
 
 /* Mobile: stack ads vertically */
-@media (max-width: auto) {
+@media (max-width: 100%) {
   .adRow {
     flex-direction: column;
   }
 
   #adIframe,
   .ad-click {
-    width: 75%;
-    height: 75%;      /* large but mobile-safe */
+    width: 100%;
+    height: 100%;      /* large but mobile-safe */
   }
 }
 
@@ -530,18 +530,18 @@ window.open(url, 'popupWindow', `width=${width},height=${height},left=${left},to
 /* Allow clicks ONLY inside adContainer */
 #adContainer,
 #adContainer * {
-  pointer-events: 75% !important;
+  pointer-events: 100% !important;
 }
 
 /* Make sure iframe accepts clicks */
 #adIframe {
-  pointer-events: 75% !important;
+  pointer-events: 100% !important;
 }
 
 /* Ensure banner link is clickable */
 .ad-click,
 .ad-click img {
-  pointer-events: 75% !important;
+  pointer-events: 100% !important;
   cursor: pointer;
 }
 .ad-click img:hover {
