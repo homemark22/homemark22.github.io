@@ -449,8 +449,8 @@ window.open(url, 'popupWindow', `width=${width},height=${height},left=${left},to
 
 /* Overlay container */
 #adContainer {
-  width: 100%;
-  max-width: 100%;
+  width: auto%;
+  max-width: auto%;
   height: 100vh;               /* ⬅ fills screen */
   background: #111;
   border-radius: 12px;
