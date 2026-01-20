@@ -448,11 +448,10 @@ window.open(url, 'popupWindow', `width=${width},height=${height},left=${left},to
 						<!--end of of button style for black and white mode--> 
 
 
-
 /* Overlay container */
 #adContainer {
   width: 100%;
-  max-width: 100%;   /* ⬅ bigger overall area */
+  max-width: 100%;
   background: #111;
   border-radius: 12px;
   padding: 16px;
@@ -461,90 +460,70 @@ window.open(url, 'popupWindow', `width=${width},height=${height},left=${left},to
   gap: 14px;
 }
 
-
 /* Ads row */
 .adRow {
   display: flex;
-  gap: 16px;            /* more space between ads */
+  gap: 16px;
   align-items: stretch;
   justify-content: center;
+  min-height: 280px; /* IMPORTANT */
 }
 
 /* Iframe ad */
 #adIframe {
   width: 100%;
-  height: 100%;        /* ⬅ BIG iframe */
+  height: 100%;
   border: none;
   border-radius: 10px;
   background: #000;
+  pointer-events: auto;
 }
 
 /* Banner ad */
 .ad-click {
   width: 100%;
-  height: 100%;        /* ⬅ SAME HEIGHT */
+  height: 100%;
   display: block;
+  pointer-events: auto;
 }
 
 .ad-click img {
   width: 100%;
   height: 100%;
-  object-fit: contain;  /* keeps banner clean */
+  object-fit: contain;
   border-radius: 10px;
   cursor: pointer;
+  pointer-events: auto;
+}
+
+.ad-click img:hover {
+  filter: brightness(1.1);
 }
 
 /* Countdown */
 #adCountdown {
   text-align: center;
   color: #fff;
-  font-size: 16px;      /* bigger text */
+  font-size: 16px;
   font-weight: 600;
   opacity: 0.9;
 }
 
-
 /* Mobile: stack ads vertically */
-@media (max-width: 100%) {
+@media (max-width: 768px) {
   .adRow {
     flex-direction: column;
+    min-height: auto;
   }
 
   #adIframe,
   .ad-click {
-    width: 100%;
-    height: 100%;      /* large but mobile-safe */
+    height: 200px;
   }
 }
-
-
-
-
-
-
-
-
-
-
 
 /* Allow clicks ONLY inside adContainer */
 #adContainer,
 #adContainer * {
-  pointer-events: 100% !important;
+  pointer-events: auto !important;
 }
-
-/* Make sure iframe accepts clicks */
-#adIframe {
-  pointer-events: 100% !important;
-}
-
-/* Ensure banner link is clickable */
-.ad-click,
-.ad-click img {
-  pointer-events: 100% !important;
-  cursor: pointer;
-}
-.ad-click img:hover {
-  filter: brightness(1.1);
-}
-
