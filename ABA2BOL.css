@@ -463,7 +463,7 @@ window.open(url, 'popupWindow', `width=${width},height=${height},left=${left},to
 .adRow {
   margin-top: auto;            /* ⬅ MAGIC LINE */
   display: flex;
-  margin-bottom: 24px;
+  margin-bottom: 50px;
   gap: 16px;
   align-items: stretch;
   justify-content: center;
