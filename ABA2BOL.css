@@ -447,26 +447,26 @@ window.open(url, 'popupWindow', `width=${width},height=${height},left=${left},to
  <! -- ///////////////////////////////////////////////////////////////////////////////////////////clock-->                		
 						<!--end of of button style for black and white mode--> 
 
-
 /* Overlay container */
 #adContainer {
   width: 100%;
   max-width: 100%;
+  height: 100vh;               /* ⬅ fills screen */
   background: #111;
   border-radius: 12px;
   padding: 16px;
   display: flex;
   flex-direction: column;
-  gap: 14px;
 }
 
-/* Ads row */
+/* Push ads to bottom */
 .adRow {
+  margin-top: auto;            /* ⬅ MAGIC LINE */
   display: flex;
   gap: 16px;
   align-items: stretch;
   justify-content: center;
-  min-height: 280px; /* IMPORTANT */
+  min-height: 260px;
 }
 
 /* Iframe ad */
@@ -476,7 +476,6 @@ window.open(url, 'popupWindow', `width=${width},height=${height},left=${left},to
   border: none;
   border-radius: 10px;
   background: #000;
-  pointer-events: auto;
 }
 
 /* Banner ad */
@@ -484,7 +483,6 @@ window.open(url, 'popupWindow', `width=${width},height=${height},left=${left},to
   width: 100%;
   height: 100%;
   display: block;
-  pointer-events: auto;
 }
 
 .ad-click img {
@@ -493,37 +491,26 @@ window.open(url, 'popupWindow', `width=${width},height=${height},left=${left},to
   object-fit: contain;
   border-radius: 10px;
   cursor: pointer;
-  pointer-events: auto;
 }
 
-.ad-click img:hover {
-  filter: brightness(1.1);
-}
-
-/* Countdown */
+/* Countdown stays just above ads */
 #adCountdown {
+  margin-bottom: 12px;
   text-align: center;
   color: #fff;
   font-size: 16px;
   font-weight: 600;
-  opacity: 0.9;
 }
 
-/* Mobile: stack ads vertically */
+/* Mobile layout */
 @media (max-width: 768px) {
   .adRow {
     flex-direction: column;
-    min-height: auto;
+    min-height: 420px;
   }
 
   #adIframe,
   .ad-click {
     height: 200px;
   }
-}
-
-/* Allow clicks ONLY inside adContainer */
-#adContainer,
-#adContainer * {
-  pointer-events: auto !important;
 }
