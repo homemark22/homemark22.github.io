@@ -550,12 +550,5 @@ window.open(url, 'popupWindow', `width=${width},height=${height},left=${left},to
   transform: translateX(-50%) scale(0.96);
 }
 
-/* Dark mode (optional but Cloudflare-like) */
-@media (prefers-color-scheme: dark) {
-  #humanBtn {
-    background: #1f1f1f !important;
-    color: #e8eaed !important;
-    border-color: #3c4043 !important;
-  }
-}
+
 
