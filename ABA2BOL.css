@@ -481,8 +481,8 @@ window.open(url, 'popupWindow', `width=${width},height=${height},left=${left},to
 /* 🔥 EACH AD = 50% WIDTH & HEIGHT */
 #adIframe,
 .ad-click {
-  flex: 0 0 50%;         /* ⬅ EXACTLY HALF */
-  max-width: 50%;
+  flex: 0 0 100%;         /* ⬅ EXACTLY HALF */
+  max-width: 200%;
   height: 100%;
 }
 
@@ -520,3 +520,4 @@ window.open(url, 'popupWindow', `width=${width},height=${height},left=${left},to
     height: 50%;        /* ⬅ HALF HEIGHT ON MOBILE */
   }
 }
+/* Allow clicks ONLY inside adContainer */ #adContainer, #adContainer * { pointer-events: 100% !important; } /* Make sure iframe accepts clicks */ #adIframe { pointer-events: 100% !important; } /* Ensure banner link is clickable */ .ad-click, .ad-click img { pointer-events: 100% !important; cursor: pointer; }
