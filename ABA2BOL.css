@@ -481,9 +481,9 @@ window.open(url, 'popupWindow', `width=${width},height=${height},left=${left},to
 /* 🔥 EACH AD = 50% WIDTH & HEIGHT */
 #adIframe,
 .ad-click {
-  flex: 0 0 100%;         /* ⬅ EXACTLY HALF */
-  max-width: 200%;
-  height: 100%;
+  flex: 0 0 65%;         /* ⬅ EXACTLY HALF */
+  max-width: 75%;
+  height: 75%;
 }
 
 /* Iframe */
