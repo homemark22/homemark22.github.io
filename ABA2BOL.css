@@ -517,38 +517,5 @@ window.open(url, 'popupWindow', `width=${width},height=${height},left=${left},to
   }
 }
 
-#humanBtn {
-  background: linear-gradient(180deg, #ffffff 0%, #f1f3f5 100%) !important;
-  color: #1d1f23 !important;
-
-  border: 1px solid #d0d4d9 !important;
-  border-radius: 8px !important;
-
-  font-family: system-ui, -apple-system, BlinkMacSystemFont,
-               "Segoe UI", Roboto, Arial, sans-serif;
-
-  box-shadow:
-    0 1px 1px rgba(0,0,0,.05),
-    0 4px 10px rgba(0,0,0,.12);
-
-  transition:
-    box-shadow 0.15s ease,
-    transform 0.1s ease,
-    background 0.15s ease;
-}
-
-/* Hover */
-#humanBtn:hover {
-  background: #ffffff !important;
-  box-shadow:
-    0 4px 8px rgba(0,0,0,.15),
-    0 8px 18px rgba(0,0,0,.18);
-}
-
-/* Click */
-#humanBtn:active {
-  transform: translateX(-50%) scale(0.96);
-}
-
 
 
