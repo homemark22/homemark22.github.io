@@ -446,102 +446,73 @@ window.open(url, 'popupWindow', `width=${width},height=${height},left=${left},to
 
  <! -- ///////////////////////////////////////////////////////////////////////////////////////////clock-->                		
 						<!--end of of button style for black and white mode--> 
-
 /* Overlay container */
 #adContainer {
   width: 100%;
-  max-width: 100%;   /* ⬅ bigger overall area */
+  height: 100vh;                 /* allow auto fill */
   background: #111;
   border-radius: 12px;
   padding: 16px;
   display: flex;
   flex-direction: column;
-  gap: 14px;
 }
 
-
-/* Ads row */
+/* Ads row takes MOST free space */
 .adRow {
+  flex: 1;                       /* ⬅ fills available space */
   display: flex;
-  gap: 16px;            /* more space between ads */
+  gap: 16px;
   align-items: stretch;
   justify-content: center;
 }
 
-/* Iframe ad */
-#adIframe {
-  width: 100%;
-  height: 100%;        /* ⬅ BIG iframe */
-  border: none;
+/* Each ad grows proportionally */
+#adIframe,
+.ad-click {
+  flex: 1;                       /* ⬅ equal size */
+  min-width: 0;                  /* prevents overflow */
   border-radius: 10px;
-  background: #000;
 }
 
-/* Banner ad */
+/* Iframe */
+#adIframe {
+  border: none;
+  background: #000;
+  pointer-events: auto;
+}
+
+/* Banner */
 .ad-click {
-  width: 100%;
-  height: 100%;        /* ⬅ SAME HEIGHT */
   display: block;
+  pointer-events: auto;
 }
 
 .ad-click img {
   width: 100%;
   height: 100%;
-  object-fit: contain;  /* keeps banner clean */
+  object-fit: contain;
   border-radius: 10px;
   cursor: pointer;
+  pointer-events: auto;
+}
+
+.ad-click img:hover {
+  filter: brightness(1.1);
 }
 
 /* Countdown */
 #adCountdown {
   text-align: center;
   color: #fff;
-  font-size: 16px;      /* bigger text */
+  font-size: 16px;
   font-weight: 600;
   opacity: 0.9;
+  margin-top: 12px;
 }
 
-
-/* Mobile: stack ads vertically */
-@media (max-width: 100%) {
+/* Mobile */
+@media (max-width: 768px) {
   .adRow {
     flex-direction: column;
   }
-
-  #adIframe,
-  .ad-click {
-    width: 100%;
-    height: 100%;      /* large but mobile-safe */
-  }
-}
-
-
-
-
-
-
-
-
-
-
-
-/* Allow clicks ONLY inside adContainer */
-#adContainer,
-#adContainer * {
-  pointer-events: 100% !important;
-}
-
-/* Make sure iframe accepts clicks */
-#adIframe {
-  pointer-events: 100% !important;
-}
-
-/* Ensure banner link is clickable */
-.ad-click,
-.ad-click img {
-  pointer-events: 100% !important;
-  cursor: pointer;
-}
-.ad-click img:hover {
-  filter: brightness(1.1);
 }
