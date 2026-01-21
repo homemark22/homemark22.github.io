@@ -447,10 +447,9 @@ window.open(url, 'popupWindow', `width=${width},height=${height},left=${left},to
  <! -- ///////////////////////////////////////////////////////////////////////////////////////////clock-->                		
 						<!--end of of button style for black and white mode--> 
 
-
 /* Overlay container */
 #adContainer {
-  width: auto;
+  width: 100%;
   height: 100vh;
   background: #111;
   border-radius: 12px;
@@ -459,9 +458,9 @@ window.open(url, 'popupWindow', `width=${width},height=${height},left=${left},to
   flex-direction: column;
 }
 
-/* Countdown closer to ads */
+/* Countdown */
 #adCountdown {
-  margin-top: auto;            /* push everything down */
+  margin-top: auto;
   margin-bottom: 8px;
   text-align: center;
   color: #fff;
@@ -469,36 +468,39 @@ window.open(url, 'popupWindow', `width=${width},height=${height},left=${left},to
   font-weight: 600;
 }
 
-/* BIG + LOW ads */
+/* Ad row stays BIG */
 .adRow {
   display: flex;
   gap: 18px;
-  align-items: stretch;
   justify-content: center;
-
-  min-height: 360px;           /* ⬅ BIGGER ADS */
-  margin-bottom: 16px;         /* ⬅ VERY LOW */
+  align-items: stretch;
+  min-height: 360px;     /* container height */
+  margin-bottom: 16px;
 }
 
-/* Iframe ad */
+/* 🔥 EACH AD = 50% WIDTH & HEIGHT */
+#adIframe,
+.ad-click {
+  flex: 0 0 50%;         /* ⬅ EXACTLY HALF */
+  max-width: 50%;
+  height: 100%;
+}
+
+/* Iframe */
 #adIframe {
-  width: auto;
-  height: auto;
   border: none;
   border-radius: 12px;
   background: #000;
 }
 
-/* Banner ad */
+/* Banner */
 .ad-click {
-  width: auto;
-  height: auto;
   display: block;
 }
 
 .ad-click img {
-  width: auto;
-  height: auto;
+  width: 100%;
+  height: 100%;
   object-fit: contain;
   border-radius: 12px;
   cursor: pointer;
@@ -508,12 +510,13 @@ window.open(url, 'popupWindow', `width=${width},height=${height},left=${left},to
 @media (max-width: 768px) {
   .adRow {
     flex-direction: column;
-    min-height: 460px;        /* BIG on mobile */
-    margin-bottom: 12px;
+    min-height: 460px;
   }
 
   #adIframe,
   .ad-click {
-    height: 220px;
+    flex: none;
+    width: 100%;
+    height: 50%;        /* ⬅ HALF HEIGHT ON MOBILE */
   }
 }
