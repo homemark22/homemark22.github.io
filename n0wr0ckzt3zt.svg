@@ -1,0 +1,24 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Glow -->
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#FF5500" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#FF5500" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Glow Behind Text -->
+  <rect x="0" y="0" width="400" height="300" fill="url(#glow)" />
+
+  <!-- Divider Bar -->
+  <rect x="80" y="120" width="240" height="8" rx="2" fill="#7A7A7A" stroke="#666" stroke-width="0.5"/>
+
+  <!-- NOW -->
+  <text x="200" y="90" font-family="Arial, sans-serif" font-size="60" font-weight="bold" text-anchor="middle" fill="#0D0D0D" stroke="#A9A9A9" stroke-width="1">NOW</text>
+
+  <!-- ROCK -->
+  <text x="200" y="180" font-family="Arial, sans-serif" font-size="60" font-weight="bold" text-anchor="middle" fill="#0D0D0D" stroke="#A9A9A9" stroke-width="1">ROCK</text>
+
+  <!-- Optional Lightning Bolt (Top Right) -->
+  <path d="M360,30 L370,40 L355,45 L365,55" stroke="white" stroke-width="2" fill="none" />
+</svg>
