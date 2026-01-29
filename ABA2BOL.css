@@ -1,10 +1,17 @@
-/* ================= GLOBAL RESET ================= */
-* {
-  margin: 0;
-  padding: 0;
+/* ===== GLOBAL ===== */
+html {
+  scroll-behavior: smooth;
+  font-size: 99.9%;
   box-sizing: border-box;
-  font-family: "Segoe UI", Helvetica, sans-serif;
+}
 
+body {
+  margin: 0;
+  font-family: "Segoe UI", Helvetica, sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
   cursor: -webkit-image-set(
     url("https://homemark22.github.io/curs0rh4ndz2.webp") 1x,
     url("https://homemark22.github.io/curs0rh4ndz2.webp") 2x,
@@ -12,137 +19,125 @@
   ) 0 0, auto;
 }
 
-html, body {
-  height: 100%;
-  overflow-x: hidden;
-  overflow-y: auto; /* ✅ ENABLE SCROLL */
-  scroll-behavior: smooth;
-  font-size: 99.9%;
-}
-
-/* ================= NAV ================= */
+/* ===== NAV ===== */
 nav {
   height: 56px;
   padding: 0 10px;
-  font-size: clamp(1.5rem, 2vw, 4rem);
   display: flex;
   justify-content: center;
-  flex-direction: column;
-  border: 2px solid rgb(15, 15, 15);
+  border: 2px solid rgb(15,15,15);
+  font-size: clamp(1.5rem, 2vw, 4rem);
 }
 
-/* ================= HEADINGS ================= */
-h1, h2 {
-  color: #fff;
-  font-weight: 400;
-  text-align: right;
-}
-
-h1 {
-  font-size: 3rem;
-  margin-top: 30vh;
-}
-
-/* ================= MAIN LAYOUT ================= */
+/* ===== LAYOUT ===== */
 main {
   display: flex;
 }
 
-/* ================= CHANNEL LIST ================= */
 #channels {
   flex: 38%;
   max-height: calc(100vh - 120px);
-  overflow-y: auto;        /* ✅ scrolling works */
-  overflow-x: hidden;
-  margin-top: 5px;
+  overflow-y: auto;
 }
 
-/* scrollbar (visible but minimal) */
-#channels::-webkit-scrollbar {
-  width: 6px;
-}
-#channels::-webkit-scrollbar-thumb {
-  background: rgba(200,200,200,0.6);
-  border-radius: 6px;
-}
-#channels::-webkit-scrollbar-track {
-  background: transparent;
-}
-
-/* ================= PLAYER ================= */
 #player {
   flex: 62%;
   margin: 10px;
 }
 
-/* ================= CATEGORY ================= */
-.category {
-  width: 94%;
-  color: rgb(48, 48, 84);
-  padding: 10px;
-  font-size: 10px;
-}
-
-.category:hover,
-.category.active {
-  border-radius: 10px;
-  color: rgb(127, 128, 148);
-}
-
-.category::after {
-  content: "+";
-  float: right;
-}
-
-.category.active::after {
-  content: "−";
-}
-
-/* ================= COLLAPSIBLE ================= */
-.channel_collapse {
-  max-height: 0;
-  overflow: hidden;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  transition: max-height 0.25s ease;
-}
-
-/* ================= CHANNEL CARD ================= */
+/* ===== CHANNELS ===== */
 .channel {
-  box-shadow: rgba(99,99,99,0.2) 0 2px 8px;
-  margin: 0 5px 5px 0;
   padding: 7px;
+  margin-bottom: 5px;
   border-radius: 10px;
-  overflow: hidden;
+  box-shadow: rgba(99,99,99,.2) 0 2px 8px;
 }
 
 .channel:active {
-  animation: press 0.2s linear;
+  animation: press .2s linear;
 }
 
-.channel img {
-  width: 106px;
-  height: 63px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.9);
-  background: linear-gradient(
-    110deg,
-    rgb(156,116,129),
-    rgb(67,54,74),
-    rgb(47,48,67),
-    rgb(27,23,36)
-  );
-}
-
-/* ================= ANIMATION ================= */
+/* ===== ANIMATION ===== */
 @keyframes press {
-  50% { transform: scale(0.92); }
+  50% { transform: scale(.92); }
 }
 
-/* ================= AD OVERLAY ================= */
+
+
+
+
+
+/* ===== dailyverses ===== */
+.dailyVerses.bibleVerse
+{
+margin-top: .1em;
+}
+
+.dailyVerses.bibleVerse a
+{
+font-weight: 100;
+	
+}
+
+/* ===== ads ===== */
+						
+@-webkit-filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.5));
+@-moz-filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.5));
+@-ms-filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.5));
+@-o-filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.5));
+filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.5));
+
+a:link {
+  text-decoration: none;
+}
+
+function openPopup(url, width, height) {
+// Calculate the position to center the popup window.
+const left = (window.innerWidth - width) / 2;
+const top = (window.innerHeight - height) / 2;
+
+// Open the pop-up window with the specified URL, width, height, and centered position.
+window.open(url, 'popupWindow', `width=${width},height=${height},left=${left},top=${top}`);
+}
+
+/* ===== ads ===== */
+
+
+
+/* Basic button styles */
+.toggle-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Light mode button styles */
+.toggle-button.light-mode {
+    background-color: #3498db;
+    color: #fff;
+}
+
+/* Dark mode button styles */
+.toggle-button.dark-mode {
+    background-color: #12171c;
+    color: #fff;
+}
+
+/* Hover styles */
+.toggle-button:hover {
+    background-color: #2980b9;
+}
+
+
+
+
+/* Overlay container */
 #adContainer {
   width: 100%;
-  height: 100vh;
+  height: 100vh;                 /* allow auto fill */
   background: #111;
   border-radius: 12px;
   padding: 16px;
@@ -150,22 +145,34 @@ main {
   flex-direction: column;
 }
 
+/* Ads row takes MOST free space */
 .adRow {
-  flex: 1;
+  flex: 1;                       /* ⬅ fills available space */
   display: flex;
   gap: 16px;
+  align-items: stretch;
+  justify-content: center;
 }
 
+/* Each ad grows proportionally */
 #adIframe,
 .ad-click {
-  flex: 1;
-  min-width: 0;
+  flex: 1;                       /* ⬅ equal size */
+  min-width: 0;                  /* prevents overflow */
   border-radius: 10px;
 }
 
+/* Iframe */
 #adIframe {
   border: none;
   background: #000;
+  pointer-events: auto;
+}
+
+/* Banner */
+.ad-click {
+  display: block;
+  pointer-events: auto;
 }
 
 .ad-click img {
@@ -173,52 +180,36 @@ main {
   height: 100%;
   object-fit: contain;
   border-radius: 10px;
+  cursor: pointer;
+  pointer-events: auto;
 }
 
+.ad-click img:hover {
+  filter: brightness(1.1);
+}
+
+/* Countdown */
 #adCountdown {
   text-align: center;
   color: #fff;
+  font-size: 16px;
   font-weight: 600;
+  opacity: 0.9;
   margin-top: 12px;
 }
 
-/* ================= BUTTON ================= */
-.toggle-button {
-  padding: 10px 20px;
-  font-size: 16px;
-  border: none;
-  border-radius: 5px;
-}
-
-.toggle-button.light-mode {
-  background: #3498db;
-  color: #fff;
-}
-
-.toggle-button.dark-mode {
-  background: #12171c;
-  color: #fff;
-}
-
-/* ================= MOBILE ================= */
+/* Mobile */
 @media (max-width: 768px) {
-  main {
-    flex-direction: column-reverse;
-  }
-
-  #channels {
-    max-height: none;
-  }
-
   .adRow {
     flex-direction: column;
   }
 }
 
-/* ================= BACKGROUND NET ================= */
+
 #bg-net {
   position: fixed;
   inset: 0;
   z-index: -1;
-  background: #f5f5f5;
+  background: #f5f5f5; /* light grey */
 }
+
