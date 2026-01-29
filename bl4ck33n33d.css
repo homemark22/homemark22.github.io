@@ -6,6 +6,27 @@ nav,
 main {
   scroll-snap-align: start;
 }
+#channels {
+  scroll-snap-type: y proximity;
+}
+.category {
+  scroll-snap-align: start;
+  scroll-margin-top: 60px; /* accounts for nav */
+}
+@media (max-width: 768px) {
+  html, body {
+    scroll-snap-type: none;
+  }
+
+  #channels {
+    scroll-snap-type: none;
+  }
+}
+scroll-snap-type: y proximity;
+iframe {
+  scroll-snap-align: none;
+}
+
 
 /* Default (Light Mode) */
 body {
