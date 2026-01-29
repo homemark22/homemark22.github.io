@@ -1,3 +1,12 @@
+html, body {
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+}
+nav,
+main {
+  scroll-snap-align: start;
+}
+
 /* Default (Light Mode) */
 body {
     transition: background-color 0.5s ease, background-image 0.5s ease;
@@ -41,3 +50,4 @@ body.stars-mode {
     background-attachment: fixed; /* Keeps stars steady while scrolling */
     color: white;
 }
+
