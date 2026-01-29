@@ -1,85 +1,43 @@
-/* ================= SNAP FOUNDATION ================= */
-
-/* Page-level snap (soft, not forced) */
-html, body {
-  scroll-snap-type: y proximity;   /* ✅ NOT mandatory */
-  scroll-behavior: auto;           /* JS controls easing */
-}
-
-/* Snap points */
-nav,
-main {
-  scroll-snap-align: start;
-}
-
-/* ================= CHANNEL SNAP ================= */
-#channels {
-  scroll-snap-type: y proximity;
-  scroll-padding-top: 60px;
-  overscroll-behavior: contain;
-}
-
-.category {
-  scroll-snap-align: start;
-  scroll-margin-top: 60px;
-  will-change: transform;
-}
-
-/* Prevent iframes from snapping */
-iframe {
-  scroll-snap-align: none;
-}
-
-/* ================= MOBILE SAFETY ================= */
-@media (max-width: 768px) {
-  html, body {
-    scroll-snap-type: none;
-  }
-
-  #channels {
-    scroll-snap-type: none;
-  }
-}
-
-/* ================= THEMES ================= */
-
-/* Light */
+/* Default (Light Mode) */
 body {
-  transition: background-color 0.5s ease, background-image 0.5s ease;
-  background-color: #fff;
-  background-image: none;
-  color: #2c3e50;
+    transition: background-color 0.5s ease, background-image 0.5s ease;
+    background-color: #fff;
+    background-image: none;
+    color: #2c3e50;
 }
 
-/* Buttons */
 button {
-  background-color: #fff;
-  color: #2c3e50;
-  padding: 10px 20px;
-  border: 1px solid #121314;
+    background-color: #fff;
+    color: #2c3e50;
+    padding: 10px 20px;
+    border: 1px solid #121314;
+    cursor: pointer;
 }
 
 button:hover {
-  background-color: #fff;
+    background-color: #fff;
 }
 
-/* Dark Mode */
+/* Dark Mode Styles */
 body.dark-mode {
-  background-color: #121314;
-  color: #fff;
+    background-color: #121314;
 }
 
 body.dark-mode button {
-  background-color: #121314;
-  color: #fff;
+    background-color: #121314;
+    color: #fff;
 }
 
-/* Stars Mode */
+body.dark-mode button:hover {
+    background-color: #121314;
+}
+
+/* Stars Mode (same as your .css look, not zoomed) */
 body.stars-mode {
-  background-image: url("https://homemark22.github.io/stars3.gif");
-  background-color: black;
-  background-repeat: repeat;
-  background-size: auto;
-  background-attachment: fixed;
-  color: white;
+    background-image: url("https://homemark22.github.io/stars3.gif");
+    background-color: black;
+    background-repeat: repeat;
+    background-size: auto;       /* Keeps original GIF size — not zoomed */
+    background-attachment: fixed; /* Keeps stars steady while scrolling */
+    color: white;
 }
