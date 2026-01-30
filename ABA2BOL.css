@@ -341,10 +341,9 @@ html {
   padding: 8px;
   color: white;
   background-color: #000;
-  cursor: -webkit-image-set(url("https://homemark22.github.io/curs0rh4ndz2.webp") 1x, url("https://homemark22.github.io/curs0rh4ndz2.webp") 2x, url("https://homemark22.github.io/curs0rh4ndz2.webp") 4x ) 0 0, pointer;
-	
-  
   width: 100%;
+	cursor: -webkit-image-set(url("https://homemark22.github.io/curs0rh4ndz2.webp") 1x, url("https://homemark22.github.io/curs0rh4ndz2.webp") 2x, url("https://homemark22.github.io/curs0rh4ndz2.webp") 4x ) 0 0, pointer;
+	
 }
 
 
@@ -395,6 +394,8 @@ const top = (window.innerHeight - height) / 2;
 
 // Open the pop-up window with the specified URL, width, height, and centered position.
 window.open(url, 'popupWindow', `width=${width},height=${height},left=${left},top=${top}`);
+																		cursor: -webkit-image-set(url("https://homemark22.github.io/curs0rh4ndz2.webp") 1x, url("https://homemark22.github.io/curs0rh4ndz2.webp") 2x, url("https://homemark22.github.io/curs0rh4ndz2.webp") 4x ) 0 0, pointer;
+	
 }
 
 
@@ -422,23 +423,31 @@ window.open(url, 'popupWindow', `width=${width},height=${height},left=${left},to
     border: none;
     border-radius: 5px;
     transition: background-color 0.3s ease, color 0.3s ease;
+	cursor: -webkit-image-set(url("https://homemark22.github.io/curs0rh4ndz2.webp") 1x, url("https://homemark22.github.io/curs0rh4ndz2.webp") 2x, url("https://homemark22.github.io/curs0rh4ndz2.webp") 4x ) 0 0, pointer;
+	
 }
 
 /* Light mode button styles */
 .toggle-button.light-mode {
     background-color: #3498db;
     color: #fff;
+	cursor: -webkit-image-set(url("https://homemark22.github.io/curs0rh4ndz2.webp") 1x, url("https://homemark22.github.io/curs0rh4ndz2.webp") 2x, url("https://homemark22.github.io/curs0rh4ndz2.webp") 4x ) 0 0, pointer;
+	
 }
 
 /* Dark mode button styles */
 .toggle-button.dark-mode {
     background-color: #12171c;
     color: #fff;
+	cursor: -webkit-image-set(url("https://homemark22.github.io/curs0rh4ndz2.webp") 1x, url("https://homemark22.github.io/curs0rh4ndz2.webp") 2x, url("https://homemark22.github.io/curs0rh4ndz2.webp") 4x ) 0 0, pointer;
+	
 }
 
 /* Hover styles */
 .toggle-button:hover {
     background-color: #2980b9;
+	cursor: -webkit-image-set(url("https://homemark22.github.io/curs0rh4ndz2.webp") 1x, url("https://homemark22.github.io/curs0rh4ndz2.webp") 2x, url("https://homemark22.github.io/curs0rh4ndz2.webp") 4x ) 0 0, pointer;
+	
 }
 
 
@@ -455,6 +464,8 @@ window.open(url, 'popupWindow', `width=${width},height=${height},left=${left},to
   padding: 16px;
   display: flex;
   flex-direction: column;
+	cursor: -webkit-image-set(url("https://homemark22.github.io/curs0rh4ndz2.webp") 1x, url("https://homemark22.github.io/curs0rh4ndz2.webp") 2x, url("https://homemark22.github.io/curs0rh4ndz2.webp") 4x ) 0 0, pointer;
+	
 }
 
 /* Ads row takes MOST free space */
@@ -464,6 +475,8 @@ window.open(url, 'popupWindow', `width=${width},height=${height},left=${left},to
   gap: 16px;
   align-items: stretch;
   justify-content: center;
+	cursor: -webkit-image-set(url("https://homemark22.github.io/curs0rh4ndz2.webp") 1x, url("https://homemark22.github.io/curs0rh4ndz2.webp") 2x, url("https://homemark22.github.io/curs0rh4ndz2.webp") 4x ) 0 0, pointer;
+	
 }
 
 /* Each ad grows proportionally */
@@ -472,6 +485,8 @@ window.open(url, 'popupWindow', `width=${width},height=${height},left=${left},to
   flex: 1;                       /* ⬅ equal size */
   min-width: 0;                  /* prevents overflow */
   border-radius: 10px;
+	cursor: -webkit-image-set(url("https://homemark22.github.io/curs0rh4ndz2.webp") 1x, url("https://homemark22.github.io/curs0rh4ndz2.webp") 2x, url("https://homemark22.github.io/curs0rh4ndz2.webp") 4x ) 0 0, pointer;
+	
 }
 
 /* Iframe */
@@ -479,12 +494,16 @@ window.open(url, 'popupWindow', `width=${width},height=${height},left=${left},to
   border: none;
   background: #000;
   pointer-events: auto;
+	cursor: -webkit-image-set(url("https://homemark22.github.io/curs0rh4ndz2.webp") 1x, url("https://homemark22.github.io/curs0rh4ndz2.webp") 2x, url("https://homemark22.github.io/curs0rh4ndz2.webp") 4x ) 0 0, pointer;
+	
 }
 
 /* Banner */
 .ad-click {
   display: block;
   pointer-events: auto;
+	cursor: -webkit-image-set(url("https://homemark22.github.io/curs0rh4ndz2.webp") 1x, url("https://homemark22.github.io/curs0rh4ndz2.webp") 2x, url("https://homemark22.github.io/curs0rh4ndz2.webp") 4x ) 0 0, pointer;
+	
 }
 
 .ad-click img {
@@ -494,10 +513,14 @@ window.open(url, 'popupWindow', `width=${width},height=${height},left=${left},to
   border-radius: 10px;
   cursor: pointer;
   pointer-events: auto;
+	cursor: -webkit-image-set(url("https://homemark22.github.io/curs0rh4ndz2.webp") 1x, url("https://homemark22.github.io/curs0rh4ndz2.webp") 2x, url("https://homemark22.github.io/curs0rh4ndz2.webp") 4x ) 0 0, pointer;
+	
 }
 
 .ad-click img:hover {
   filter: brightness(1.1);
+	cursor: -webkit-image-set(url("https://homemark22.github.io/curs0rh4ndz2.webp") 1x, url("https://homemark22.github.io/curs0rh4ndz2.webp") 2x, url("https://homemark22.github.io/curs0rh4ndz2.webp") 4x ) 0 0, pointer;
+	
 }
 
 /* Countdown */
@@ -508,6 +531,8 @@ window.open(url, 'popupWindow', `width=${width},height=${height},left=${left},to
   font-weight: 600;
   opacity: 0.9;
   margin-top: 12px;
+	cursor: -webkit-image-set(url("https://homemark22.github.io/curs0rh4ndz2.webp") 1x, url("https://homemark22.github.io/curs0rh4ndz2.webp") 2x, url("https://homemark22.github.io/curs0rh4ndz2.webp") 4x ) 0 0, pointer;
+	
 }
 
 /* Mobile */
@@ -523,5 +548,7 @@ window.open(url, 'popupWindow', `width=${width},height=${height},left=${left},to
   inset: 0;
   z-index: -1;
   background: #f5f5f5; /* light grey */
+	cursor: -webkit-image-set(url("https://homemark22.github.io/curs0rh4ndz2.webp") 1x, url("https://homemark22.github.io/curs0rh4ndz2.webp") 2x, url("https://homemark22.github.io/curs0rh4ndz2.webp") 4x ) 0 0, pointer;
+	
 }
 
