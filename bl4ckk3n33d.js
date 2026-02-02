@@ -27,4 +27,13 @@ window.addEventListener('load', () => {
     });
   }, 500);
 });
+function openReferralPopup(element) {
+  const url = element.getAttribute('data-ref');
+  if (url) {
+    window.open(url, 'popupWindow', 'width=800,height=600,resizable=yes,scrollbars=yes');
+  } else {
+    alert('Twitch stream URL not found!');
+  }
+}
+
 
