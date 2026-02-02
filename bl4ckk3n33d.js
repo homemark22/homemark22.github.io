@@ -35,5 +35,9 @@ function openReferralPopup(element) {
     alert('Twitch stream URL not found!');
   }
 }
+    function toggleRainbow() {
+var player = document.getElementById("player");
+player.classList.toggle("rainbow-glow");
+}
 
 
