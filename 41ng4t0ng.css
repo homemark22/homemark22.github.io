@@ -1,0 +1,294 @@
+
+
+/* ===================== RESET & GLOBAL ===================== */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 99.9%;
+    cursor: -webkit-image-set(
+        url("https://homemark22.github.io/curs0rh4ndz2.webp") 1x,
+        url("https://homemark22.github.io/curs0rh4ndz2.webp") 2x,
+        url("https://homemark22.github.io/curs0rh4ndz2.webp") 4x
+    ) 0 0, auto;
+}
+
+body {
+    font-family: 'Segoe UI', Helvetica, sans-serif;
+    margin: 0;
+}
+
+/* ===================== NAVIGATION ===================== */
+nav {
+    height: 56px;
+    padding: 0 10px;
+    font-size: clamp(1.5rem, 2.0vw, 4rem);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid rgb(15, 15, 15);
+}
+
+/* ===================== HEADINGS ===================== */
+h1, h2 {
+    color: white;
+    font-family: 'Segoe UI';
+    font-weight: normal;
+    text-align: right;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-top: 30vh;
+}
+
+/* ===================== MAIN LAYOUT ===================== */
+main {
+    display: flex;
+    margin: 0;
+}
+
+#channels {
+    flex: 38%;
+    max-height: calc(100vh - 120px) !important;
+    overflow-y: scroll;
+    margin-top: 5px;
+    margin-left: 0;
+    overflow-x: hidden;
+}
+
+.channel_collapse {
+    margin-top: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#player {
+    flex: 62%;
+    margin: 10px;
+}
+
+/* ===================== CATEGORY BUTTONS ===================== */
+.category {
+    width: 94%;
+    color: rgb(48, 48, 84);
+    padding: 10px;
+    font-size: 10px;
+    font-weight: normal;
+}
+
+.active, .category:hover {
+    border-radius: 10px;
+    color: rgb(127, 128, 148);
+}
+
+.category:after {
+    content: '\002B';
+    font-weight: 100;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2212";
+}
+
+/* ===================== CHANNEL CARDS ===================== */
+.channel {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 7px;
+}
+
+.channel:active {
+    animation: press 0.2s 1 linear;
+}
+
+.channel img {
+    width: 106px;
+    height: 63px;
+    border-radius: 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.99), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background: linear-gradient(110.6deg, rgb(156, 116, 129) -18.3%, rgb(67, 54, 74) 16.4%, rgb(47, 48, 67) 68.2%, rgb(27, 23, 36) 99.1%);
+}
+
+/* ===================== SCROLLBAR ===================== */
+::-webkit-scrollbar {
+    width: 0px;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 9px;
+    -webkit-box-shadow: inset 0 0 3px rgba(0,0,0,.5);
+    background-color: rgb(204, 204, 204);
+}
+
+/* ===================== PRESS ANIMATION ===================== */
+@keyframes press {
+    0% { transform: scale(1); }
+    50% { transform: scale(0.92); }
+    100% { transform: scale(1); }
+}
+
+/* ===================== BUTTONS ===================== */
+.button, .toggle-button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    width: 100%;
+    color: white;
+    background-color: #000;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.toggle-button.light-mode {
+    background-color: #3498db;
+}
+
+.toggle-button.dark-mode {
+    background-color: #12171c;
+}
+
+.toggle-button:hover {
+    background-color: #2980b9;
+}
+
+/* ===================== ADS ===================== */
+#adContainer {
+    width: 100%;
+    height: 100vh;
+    background: #111;
+    border-radius: 12px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.adRow {
+    flex: 1;
+    display: flex;
+    gap: 16px;
+    align-items: stretch;
+    justify-content: center;
+}
+
+#adIframe, .ad-click {
+    flex: 1;
+    min-width: 0;
+    border-radius: 10px;
+}
+
+#adIframe {
+    border: none;
+    background: #000;
+}
+
+.ad-click img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.ad-click img:hover {
+    filter: brightness(1.1);
+}
+
+#adCountdown {
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    opacity: 0.9;
+    margin-top: 12px;
+}
+
+/* ===================== RESPONSIVE ===================== */
+@media only screen and (max-width: 640px) {
+    nav { text-align: center; }
+    main { flex-direction: column-reverse; }
+    #channels {
+        height: fit-content;
+        overflow-y: unset;
+        margin: 5px;
+    }
+    .channel { margin-right: 0; }
+    #player {
+        flex: auto;
+        min-width: 192px;
+        min-height: 108px;
+        margin: 5px;
+        margin-bottom: 5px;
+    }
+}
+
+@media (max-width: 768px) {
+    .adRow { flex-direction: column; }
+}
+
+/* ===================== BACKGROUND ===================== */
+#bg-net {
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    background: #f5f5f5;
+}
+</style>
+<style>
+/* Default (Light Mode) */
+body {
+    transition: background-color 0.5s ease, background-image 0.5s ease;
+    background-color: #fff;
+    background-image: none;
+    color: #2c3e50;
+}
+
+button {
+    background-color: #fff;
+    color: #2c3e50;
+    padding: 10px 20px;
+    border: 1px solid #121314;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #fff;
+}
+
+/* Dark Mode Styles */
+body.dark-mode {
+    background-color: #121314;
+}
+
+body.dark-mode button {
+    background-color: #121314;
+    color: #fff;
+}
+
+body.dark-mode button:hover {
+    background-color: #121314;
+}
+
+/* Stars Mode (same as your .css look, not zoomed) */
+body.stars-mode {
+    background-image: url("https://homemark22.github.io/stars3.gif");
+    background-color: black;
+    background-repeat: repeat;
+    background-size: auto;       /* Keeps original GIF size — not zoomed */
+    background-attachment: fixed; /* Keeps stars steady while scrolling */
+    color: white;
+}
