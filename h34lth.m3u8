@@ -1,0 +1,10 @@
+#EXTM3U
+#EXT-X-VERSION:4
+
+
+# --- Audio Track ---
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="audio",NAME="Japanese Audio",DEFAULT=YES,AUTOSELECT=YES,LANGUAGE="ja",URI="https://livecdn.use1-0004.jwplive.com/live/sites/fGLyccP5/media/FoWynVnP/live.isml/live-audio_0=96000.m3u8"
+
+# --- Video Variant ---
+#EXT-X-STREAM-INF:BANDWIDTH=2500000,RESOLUTION=1280x720,CODECS="avc1.64001f",AUDIO="audio"
+https://livecdn.use1-0004.jwplive.com/live/sites/fGLyccP5/media/FoWynVnP/live.isml/live-video=600000.m3u8
