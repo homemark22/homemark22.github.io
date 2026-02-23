@@ -1,0 +1,3 @@
+#EXTM3U
+#EXT-X-STREAM-INF:BANDWIDTH=2500000
+http://103.197.59.107:5002/cs18.m3u8?token=guoziyun&gid=cs18&channel=zhongying
