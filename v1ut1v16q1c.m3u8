@@ -1,8 +1,9 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:CODECS="avc1.4d0029,mp4a.40.2",RESOLUTION=720x404,BANDWIDTH=1000000
-https://hkdtmb.com/dvb-steam/96/index.m3u8?authorized
+https://cdn10.163189.xyz/stream/163189/viu/stream_0.php?u=admin&p=c3d37d1929f8dba1644c20f382f4fd943e7f8afcd3dfb92e38bec400c397f3d7&uid=3402549528
 #EXT-X-STREAM-INF:CODECS="avc1.4d0029,mp4a.40.2",RESOLUTION=1280x720,BANDWIDTH=2000000
-https://hkdtmb.com/dvb-steam/96/index.m3u8?authorized
+https://cdn10.163189.xyz/stream/163189/viu/stream_0.php?u=admin&p=c3d37d1929f8dba1644c20f382f4fd943e7f8afcd3dfb92e38bec400c397f3d7&uid=3402549528
 #EXT-X-STREAM-INF:CODECS="avc1.4d0029,mp4a.40.2",RESOLUTION=1920x1080,BANDWIDTH=4000000
-https://hkdtmb.com/dvb-steam/96/index.m3u8?authorized
+https://cdn10.163189.xyz/stream/163189/viu/stream_0.php?u=admin&p=c3d37d1929f8dba1644c20f382f4fd943e7f8afcd3dfb92e38bec400c397f3d7&uid=3402549528
+
