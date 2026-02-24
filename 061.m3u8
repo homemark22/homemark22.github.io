@@ -1,8 +1,8 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:CODECS="avc1.4d0029,mp4a.40.2",RESOLUTION=720x404,BANDWIDTH=1000000
-https://fl1.moveonjoy.com/MSG/mpegts?checkedby:iptvcat.com
+http://158.101.222.193:88/georgia_play.php?id=davinci
 #EXT-X-STREAM-INF:CODECS="avc1.4d0029,mp4a.40.2",RESOLUTION=1280x720,BANDWIDTH=2000000
-https://fl1.moveonjoy.com/MSG/mpegts?checkedby:iptvcat.com
+http://158.101.222.193:88/georgia_play.php?id=davinci
 #EXT-X-STREAM-INF:CODECS="avc1.4d0029,mp4a.40.2",RESOLUTION=1920x1080,BANDWIDTH=4000000
-https://fl1.moveonjoy.com/MSG/mpegts?checkedby:iptvcat.com
+http://158.101.222.193:88/georgia_play.php?id=davinci
