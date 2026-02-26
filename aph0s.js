@@ -1,7 +1,7 @@
 (async () => {
   try {
     // Fetch random quote from API
-    const res = await fetch('api.quotable.io/random');
+    const res = await fetch('http://api.quotable.io/random');
 
     if (!res.ok) {
       throw new Error('Failed to fetch quote');
