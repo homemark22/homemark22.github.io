@@ -1,3 +1,8 @@
 #EXTM3U
-#EXT-X-STREAM-INF:CLOSED-CAPTIONS=NONE,RESOLUTION=1920x1080,FRAME-RATE=30.000,CODECS="avc1.64002a,mp4a.40.2",AVERAGE-BANDWIDTH=2710000,BANDWIDTH=3380000
-http://clientsportals.tv/play/live.php?mac=00:1A:79:70:39:2a&stream=42907&extension=m3u8&play_token=TQ6cftyhX8
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:BANDWIDTH=3496000,CODECS="avc1.77.30,mp4a.40.2",RESOLUTION=3840x2160
+http://line.watchtivo-8k.com:80/play/live.php?mac=00:1A:79:3F:0C:96&stream=548074&extension=m3u8
+#EXT-X-STREAM-INF:BANDWIDTH=2496000,CODECS="avc1.77.30,mp4a.40.2",RESOLUTION=1920x1080
+http://line.watchtivo-8k.com:80/play/live.php?mac=00:1A:79:3F:0C:96&stream=933005&extension=m3u8
+#EXT-X-STREAM-INF:BANDWIDTH=1496000,CODECS="avc1.77.30,mp4a.40.2",RESOLUTION=1280x720
+http://line.watchtivo-8k.com:80/play/live.php?mac=00:1A:79:3F:0C:96&stream=948035&extension=m3u8
